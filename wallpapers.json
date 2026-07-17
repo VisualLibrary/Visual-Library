@@ -1,0 +1,130 @@
+{
+  "categories": [
+    { "id": "marvel", "name": "Marvel", "description": "Marvel universe wallpapers featuring your favorite superheroes and villains in stunning 4K." },
+    { "id": "dc", "name": "DC", "description": "DC universe wallpapers featuring Batman, Superman, Wonder Woman and more." },
+    { "id": "anime", "name": "Anime", "description": "Stunning anime wallpapers from the most popular series and original art." },
+    { "id": "ai-art", "name": "AI Art", "description": "Breathtaking AI-generated artwork in stunning 4K quality." },
+    { "id": "iphone", "name": "iPhone Wallpapers", "description": "Handpicked wallpapers perfectly sized for iPhone screens." },
+    { "id": "movies-tv", "name": "Movies & TV", "description": "Cinematic wallpapers from the biggest movies and TV shows." },
+    { "id": "luxury-motorsports", "name": "Luxury, Motorsports & Supercars 4K", "description": "Premium luxury lifestyle, F1, supercars and motorsports wallpapers in 4K.",
+      "subcategories": [
+        { "id": "luxury-motorsports/f1", "name": "Formula 1" },
+        { "id": "luxury-motorsports/supercars", "name": "Supercars" }
+      ]
+    },
+    { "id": "sports", "name": "Sports", "description": "Elite sports wallpapers from every discipline.",
+      "subcategories": [
+        { "id": "sports/soccer", "name": "Soccer",
+          "subcategories": [
+            { "id": "sports/soccer/cr7", "name": "CR7 — Cristiano Ronaldo" },
+            { "id": "sports/soccer/legends", "name": "Soccer Legends Era" }
+          ]
+        },
+        { "id": "sports/cricket", "name": "Cricket" },
+        { "id": "sports/basketball", "name": "Basketball" }
+      ]
+    }
+  ],
+  "wallpapers": [
+    {
+      "id": "lecleric-f1-quotes",
+      "title": "Charles Leclerc F1 Quotes",
+      "category": "luxury-motorsports",
+      "subcategory": "luxury-motorsports/f1",
+      "tags": ["f1", "charles leclerc", "formula 1", "ferrari", "motorsports"],
+      "cloudinary_id": "Charles_Lecleric_F1_Quotes_xwq26d",
+      "resolution": "4K",
+      "featured": true
+    },
+    {
+      "id": "lecleric-f1-2",
+      "title": "Leclerc F1 Wallpaper",
+      "category": "luxury-motorsports",
+      "subcategory": "luxury-motorsports/f1",
+      "tags": ["f1", "leclerc", "formula 1", "ferrari", "motorsports"],
+      "cloudinary_id": "Lecleric_F1_Quotes_rwz5lb",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "thor-thunder-god",
+      "title": "Thor Thunder God",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["thor", "marvel", "avengers", "thunder", "god"],
+      "cloudinary_id": "Thor_Thunder_God_Wallpaper_pmoftt",
+      "resolution": "4K",
+      "featured": true
+    },
+    {
+      "id": "thor-ragnarok-2k",
+      "title": "Thor Ragnarok 2K",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["thor", "ragnarok", "marvel", "avengers"],
+      "cloudinary_id": "Thor_Ragnarok_2K_tqplxb",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "iconic-thor-4k",
+      "title": "Iconic Thor 4K",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["thor", "marvel", "iconic", "4k"],
+      "cloudinary_id": "Iconic_Thor_4K_pvjmxk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-forever-goat",
+      "title": "Forever The GOAT — CR7",
+      "category": "sports",
+      "subcategory": "sports/soccer/cr7",
+      "tags": ["cr7", "ronaldo", "cristiano", "soccer", "goat", "football"],
+      "cloudinary_id": "Forever_The_Goat_CR7_a15rml",
+      "resolution": "4K",
+      "featured": true
+    },
+    {
+      "id": "cr7-7-greatness",
+      "title": "7 Stands for Greatness — CR7",
+      "category": "sports",
+      "subcategory": "sports/soccer/cr7",
+      "tags": ["cr7", "ronaldo", "7", "greatness", "soccer", "football"],
+      "cloudinary_id": "7_Stands_for_Greatness_4K_Wallpaper_mhmwid",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ronaldinho-legend",
+      "title": "Ronaldinho — A Legend",
+      "category": "sports",
+      "subcategory": "sports/soccer/legends",
+      "tags": ["ronaldinho", "legend", "soccer", "football", "brazil"],
+      "cloudinary_id": "Ronaldinho_A_Legend_4K_fi3uec",
+      "resolution": "4K",
+      "featured": true
+    },
+    {
+      "id": "ronaldinho-goat",
+      "title": "The GOAT — Ronaldinho",
+      "category": "sports",
+      "subcategory": "sports/soccer/legends",
+      "tags": ["ronaldinho", "goat", "soccer", "football", "legend"],
+      "cloudinary_id": "The_Goat_Ronaldinho_nudeyn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ronaldinho-barca",
+      "title": "Ronaldinho In Barcelona",
+      "category": "sports",
+      "subcategory": "sports/soccer/legends",
+      "tags": ["ronaldinho", "barcelona", "barca", "soccer", "football"],
+      "cloudinary_id": "Ronaldinho_In_Barca_4K_xtw5u3",
+      "resolution": "4K",
+      "featured": false
+    }
+  ]
+}

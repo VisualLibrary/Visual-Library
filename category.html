@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
+  <title>Category — Visual Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body data-page="category">
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="/"><div class="logo-mark">V</div><span>Visual Library</span></a>
+    <div class="header-search-wrap">
+      <form class="vl-search" autocomplete="off">
+        <div class="search-box">
+          <svg fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+          <input name="q" placeholder="Search wallpapers..." type="text"/>
+          <button class="search-submit" type="button">Search</button>
+        </div>
+        <div class="search-dropdown"></div>
+      </form>
+    </div>
+    <nav class="header-nav">
+      <a href="/">Home</a>
+      <a href="https://www.pinterest.com/the_visuallibrary/" class="pin-btn" target="_blank" rel="noopener">Pinterest</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <svg fill="none" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+    </button>
+  </div>
+  <div class="mobile-search-bar">
+    <form class="vl-search" autocomplete="off">
+      <div class="search-box">
+        <svg fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+        <input name="q" placeholder="Search..." type="text"/>
+        <button class="search-submit" type="button">Go</button>
+      </div>
+      <div class="search-dropdown"></div>
+    </form>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="/">Home</a>
+    <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener">Pinterest</a>
+  </nav>
+</header>
+
+<main>
+  <section class="cat-hero">
+    <div class="container">
+      <a class="back-link" href="/">
+        <svg fill="none" viewBox="0 0 24 24"><path d="M19 12H5M5 12l7-7M5 12l7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+        All Categories
+      </a>
+      <h1 id="catTitle" style="margin-top:16px">Category</h1>
+      <p id="catDesc"></p>
+      <div class="sub-cats" id="subCats"></div>
+    </div>
+  </section>
+
+  <section class="wp-section">
+    <div class="container">
+      <div class="wp-grid" id="wp-grid"></div>
+      <div class="load-more-wrap">
+        <button class="btn btn-outline" id="loadMoreBtn" style="display:none">Load More</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <span>© Visual Library 2026. All rights reserved.</span>
+      <span>All wallpapers belong to their respective owners.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
