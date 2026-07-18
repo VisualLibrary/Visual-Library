@@ -1,85 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
-  <title>Visual Library — HD &amp; 4K Wallpapers</title>
-  <meta name="description" content="Discover stunning HD and 4K wallpapers. Marvel, DC, Anime, AI Art, F1, Football and more — free to download."/>
-  <link rel="canonical" href="https://visuallibrary.netlify.app/"/>
-  <meta property="og:title" content="Visual Library — HD &amp; 4K Wallpapers"/>
-  <meta property="og:description" content="Discover stunning HD and 4K wallpapers — free to download."/>
-  <meta property="og:type" content="website"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="/css/style.css"/>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
+<title>Visual Library — Free HD &amp; 4K Wallpapers</title>
+<meta name="description" content="Discover and download stunning HD and 4K wallpapers for free. Browse Marvel, DC, Anime, AI Art, Motorsports, Football and more at Visual Library."/>
+<meta name="keywords" content="HD wallpapers, 4K wallpapers, free wallpapers, Marvel wallpapers, anime wallpapers, football wallpapers, F1 wallpapers, desktop wallpapers, phone wallpapers"/>
+<meta property="og:title" content="Visual Library — Free HD &amp; 4K Wallpapers"/>
+<meta property="og:description" content="Discover and download stunning HD and 4K wallpapers for free. Marvel, DC, Anime, AI Art, Motorsports, Football and more."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://visuallibrary.netlify.app/"/>
+<meta property="og:image" content="https://visuallibrary.netlify.app/favicon.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Visual Library — Free HD &amp; 4K Wallpapers"/>
+<meta name="twitter:description" content="Discover and download stunning HD and 4K wallpapers for free."/>
+<link rel="canonical" href="https://visuallibrary.netlify.app/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Visual Library","url":"https://visuallibrary.netlify.app","description":"Free HD and 4K wallpaper gallery","potentialAction":{"@type":"SearchAction","target":"https://visuallibrary.netlify.app/search.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 </head>
 <body data-page="home">
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="logo" href="/"><div class="logo-mark">V</div><span>Visual Library</span></a>
-
+    <a class="logo" href="/" aria-label="Visual Library Home">
+      <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
+      <span>Visual Library</span>
+    </a>
     <div class="header-search-wrap">
-      <form class="vl-search" autocomplete="off">
+      <form class="vl-search" role="search" autocomplete="off">
         <div class="search-box">
-          <svg fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-          <input name="q" placeholder="Search wallpapers, categories..." type="text"/>
-          <button class="search-submit" type="button">Search</button>
+          <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+          <input name="q" placeholder="Search wallpapers, categories..." type="text" aria-label="Search wallpapers"/>
+          <button class="search-submit" type="button" aria-label="Submit search">Search</button>
         </div>
-        <div class="search-dropdown"></div>
+        <div class="search-dropdown" role="listbox" aria-label="Search suggestions"></div>
       </form>
     </div>
-
-    <nav class="header-nav">
+    <nav class="header-nav" aria-label="Main navigation">
       <a href="/">Home</a>
-      <a href="https://www.pinterest.com/the_visuallibrary/" class="pin-btn" target="_blank" rel="noopener">
-        <svg style="width:13px;height:13px;fill:currentColor" viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.06-.94-.11-2.38.02-3.4.12-.93.8-5.9.8-5.9s-.2-.4-.2-1c0-.94.55-1.64 1.23-1.64.58 0 .86.43.86.96 0 .58-.37 1.46-.56 2.27-.16.68.34 1.23 1.01 1.23 1.21 0 2.14-1.28 2.14-3.12 0-1.63-1.17-2.77-2.84-2.77-1.94 0-3.08 1.45-3.08 2.95 0 .58.22 1.21.5 1.55a.2.2 0 0 1 .05.19c-.05.22-.17.68-.2.78-.03.13-.1.16-.24.1-.9-.42-1.46-1.73-1.46-2.79 0-2.27 1.65-4.36 4.76-4.36 2.5 0 4.44 1.78 4.44 4.16 0 2.48-1.57 4.48-3.74 4.48-.73 0-1.42-.38-1.65-.83l-.45 1.72c-.16.63-.6 1.42-.9 1.9A12 12 0 1 0 12 0z"/></svg>
+      <a class="pin-btn" href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer" aria-label="Visual Library on Pinterest">
+        <svg style="width:13px;height:13px;fill:currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.06-.94-.11-2.38.02-3.4.12-.93.8-5.9.8-5.9s-.2-.4-.2-1c0-.94.55-1.64 1.23-1.64.58 0 .86.43.86.96 0 .58-.37 1.46-.56 2.27-.16.68.34 1.23 1.01 1.23 1.21 0 2.14-1.28 2.14-3.12 0-1.63-1.17-2.77-2.84-2.77-1.94 0-3.08 1.45-3.08 2.95 0 .58.22 1.21.5 1.55a.2.2 0 0 1 .05.19c-.05.22-.17.68-.2.78-.03.13-.1.16-.24.1-.9-.42-1.46-1.73-1.46-2.79 0-2.27 1.65-4.36 4.76-4.36 2.5 0 4.44 1.78 4.44 4.16 0 2.48-1.57 4.48-3.74 4.48-.73 0-1.42-.38-1.65-.83l-.45 1.72c-.16.63-.6 1.42-.9 1.9A12 12 0 1 0 12 0z"/></svg>
         Pinterest
       </a>
     </nav>
-
-    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-      <svg fill="none" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+      <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
     </button>
   </div>
-
-  <div class="mobile-search-bar">
-    <form class="vl-search" autocomplete="off">
+  <div class="mobile-search-bar" aria-hidden="true">
+    <form class="vl-search" role="search" autocomplete="off">
       <div class="search-box">
-        <svg fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-        <input name="q" placeholder="Search..." type="text"/>
+        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+        <input name="q" placeholder="Search wallpapers..." type="text" aria-label="Search wallpapers"/>
         <button class="search-submit" type="button">Go</button>
       </div>
-      <div class="search-dropdown"></div>
+      <div class="search-dropdown" role="listbox"></div>
     </form>
   </div>
-
-  <nav class="mobile-nav" id="mobileNav">
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
     <a href="/">Home</a>
-    <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener">Pinterest</a>
-    
+    <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">Pinterest</a>
   </nav>
 </header>
 
 <main>
-  <section class="hero">
-    <div class="hero-bg"></div>
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" aria-hidden="true"></div>
     <div class="container">
-      <div class="hero-eyebrow"><span></span> HD &amp; 4K Wallpapers</div>
-      <h1>Discover wallpapers<br/>for <span class="accent-word">every style</span></h1>
-      <p>Handpicked HD &amp; 4K wallpapers across Marvel, DC, Anime, AI Art, F1, Football and more.</p>
+      <div class="hero-eyebrow"><span aria-hidden="true"></span>HD &amp; 4K Wallpapers</div>
+      <h1>Discover wallpapers<br/>for <span class="hi">every style</span></h1>
+      <p>Handpicked HD &amp; 4K wallpapers across Marvel, DC, Anime, AI Art, Motorsports, Football and more. Always free.</p>
       <div class="hero-search">
-        <form class="vl-search" autocomplete="off">
+        <form class="vl-search" role="search" autocomplete="off">
           <div class="search-box">
-            <svg fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-            <input name="q" placeholder='Try "Thor", "CR7", "F1"...' type="text"/>
+            <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+            <input name="q" placeholder='Try "Thor", "CR7", "F1 Leclerc"...' type="text" aria-label="Search wallpapers"/>
             <button class="search-submit" type="button">Search</button>
           </div>
-          <div class="search-dropdown"></div>
+          <div class="search-dropdown" role="listbox"></div>
         </form>
       </div>
-      <div class="hero-stats">
+      <div class="hero-stats" aria-label="Site statistics">
         <div class="hero-stat"><strong id="statTotal">—</strong><span>Wallpapers</span></div>
         <div class="hero-stat"><strong id="statCats">—</strong><span>Categories</span></div>
         <div class="hero-stat"><strong>Free</strong><span>Always</span></div>
@@ -87,20 +92,20 @@
     </div>
   </section>
 
-  <section class="categories-section">
+  <section class="categories-section" aria-label="Browse categories">
     <div class="cat-scroll-wrap">
-      <div class="cat-scroll" id="catScroll"></div>
+      <div class="cat-scroll" id="catScroll" role="group" aria-label="Filter by category"></div>
     </div>
   </section>
 
-  <section class="wp-section">
+  <section class="wp-section" aria-label="Wallpaper gallery">
     <div class="container">
       <div class="section-hd">
         <h2>Latest Wallpapers</h2>
       </div>
-      <div class="wp-grid" id="wp-grid"></div>
+      <div class="wp-grid" id="wp-grid" role="list" aria-label="Wallpapers"></div>
       <div class="load-more-wrap">
-        <button class="btn btn-outline" id="loadMoreBtn" style="display:none">Load More</button>
+        <button class="btn btn-outline" id="loadMoreBtn" style="display:none" aria-label="Load more wallpapers">Load More</button>
       </div>
     </div>
   </section>
@@ -110,17 +115,20 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a class="logo footer-logo" href="/"><div class="logo-mark">V</div><span>Visual Library</span></a>
-        <p class="footer-desc">A modern wallpaper gallery with handpicked HD &amp; 4K wallpapers. Free to download, always.</p>
+        <a class="logo footer-logo" href="/" aria-label="Visual Library Home">
+          <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
+          <span>Visual Library</span>
+        </a>
+        <p class="footer-desc">A modern wallpaper gallery with handpicked HD &amp; 4K wallpapers. Free to discover, free to download — always.</p>
       </div>
       <div class="footer-col">
         <h4>Categories</h4>
-        <ul id="footerCats"></ul>
+        <ul id="footerCats" aria-label="Browse by category"></ul>
       </div>
       <div class="footer-col">
         <h4>Links</h4>
         <ul>
-          <li><a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener">Pinterest</a></li>
+          <li><a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
           <li><a href="/privacy.html">Privacy Policy</a></li>
           <li><a href="/privacy.html#disclaimer">Disclaimer</a></li>
         </ul>

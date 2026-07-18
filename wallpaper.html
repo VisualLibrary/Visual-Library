@@ -1,90 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
-  <title>Wallpaper — Visual Library</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="/css/style.css"/>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
+<title>Wallpaper — Visual Library</title>
+<meta name="description" content="Download free HD and 4K wallpapers at Visual Library."/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Wallpaper — Visual Library"/>
+<meta property="og:image" content=""/>
+<link rel="canonical" href="https://visuallibrary.netlify.app/wallpaper.html"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/css/style.css"/>
 </head>
 <body data-page="wallpaper">
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="logo" href="/"><div class="logo-mark">V</div><span>Visual Library</span></a>
+    <a class="logo" href="/" aria-label="Visual Library Home">
+      <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
+      <span>Visual Library</span>
+    </a>
     <div class="header-search-wrap">
-      <form class="vl-search" autocomplete="off">
+      <form class="vl-search" role="search" autocomplete="off">
         <div class="search-box">
-          <svg fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-          <input name="q" placeholder="Search wallpapers..." type="text"/>
+          <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+          <input name="q" placeholder="Search wallpapers..." type="text" aria-label="Search wallpapers"/>
           <button class="search-submit" type="button">Search</button>
         </div>
-        <div class="search-dropdown"></div>
+        <div class="search-dropdown" role="listbox"></div>
       </form>
     </div>
-    <nav class="header-nav">
+    <nav class="header-nav" aria-label="Main navigation">
       <a href="/">Home</a>
-      <a href="https://www.pinterest.com/the_visuallibrary/" class="pin-btn" target="_blank" rel="noopener">Pinterest</a>
+      <a class="pin-btn" href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">
+        <svg style="width:13px;height:13px;fill:currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.06-.94-.11-2.38.02-3.4.12-.93.8-5.9.8-5.9s-.2-.4-.2-1c0-.94.55-1.64 1.23-1.64.58 0 .86.43.86.96 0 .58-.37 1.46-.56 2.27-.16.68.34 1.23 1.01 1.23 1.21 0 2.14-1.28 2.14-3.12 0-1.63-1.17-2.77-2.84-2.77-1.94 0-3.08 1.45-3.08 2.95 0 .58.22 1.21.5 1.55a.2.2 0 0 1 .05.19c-.05.22-.17.68-.2.78-.03.13-.1.16-.24.1-.9-.42-1.46-1.73-1.46-2.79 0-2.27 1.65-4.36 4.76-4.36 2.5 0 4.44 1.78 4.44 4.16 0 2.48-1.57 4.48-3.74 4.48-.73 0-1.42-.38-1.65-.83l-.45 1.72c-.16.63-.6 1.42-.9 1.9A12 12 0 1 0 12 0z"/></svg>
+        Pinterest
+      </a>
     </nav>
-    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-      <svg fill="none" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+      <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
     </button>
   </div>
-  <div class="mobile-search-bar">
-    <form class="vl-search" autocomplete="off">
+  <div class="mobile-search-bar" aria-hidden="true">
+    <form class="vl-search" role="search" autocomplete="off">
       <div class="search-box">
-        <svg fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-        <input name="q" placeholder="Search..." type="text"/>
+        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+        <input name="q" placeholder="Search..." type="text" aria-label="Search wallpapers"/>
         <button class="search-submit" type="button">Go</button>
       </div>
-      <div class="search-dropdown"></div>
+      <div class="search-dropdown" role="listbox"></div>
     </form>
   </div>
-  <nav class="mobile-nav" id="mobileNav">
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
     <a href="/">Home</a>
-    <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener">Pinterest</a>
+    <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">Pinterest</a>
   </nav>
 </header>
 
 <main>
   <section class="post-page">
     <div class="container">
-      <a class="back-link" href="javascript:history.back()">
-        <svg fill="none" viewBox="0 0 24 24"><path d="M19 12H5M5 12l7-7M5 12l7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+      <a class="back-link" href="javascript:history.back()" aria-label="Go back">
+        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M5 12l7-7M5 12l7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
         Back
       </a>
-
-      <div class="post-layout" style="margin-top:20px">
+      <div class="post-layout">
         <div class="post-img-wrap">
-          <img id="wpImg" src="" alt="" width="800" height="1200"/>
+          <img id="wpImg" src="" alt="" width="800" height="1200" loading="eager"/>
         </div>
-
         <div class="post-side">
           <h1 class="post-title" id="wpTitle"></h1>
-          <div class="post-tags" id="wpTags"></div>
-
+          <div class="post-tags" id="wpTags" aria-label="Tags"></div>
           <div class="download-card">
-            <a class="btn btn-cta dl-btn" id="dlBtn" href="#" target="_blank" rel="noopener">
-              <svg style="width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2.5" viewBox="0 0 24 24"><path d="M12 3v13m0 0l-5-5m5 5l5-5M5 21h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <a class="btn btn-cta dl-btn" id="dlBtn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Download wallpaper">
+              <svg style="width:17px;height:17px;fill:none;stroke:#fff;stroke-width:2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v13m0 0l-5-5m5 5l5-5M5 21h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
               Download Wallpaper
             </a>
-            <p class="dl-hint">Opens full resolution image. On mobile tap &amp; hold → Save. On desktop right-click → Save image.</p>
+            <p class="dl-hint">Opens full resolution. On mobile tap &amp; hold → Save image. On desktop right-click → Save image as.</p>
           </div>
-
           <div class="post-info-card">
-            All wallpapers on Visual Library are shared for personal, non-commercial use only. Copyrighted characters and artwork belong to their respective owners.
+            All wallpapers are shared for personal, non-commercial use only. Copyrighted characters and artwork belong to their respective owners.
           </div>
         </div>
       </div>
-
-      <section class="related-section">
+      <section class="related-section" aria-label="Related wallpapers">
         <div class="section-hd">
           <h2>Related Wallpapers</h2>
           <a href="/">View All</a>
         </div>
-        <div class="wp-grid" id="relatedGrid"></div>
+        <div class="wp-grid" id="relatedGrid" role="list"></div>
       </section>
     </div>
   </section>

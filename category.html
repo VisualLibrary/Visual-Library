@@ -3,15 +3,16 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
-<title>Search — Visual Library</title>
-<meta name="description" content="Search results for wallpapers at Visual Library."/>
+<title>Category — Visual Library</title>
+<meta name="description" content="Browse wallpapers by category at Visual Library."/>
+<link rel="canonical" href="https://visuallibrary.netlify.app/category.html"/>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="/css/style.css"/>
 </head>
-<body data-page="search">
+<body data-page="category">
 
 <header class="site-header">
   <div class="header-inner">
@@ -57,13 +58,18 @@
 </header>
 
 <main>
-  <section class="search-hero">
+  <section class="cat-hero">
     <div class="container">
-      <h1 id="searchTitle">Search Results</h1>
-      <p id="searchCount"></p>
+      <a class="back-link" href="/" aria-label="Back to all wallpapers">
+        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M5 12l7-7M5 12l7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+        All Categories
+      </a>
+      <h1 id="catTitle" style="margin-top:16px">Category</h1>
+      <p id="catDesc"></p>
+      <div class="sub-cats" id="subCats" aria-label="Subcategories"></div>
     </div>
   </section>
-  <section class="wp-section" aria-label="Search results">
+  <section class="wp-section" aria-label="Wallpapers in category">
     <div class="container">
       <div class="wp-grid" id="wp-grid" role="list"></div>
       <div class="load-more-wrap">
