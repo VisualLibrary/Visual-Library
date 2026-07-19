@@ -310,8 +310,7 @@ mark{background:var(--accent-dim);color:var(--accent);border-radius:3px;padding:
 .back-link:hover{color:var(--accent);}
 .back-link svg{width:15px;height:15px;stroke:currentColor;}
 .post-layout{display:grid;grid-template-columns:1fr;gap:28px;align-items:start;}
-@media(min-width:1024px){.post-layout{grid-template-columns:1.8fr 380px;}}
-.post-img-wrap{
+@media(min-width:1024px){.post-layout{grid-template-columns:2.4fr 340px;}}.post-img-wrap{
   background:var(--bg-2);border-radius:var(--radius);
   overflow:hidden;border:1px solid var(--border);
 }
