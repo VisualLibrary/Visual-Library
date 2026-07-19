@@ -317,7 +317,6 @@ mark{background:var(--accent-dim);color:var(--accent);border-radius:3px;padding:
 @media(min-width:1024px){.post-img-wrap{position:sticky;top:84px;width:100%;}}
 .post-img-wrap img{width:100%;height:auto;display:block;border-radius:var(--radius);}
 .post-side{display:flex;flex-direction:column;gap:16px;}
-@media(min-width:1024px){.post-side{position:sticky;top:84px;align-self:start;}}
 
 .post-title{font-size:clamp(20px,3vw,30px);font-weight:900;letter-spacing:-0.03em;line-height:1.15;}
 .post-tags{display:flex;flex-wrap:wrap;gap:7px;}
