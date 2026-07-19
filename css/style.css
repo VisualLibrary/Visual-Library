@@ -310,15 +310,13 @@ mark{background:var(--accent-dim);color:var(--accent);border-radius:3px;padding:
 .back-link:hover{color:var(--accent);}
 .back-link svg{width:15px;height:15px;stroke:currentColor;}
 .post-layout{display:grid;grid-template-columns:1fr;gap:28px;align-items:start;}
-@media(min-width:1024px){.post-layout{grid-template-columns:1fr 400px;}}
-
+@media(min-width:1024px){.post-layout{grid-template-columns:1.8fr 380px;}}
 .post-img-wrap{
   background:var(--bg-2);border-radius:var(--radius);
   overflow:hidden;border:1px solid var(--border);
 }
 @media(min-width:1024px){.post-img-wrap{position:sticky;top:84px;max-height:calc(100vh - 120px);overflow:hidden;}}
-.post-img-wrap img{width:100%;height:auto;display:block;max-height:calc(100vh - 140px);object-fit:contain;}
-
+.post-img-wrap img{width:100%;height:auto;display:block;max-height:calc(100vh - 100px);object-fit:cover;}
 .post-side{display:flex;flex-direction:column;gap:16px;}
 .post-title{font-size:clamp(20px,3vw,30px);font-weight:900;letter-spacing:-0.03em;line-height:1.15;}
 .post-tags{display:flex;flex-wrap:wrap;gap:7px;}
