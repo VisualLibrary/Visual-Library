@@ -406,7 +406,7 @@ function _admin(){
     for(var i=0;i<s.length;i++){h=((h<<5)-h)+s.charCodeAt(i);h|=0;}
     return h;
   };
-  var T=-1874045230;
+  var T=-1752636881;
   var lock=document.getElementById('adminLock');
   var dash=document.getElementById('adminDash');
   var inp=document.getElementById('adminPass');
