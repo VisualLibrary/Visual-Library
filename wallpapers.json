@@ -143,6 +143,447 @@
       "cloudinary_id": "Ronaldinho_In_Barca_4K_xtw5u3",
       "resolution": "4K",
       "featured": false
-    }
+    },
+    {
+      "id": "cr7-young-talent-4k",
+      "title": "Cristiano Ronaldo Young Talent 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "football", "soccer"],
+      "cloudinary_id": "cristiano-ronaldo-young-talent-wallpaper_l6qotu",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "iron-man-tech-cinematic",
+      "title": "Iron Man Tech Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["iron man", "marvel", "tony stark"],
+      "cloudinary_id": "iron-man-tech-cinematic-wallpaper_fhipke",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-character-aesthetic",
+      "title": "Patrick Bateman Aesthetic 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "american psycho", "movies"],
+      "cloudinary_id": "patrick-bateman-character-aesthetic-wallpaper_bzqllo",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-f1-car-4k",
+      "title": "Ferrari F1 Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": ["ferrari", "f1", "formula 1", "motorsports"],
+      "cloudinary_id": "ferrari-f1-car-wallpaper_xgu1q8",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-rising-star",
+      "title": "Cristiano Ronaldo Rising Star 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "football", "soccer"],
+      "cloudinary_id": "cristiano-ronaldo-rising-star-wallpaper_uvytzd",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "aquaman-ocean-cinematic",
+      "title": "Aquaman Ocean Cinematic 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": ["aquaman", "dc", "ocean", "superhero"],
+      "cloudinary_id": "aquaman-ocean-cinematic-wallpaper_fgx3tj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-chad-style",
+      "title": "Patrick Bateman Chad Style 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "american psycho", "movies"],
+      "cloudinary_id": "patrick-bateman-chad-style-wallpaper_mjptef",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-soccer-legend",
+      "title": "David Beckham Soccer Legend 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "football", "soccer", "legend"],
+      "cloudinary_id": "david-beckham-football-legend-wallpaper_tch0v5",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-iconic-look",
+      "title": "Cristiano Ronaldo Iconic Look 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "football", "soccer"],
+      "cloudinary_id": "cristiano-ronaldo-iconic-look-wallpaper_dibont",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "deadpool-red-cinematic",
+      "title": "Deadpool Red Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["deadpool", "marvel", "superhero"],
+      "cloudinary_id": "deadpool-red-cinematic-wallpaper_pn9839",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-sf-f1-car",
+      "title": "Ferrari SF F1 Race Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": ["ferrari", "f1", "formula 1", "motorsports"],
+      "cloudinary_id": "ferrari-sf-f1-car-wallpaper_qr0hcc",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-american-psycho",
+      "title": "Patrick Bateman American Psycho 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "american psycho", "movies"],
+      "cloudinary_id": "patrick-bateman-american-psycho-wallpaper_wxd3or",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-free-kick",
+      "title": "David Beckham Free Kick 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "football", "free kick", "legend"],
+      "cloudinary_id": "david-beckham-free-kick-wallpaper_xn7tji",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-legendary-moment",
+      "title": "Cristiano Ronaldo Legendary Moment 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "football", "legend"],
+      "cloudinary_id": "cristiano-ronaldo-legendary-moment-wallpaper_dzo2n2",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "black-panther-golden-cinematic",
+      "title": "Black Panther Golden Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["black panther", "marvel", "wakanda"],
+      "cloudinary_id": "black-panther-golden-cinematic-wallpaper_va8ncn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-formula-1-car",
+      "title": "Ferrari Formula 1 Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": ["ferrari", "f1", "formula 1", "motorsports"],
+      "cloudinary_id": "ferrari-formula-1-car-wallpaper_gha5ps",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-sigma",
+      "title": "Patrick Bateman Sigma Aesthetic 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "sigma", "aesthetic", "movies"],
+      "cloudinary_id": "patrick-bateman-sigma-aesthetic-wallpaper_bllcql",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-iconic-style",
+      "title": "David Beckham Iconic Style 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "football", "style", "legend"],
+      "cloudinary_id": "david-beckham-iconic-style-wallpaper_tacycv",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-football-journey",
+      "title": "Cristiano Ronaldo Football Journey 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "football", "journey"],
+      "cloudinary_id": "cristiano-ronaldo-football-journey-wallpaper_icdidx",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "aquaman-underwater-kingdom",
+      "title": "Aquaman Underwater Kingdom 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": ["aquaman", "dc", "underwater", "superhero"],
+      "cloudinary_id": "aquaman-underwater-kingdom-wallpaper_ufklt0",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "redbull-racing-f1-car",
+      "title": "Red Bull Racing F1 Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": ["red bull", "f1", "formula 1", "motorsports"],
+      "cloudinary_id": "redbull-racing-f1-car-wallpaper_a2y37a",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-luxury",
+      "title": "Patrick Bateman Luxury Aesthetic 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "luxury", "aesthetic", "movies"],
+      "cloudinary_id": "patrick-bateman-luxury-aesthetic-wallpaper_ejwyfp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-young-player-aesthetic",
+      "title": "CR7 Young Player Aesthetic 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "young", "aesthetic"],
+      "cloudinary_id": "cr7-young-player-aesthetic-wallpaper_wbpatk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-star-player",
+      "title": "David Beckham Star Player 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "football", "star", "legend"],
+      "cloudinary_id": "david-beckham-star-player-wallpaper_qzu6ox",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "thor-god-of-thunder-cinematic",
+      "title": "Thor God of Thunder Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["thor", "marvel", "god of thunder", "avengers"],
+      "cloudinary_id": "thor-god-of-thunder-cinematic-wallpaper_vmkbeg",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "aquaman-water-theme",
+      "title": "Aquaman Water Theme 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": ["aquaman", "dc", "water", "superhero"],
+      "cloudinary_id": "aquaman-water-theme-wallpaper_akqpyl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-young-era",
+      "title": "CR7 Young Era 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "young", "football"],
+      "cloudinary_id": "cr7-young-era-wallpaper_pcmeju",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-iconic-scene",
+      "title": "Patrick Bateman Iconic Scene 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "american psycho", "iconic", "movies"],
+      "cloudinary_id": "patrick-bateman-iconic-scene-wallpaper_zoh5gm",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-vintage-football",
+      "title": "David Beckham Vintage Football 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "vintage", "football", "legend"],
+      "cloudinary_id": "david-beckham-vintage-football-wallpaper_oyrd7u",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "captain-america-heroic-cinematic",
+      "title": "Captain America Heroic Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": ["captain america", "marvel", "avengers", "superhero"],
+      "cloudinary_id": "captain-america-heroic-cinematic-wallpaper_ktptax",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-vintage-football",
+      "title": "CR7 Vintage Football 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "vintage", "football"],
+      "cloudinary_id": "cr7-vintage-football-wallpaper_mbdra9",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-race-car-4k",
+      "title": "F1 Race Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": ["f1", "formula 1", "race car", "motorsports"],
+      "cloudinary_id": "f1-race-car-wallpaper_wryl0i",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-dark-suit",
+      "title": "Patrick Bateman Dark Suit 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "dark", "suit", "movies"],
+      "cloudinary_id": "patrick-bateman-dark-suit-wallpaper_auyvy5",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "aquaman-sea-aesthetic",
+      "title": "Aquaman Sea Aesthetic 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": ["aquaman", "dc", "sea", "superhero"],
+      "cloudinary_id": "aquaman-sea-aesthetic-wallpaper_xicwpp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-early-career",
+      "title": "CR7 Early Career 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "early career", "football"],
+      "cloudinary_id": "cr7-early-career-wallpaper_rzz1wx",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-legendary-moment",
+      "title": "David Beckham Legendary Moment 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "legendary", "football", "moment"],
+      "cloudinary_id": "david-beckham-legendary-moment-wallpaper_rbmdoa",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "redbull-f1-car",
+      "title": "Red Bull F1 Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": ["red bull", "f1", "formula 1", "motorsports"],
+      "cloudinary_id": "redbull-f1-car-wallpaper_b1clp4",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-dark-mode",
+      "title": "Patrick Bateman Dark Mode 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "dark", "aesthetic", "movies"],
+      "cloudinary_id": "patrick-bateman-dark-mode-wallpaper_obkcuq",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-cinematic-portrait",
+      "title": "David Beckham Cinematic Portrait 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "cinematic", "portrait", "legend"],
+      "cloudinary_id": "david-beckham-cinematic-portrait-wallpaper_af1q7f",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cr7-classic-football",
+      "title": "CR7 Classic Football 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": ["cr7", "ronaldo", "classic", "football"],
+      "cloudinary_id": "cr7-classic-football-wallpaper_cguf09",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "aquaman-oceanic-hero",
+      "title": "Aquaman Oceanic Hero 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": ["aquaman", "dc", "oceanic", "hero"],
+      "cloudinary_id": "aquaman-oceanic-hero-wallpaper_diuqzz",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-cinematic-portrait",
+      "title": "Patrick Bateman Cinematic Portrait 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": ["patrick bateman", "cinematic", "portrait", "movies"],
+      "cloudinary_id": "patrick-bateman-cinematic-portrait-wallpaper_rxbpig",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-classic-football",
+      "title": "David Beckham Classic Football 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": ["beckham", "classic", "football", "legend"],
+      "cloudinary_id": "david-beckham-classic-football-wallpaper_xkjdqs",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-f1-race-car",
+      "title": "Ferrari F1 Race Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": ["ferrari", "f1", "race car", "motorsports"],
+      "cloudinary_id": "ferrari-f1-race-car-wallpaper_vphqex",
+      "resolution": "4K",
+      "featured": false
+   }
   ]
 }
+    
