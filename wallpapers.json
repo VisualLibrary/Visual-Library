@@ -30,8 +30,14 @@
       "name": "Motorsports & Cars",
       "description": "High-octane Formula 1, supercar and motorsports wallpapers featuring Ferrari, McLaren, Lamborghini and the world's greatest cars in 4K.",
       "subcategories": [
-        { "id": "motorsports-cars/f1", "name": "Formula 1" },
-        { "id": "motorsports-cars/supercars", "name": "Supercars" }
+        {
+          "id": "motorsports-cars/f1",
+          "name": "Formula 1"
+        },
+        {
+          "id": "motorsports-cars/supercars",
+          "name": "Supercars"
+        }
       ]
     },
     {
@@ -39,8 +45,16 @@
       "name": "Sports",
       "description": "Elite sports wallpapers featuring football legends, iconic moments and athletes from the world's biggest sports.",
       "subcategories": [
-        { "id": "sports/soccer-legends", "name": "Soccer Legends Era" }
+        {
+          "id": "sports/soccer-legends",
+          "name": "Soccer Legends Era"
+        }
       ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "description": "Epic gaming wallpapers featuring iconic video game characters and cinematic moments in stunning 4K quality."
     }
   ],
   "wallpapers": [
@@ -49,7 +63,13 @@
       "title": "Charles Leclerc F1 Quotes",
       "category": "motorsports-cars",
       "subcategory": "motorsports-cars/f1",
-      "tags": ["f1", "charles leclerc", "formula 1", "ferrari", "motorsports"],
+      "tags": [
+        "f1",
+        "charles leclerc",
+        "formula 1",
+        "ferrari",
+        "motorsports"
+      ],
       "cloudinary_id": "Charles_Lecleric_F1_Quotes_xwq26d",
       "resolution": "4K",
       "featured": true
@@ -59,7 +79,13 @@
       "title": "Leclerc F1 Wallpaper",
       "category": "motorsports-cars",
       "subcategory": "motorsports-cars/f1",
-      "tags": ["f1", "leclerc", "formula 1", "ferrari", "motorsports"],
+      "tags": [
+        "f1",
+        "leclerc",
+        "formula 1",
+        "ferrari",
+        "motorsports"
+      ],
       "cloudinary_id": "Lecleric_F1_Quotes_rwz5lb",
       "resolution": "4K",
       "featured": false
@@ -69,7 +95,13 @@
       "title": "Thor Thunder God",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["thor", "marvel", "avengers", "thunder", "god of thunder"],
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "thunder",
+        "god of thunder"
+      ],
       "cloudinary_id": "Thor_Thunder_God_Wallpaper_pmoftt",
       "resolution": "4K",
       "featured": true
@@ -79,7 +111,13 @@
       "title": "Thor Ragnarok",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["thor", "ragnarok", "marvel", "avengers", "hulk"],
+      "tags": [
+        "thor",
+        "ragnarok",
+        "marvel",
+        "avengers",
+        "hulk"
+      ],
       "cloudinary_id": "Thor_Ragnarok_2K_tqplxb",
       "resolution": "2K",
       "featured": false
@@ -89,7 +127,13 @@
       "title": "Iconic Thor 4K",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["thor", "marvel", "iconic", "lightning", "hammer"],
+      "tags": [
+        "thor",
+        "marvel",
+        "iconic",
+        "lightning",
+        "hammer"
+      ],
       "cloudinary_id": "Iconic_Thor_4K_pvjmxk",
       "resolution": "4K",
       "featured": false
@@ -99,7 +143,15 @@
       "title": "Forever The GOAT — CR7",
       "category": "sports",
       "subcategory": null,
-      "tags": ["cr7", "ronaldo", "cristiano", "soccer", "goat", "football", "portugal"],
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "cristiano",
+        "soccer",
+        "goat",
+        "football",
+        "portugal"
+      ],
       "cloudinary_id": "Forever_The_Goat_CR7_a15rml",
       "resolution": "4K",
       "featured": true
@@ -109,7 +161,15 @@
       "title": "7 Stands for Greatness — CR7",
       "category": "sports",
       "subcategory": null,
-      "tags": ["cr7", "ronaldo", "7", "greatness", "soccer", "football", "siuu"],
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "7",
+        "greatness",
+        "soccer",
+        "football",
+        "siuu"
+      ],
       "cloudinary_id": "7_Stands_for_Greatness_4K_Wallpaper_mhmwid",
       "resolution": "4K",
       "featured": false
@@ -119,7 +179,14 @@
       "title": "Ronaldinho — A Legend",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["ronaldinho", "legend", "soccer", "football", "brazil", "barcelona"],
+      "tags": [
+        "ronaldinho",
+        "legend",
+        "soccer",
+        "football",
+        "brazil",
+        "barcelona"
+      ],
       "cloudinary_id": "Ronaldinho_A_Legend_4K_fi3uec",
       "resolution": "4K",
       "featured": true
@@ -129,7 +196,14 @@
       "title": "The GOAT — Ronaldinho",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["ronaldinho", "goat", "soccer", "football", "legend", "skills"],
+      "tags": [
+        "ronaldinho",
+        "goat",
+        "soccer",
+        "football",
+        "legend",
+        "skills"
+      ],
       "cloudinary_id": "The_Goat_Ronaldinho_nudeyn",
       "resolution": "4K",
       "featured": false
@@ -139,451 +213,5529 @@
       "title": "Ronaldinho In Barcelona",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["ronaldinho", "barcelona", "barca", "soccer", "football", "camp nou"],
+      "tags": [
+        "ronaldinho",
+        "barcelona",
+        "barca",
+        "soccer",
+        "football",
+        "camp nou"
+      ],
       "cloudinary_id": "Ronaldinho_In_Barca_4K_xtw5u3",
       "resolution": "4K",
       "featured": false
     },
     {
-      "id": "cr7-young-talent-4k",
-      "title": "Cristiano Ronaldo Young Talent 4K Wallpaper",
-      "category": "sports",
-      "subcategory": null,
-      "tags": ["cr7", "ronaldo", "football", "soccer"],
-      "cloudinary_id": "cristiano-ronaldo-young-talent-wallpaper_l6qotu",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "iron-man-tech-cinematic",
-      "title": "Iron Man Tech Cinematic 4K Wallpaper",
+      "id": "doctor-doom-pjtdym",
+      "title": "Doctor Doom Poster HD Wallpaper",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["iron man", "marvel", "tony stark"],
-      "cloudinary_id": "iron-man-tech-cinematic-wallpaper_fhipke",
-      "resolution": "4K",
+      "tags": [
+        "doctor doom",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "dooms-day-dr-doom-poster-4k_pjtdym",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "patrick-bateman-character-aesthetic",
-      "title": "Patrick Bateman Aesthetic 4K Wallpaper",
-      "category": "movies-tv",
+      "id": "light-yagami-n1q15m",
+      "title": "Light Yagami Minimal 4K Wallpaper",
+      "category": "anime",
       "subcategory": null,
-      "tags": ["patrick bateman", "american psycho", "movies"],
-      "cloudinary_id": "patrick-bateman-character-aesthetic-wallpaper_bzqllo",
-      "resolution": "4K",
+      "tags": [
+        "light yagami",
+        "death note",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "death-note-minimal-art-4k_n1q15m",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "ferrari-f1-car-4k",
-      "title": "Ferrari F1 Car 4K Wallpaper",
+      "id": "cosmic-space-mlcboe",
+      "title": "Cosmic Space Cinematic 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "space",
+        "cosmic",
+        "ai art",
+        "iphone"
+      ],
+      "cloudinary_id": "deep-space-cinematic-wallpaper_mlcboe",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "ducati-dnp0c0",
+      "title": "Ducati V4 Motorsports 4K Wallpaper",
       "category": "motorsports-cars",
-      "subcategory": "motorsports-cars/f1",
-      "tags": ["ferrari", "f1", "formula 1", "motorsports"],
-      "cloudinary_id": "ferrari-f1-car-wallpaper_xgu1q8",
-      "resolution": "4K",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "ducati",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "ducati-v4-4k-motorsports_dnp0c0",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "cr7-rising-star",
-      "title": "Cristiano Ronaldo Rising Star 4K Wallpaper",
+      "id": "lionel-messi-x2fcw4",
+      "title": "Lionel Messi Football Legend 4K Wallpaper",
       "category": "sports",
       "subcategory": null,
-      "tags": ["cr7", "ronaldo", "football", "soccer"],
-      "cloudinary_id": "cristiano-ronaldo-rising-star-wallpaper_uvytzd",
-      "resolution": "4K",
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "football-legend-messi-hd-background_x2fcw4",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "aquaman-ocean-cinematic",
-      "title": "Aquaman Ocean Cinematic 4K Wallpaper",
+      "id": "breaking-bad-mzsutn",
+      "title": "Breaking Bad Cutout 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "breaking bad",
+        "heisenberg",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "heisenberg-cutout-4k_mzsutn",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "aquaman-o0qwlg",
+      "title": "Aquaman Oceanic Hero HD Wallpaper",
       "category": "dc",
       "subcategory": null,
-      "tags": ["aquaman", "dc", "ocean", "superhero"],
-      "cloudinary_id": "aquaman-ocean-cinematic-wallpaper_fgx3tj",
-      "resolution": "4K",
+      "tags": [
+        "aquaman",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "aquaman-oceanic-hero-wallpaper_o0qwlg",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "patrick-bateman-chad-style",
-      "title": "Patrick Bateman Chad Style 4K Wallpaper",
-      "category": "movies-tv",
-      "subcategory": null,
-      "tags": ["patrick bateman", "american psycho", "movies"],
-      "cloudinary_id": "patrick-bateman-chad-style-wallpaper_mjptef",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "david-beckham-soccer-legend",
-      "title": "David Beckham Soccer Legend 4K Wallpaper",
+      "id": "david-beckham-hf0nvg",
+      "title": "David Beckham Cinematic Portrait HD Wallpaper",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "football", "soccer", "legend"],
-      "cloudinary_id": "david-beckham-football-legend-wallpaper_tch0v5",
-      "resolution": "4K",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-cinematic-portrait-wallpaper_hf0nvg",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "cr7-iconic-look",
-      "title": "Cristiano Ronaldo Iconic Look 4K Wallpaper",
-      "category": "sports",
+      "id": "black-myth-wukong-iohzqx",
+      "title": "Black Myth: Wukong Epic Journey HD Wallpaper",
+      "category": "gaming",
       "subcategory": null,
-      "tags": ["cr7", "ronaldo", "football", "soccer"],
-      "cloudinary_id": "cristiano-ronaldo-iconic-look-wallpaper_dibont",
-      "resolution": "4K",
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "wukong-epic-journey-wallpaper_iohzqx",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "deadpool-red-cinematic",
-      "title": "Deadpool Red Cinematic 4K Wallpaper",
+      "id": "doctor-doom-ojeqyd",
+      "title": "Doctor Doom Cinematic Poster HD Wallpaper",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["deadpool", "marvel", "superhero"],
-      "cloudinary_id": "deadpool-red-cinematic-wallpaper_pn9839",
-      "resolution": "4K",
+      "tags": [
+        "doctor doom",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "dr-doom-cinematic-poster-4k_ojeqyd",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "ferrari-sf-f1-car",
-      "title": "Ferrari SF F1 Race Car 4K Wallpaper",
+      "id": "light-yagami-esaoco",
+      "title": "Light Yagami White Aesthetic 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "light yagami",
+        "death note",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "death-note-white-aesthetic-4k_esaoco",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cosmic-space-i1yfbs",
+      "title": "Cosmic Space 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "space",
+        "cosmic",
+        "ai art",
+        "iphone"
+      ],
+      "cloudinary_id": "galaxy-astronaut-wallpaper_i1yfbs",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "kawasaki-a2h9ms",
+      "title": "Kawasaki Ninja H2R 4K Wallpaper",
       "category": "motorsports-cars",
-      "subcategory": "motorsports-cars/f1",
-      "tags": ["ferrari", "f1", "formula 1", "motorsports"],
-      "cloudinary_id": "ferrari-sf-f1-car-wallpaper_qr0hcc",
-      "resolution": "4K",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "kawasaki",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "h2-r-kawasaki-ninja-4k_a2h9ms",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "patrick-bateman-american-psycho",
-      "title": "Patrick Bateman American Psycho 4K Wallpaper",
+      "id": "lionel-messi-m0zqns",
+      "title": "Lionel Messi Goat Soccer Premium 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "goat-soccer-art-premium-4k-background_m0zqns",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "breaking-bad-b5hqgl",
+      "title": "Breaking Bad Jesse and Walter 4K Wallpaper",
       "category": "movies-tv",
       "subcategory": null,
-      "tags": ["patrick bateman", "american psycho", "movies"],
-      "cloudinary_id": "patrick-bateman-american-psycho-wallpaper_wxd3or",
-      "resolution": "4K",
+      "tags": [
+        "breaking bad",
+        "heisenberg",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "Jessie-and-walter-white_b5hqgl",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "david-beckham-free-kick",
-      "title": "David Beckham Free Kick 4K Wallpaper",
+      "id": "aquaman-qxuken",
+      "title": "Aquaman Sea Aesthetic HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "aquaman",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "aquaman-sea-aesthetic-wallpaper_qxuken",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-je5xew",
+      "title": "David Beckham Free Kick HD Wallpaper",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "football", "free kick", "legend"],
-      "cloudinary_id": "david-beckham-free-kick-wallpaper_xn7tji",
-      "resolution": "4K",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-free-kick-wallpaper_je5xew",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "cr7-legendary-moment",
-      "title": "Cristiano Ronaldo Legendary Moment 4K Wallpaper",
-      "category": "sports",
+      "id": "black-myth-wukong-nu2ta8",
+      "title": "Black Myth: Wukong Cinematic HD Wallpaper",
+      "category": "gaming",
       "subcategory": null,
-      "tags": ["cr7", "ronaldo", "football", "legend"],
-      "cloudinary_id": "cristiano-ronaldo-legendary-moment-wallpaper_dzo2n2",
-      "resolution": "4K",
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "black-myth-cinematic-wallpaper_nu2ta8",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "black-panther-golden-cinematic",
-      "title": "Black Panther Golden Cinematic 4K Wallpaper",
+      "id": "doctor-doom-tgsvdw",
+      "title": "Doctor Doom Green Theme Poster HD Wallpaper",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["black panther", "marvel", "wakanda"],
-      "cloudinary_id": "black-panther-golden-cinematic-wallpaper_va8ncn",
-      "resolution": "4K",
+      "tags": [
+        "doctor doom",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "doomsday-green-theme-poster_tgsvdw",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "ferrari-formula-1-car",
-      "title": "Ferrari Formula 1 Car 4K Wallpaper",
+      "id": "light-yagami-srxlhm",
+      "title": "Light Yagami Minimal HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "light yagami",
+        "death note",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "light-yagami-anime-minimal_srxlhm",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-dwmjj8",
+      "title": "Japanese Landscape Minimal 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-4k-minimal_dwmjj8",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "bmw-amfpje",
+      "title": "BMW Power and Pace 4K Wallpaper",
       "category": "motorsports-cars",
-      "subcategory": "motorsports-cars/f1",
-      "tags": ["ferrari", "f1", "formula 1", "motorsports"],
-      "cloudinary_id": "ferrari-formula-1-car-wallpaper_gha5ps",
-      "resolution": "4K",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "power-and-pace-bmw-4k_amfpje",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "patrick-bateman-sigma",
-      "title": "Patrick Bateman Sigma Aesthetic 4K Wallpaper",
+      "id": "lionel-messi-s2yb9b",
+      "title": "Lionel Messi It Over Legend 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "it-is-over-messi-a-legend_s2yb9b",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "jon-snow-m3kpbq",
+      "title": "Jon Snow Calm HD Wallpaper",
       "category": "movies-tv",
       "subcategory": null,
-      "tags": ["patrick bateman", "sigma", "aesthetic", "movies"],
-      "cloudinary_id": "patrick-bateman-sigma-aesthetic-wallpaper_bllcql",
-      "resolution": "4K",
+      "tags": [
+        "jon snow",
+        "game of thrones",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "jon-snow-calm-wallpaper_m3kpbq",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "david-beckham-iconic-style",
-      "title": "David Beckham Iconic Style 4K Wallpaper",
-      "category": "sports",
-      "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "football", "style", "legend"],
-      "cloudinary_id": "david-beckham-iconic-style-wallpaper_tacycv",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "cr7-football-journey",
-      "title": "Cristiano Ronaldo Football Journey 4K Wallpaper",
-      "category": "sports",
-      "subcategory": null,
-      "tags": ["cr7", "ronaldo", "football", "journey"],
-      "cloudinary_id": "cristiano-ronaldo-football-journey-wallpaper_icdidx",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "aquaman-underwater-kingdom",
-      "title": "Aquaman Underwater Kingdom 4K Wallpaper",
+      "id": "aquaman-lx6oj5",
+      "title": "Aquaman Ocean Cinematic HD Wallpaper",
       "category": "dc",
       "subcategory": null,
-      "tags": ["aquaman", "dc", "underwater", "superhero"],
-      "cloudinary_id": "aquaman-underwater-kingdom-wallpaper_ufklt0",
-      "resolution": "4K",
+      "tags": [
+        "aquaman",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "aquaman-ocean-cinematic-wallpaper_lx6oj5",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "redbull-racing-f1-car",
-      "title": "Red Bull Racing F1 Car 4K Wallpaper",
-      "category": "motorsports-cars",
-      "subcategory": "motorsports-cars/f1",
-      "tags": ["red bull", "f1", "formula 1", "motorsports"],
-      "cloudinary_id": "redbull-racing-f1-car-wallpaper_a2y37a",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "patrick-bateman-luxury",
-      "title": "Patrick Bateman Luxury Aesthetic 4K Wallpaper",
-      "category": "movies-tv",
-      "subcategory": null,
-      "tags": ["patrick bateman", "luxury", "aesthetic", "movies"],
-      "cloudinary_id": "patrick-bateman-luxury-aesthetic-wallpaper_ejwyfp",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "cr7-young-player-aesthetic",
-      "title": "CR7 Young Player Aesthetic 4K Wallpaper",
-      "category": "sports",
-      "subcategory": null,
-      "tags": ["cr7", "ronaldo", "young", "aesthetic"],
-      "cloudinary_id": "cr7-young-player-aesthetic-wallpaper_wbpatk",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "david-beckham-star-player",
-      "title": "David Beckham Star Player 4K Wallpaper",
+      "id": "david-beckham-xpzgqb",
+      "title": "David Beckham Football Legend 4K Wallpaper",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "football", "star", "legend"],
-      "cloudinary_id": "david-beckham-star-player-wallpaper_qzu6ox",
-      "resolution": "4K",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-football-legend-wallpaper_xpzgqb",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "thor-god-of-thunder-cinematic",
-      "title": "Thor God of Thunder Cinematic 4K Wallpaper",
+      "id": "black-myth-wukong-iiqbgo",
+      "title": "Black Myth: Wukong Heroic HD Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "black-myth-heroic-wallpaper_iiqbgo",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "doctor-doom-ikq44n",
+      "title": "Doctor Doom Green Theme HD Wallpaper",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["thor", "marvel", "god of thunder", "avengers"],
-      "cloudinary_id": "thor-god-of-thunder-cinematic-wallpaper_vmkbeg",
-      "resolution": "4K",
+      "tags": [
+        "doctor doom",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "green-theme-dr-doom-4k_ikq44n",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "aquaman-water-theme",
-      "title": "Aquaman Water Theme 4K Wallpaper",
-      "category": "dc",
+      "id": "light-yagami-xkcy1e",
+      "title": "Light Yagami Minimal 4K Edition Wallpaper",
+      "category": "anime",
       "subcategory": null,
-      "tags": ["aquaman", "dc", "water", "superhero"],
-      "cloudinary_id": "aquaman-water-theme-wallpaper_akqpyl",
-      "resolution": "4K",
+      "tags": [
+        "light yagami",
+        "death note",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "minimal-anieme-yagami-4k_xkcy1e",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "cr7-young-era",
-      "title": "CR7 Young Era 4K Wallpaper",
+      "id": "japanese-landscape-mlfcxf",
+      "title": "Japanese Landscape Serenity Minimal 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-serenity-minimal_mlfcxf",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "yamaha-u1ah8a",
+      "title": "Yamaha YZF-R1M 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "yamaha",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "yamaha-yzf-r1-m-motorsports_u1ah8a",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-zlrvyz",
+      "title": "Lionel Messi Premium Sports 4K Wallpaper",
       "category": "sports",
       "subcategory": null,
-      "tags": ["cr7", "ronaldo", "young", "football"],
-      "cloudinary_id": "cr7-young-era-wallpaper_pcmeju",
-      "resolution": "4K",
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "lionel-messi-premium-sports-art-wallpaper_zlrvyz",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "patrick-bateman-iconic-scene",
-      "title": "Patrick Bateman Iconic Scene 4K Wallpaper",
+      "id": "jon-snow-umfcwv",
+      "title": "Jon Snow Cutout HD Wallpaper",
       "category": "movies-tv",
       "subcategory": null,
-      "tags": ["patrick bateman", "american psycho", "iconic", "movies"],
-      "cloudinary_id": "patrick-bateman-iconic-scene-wallpaper_zoh5gm",
-      "resolution": "4K",
+      "tags": [
+        "jon snow",
+        "game of thrones",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "jon-snow-cutout-wallpaper_umfcwv",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "david-beckham-vintage-football",
-      "title": "David Beckham Vintage Football 4K Wallpaper",
+      "id": "batman-rrfhie",
+      "title": "Batman Fire Cinematic 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "batman-fire-cinematic-wallpaper_rrfhie",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-yumosb",
+      "title": "David Beckham Star Player HD Wallpaper",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "vintage", "football", "legend"],
-      "cloudinary_id": "david-beckham-vintage-football-wallpaper_oyrd7u",
-      "resolution": "4K",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-star-player-wallpaper_yumosb",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "captain-america-heroic-cinematic",
-      "title": "Captain America Heroic Cinematic 4K Wallpaper",
+      "id": "black-myth-wukong-gyfpwl",
+      "title": "Black Myth: Wukong HD Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "black-myth-wukong-wallpaper_gyfpwl",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "iron-man-bfs4qh",
+      "title": "Iron Man Tech Cinematic HD Wallpaper",
       "category": "marvel",
       "subcategory": null,
-      "tags": ["captain america", "marvel", "avengers", "superhero"],
-      "cloudinary_id": "captain-america-heroic-cinematic-wallpaper_ktptax",
-      "resolution": "4K",
+      "tags": [
+        "iron man",
+        "marvel",
+        "tony stark",
+        "iphone"
+      ],
+      "cloudinary_id": "iron-man-tech-cinematic-wallpaper_bfs4qh",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "cr7-vintage-football",
-      "title": "CR7 Vintage Football 4K Wallpaper",
+      "id": "obito-gcahwp",
+      "title": "Obito Akatsuki 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "obito",
+        "naruto",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "obito-akatsuki-wallpaper_gcahwp",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-h004vt",
+      "title": "Japanese Landscape Warrior Calm Peace 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-warrior-calm-peace_h004vt",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "aprilia-ojxuwp",
+      "title": "Aprilia RSV4 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "aprilia",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "aprilia-rsv4-4k-motorsport_ojxuwp",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-em5emc",
+      "title": "Lionel Messi Cut Out Black 4K Wallpaper",
       "category": "sports",
       "subcategory": null,
-      "tags": ["cr7", "ronaldo", "vintage", "football"],
-      "cloudinary_id": "cr7-vintage-football-wallpaper_mbdra9",
-      "resolution": "4K",
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-cut-out-barca-black-4k_em5emc",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "f1-race-car-4k",
-      "title": "F1 Race Car 4K Wallpaper",
-      "category": "motorsports-cars",
-      "subcategory": "motorsports-cars/f1",
-      "tags": ["f1", "formula 1", "race car", "motorsports"],
-      "cloudinary_id": "f1-race-car-wallpaper_wryl0i",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "patrick-bateman-dark-suit",
-      "title": "Patrick Bateman Dark Suit 4K Wallpaper",
+      "id": "daenerys-targaryen-vab38y",
+      "title": "Daenerys Targaryen HD Wallpaper",
       "category": "movies-tv",
       "subcategory": null,
-      "tags": ["patrick bateman", "dark", "suit", "movies"],
-      "cloudinary_id": "patrick-bateman-dark-suit-wallpaper_auyvy5",
-      "resolution": "4K",
+      "tags": [
+        "daenerys",
+        "game of thrones",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "mother-of-dragon-2k_vab38y",
+      "resolution": "HD",
       "featured": false
     },
     {
-      "id": "aquaman-sea-aesthetic",
-      "title": "Aquaman Sea Aesthetic 4K Wallpaper",
+      "id": "aquaman-fvnzgo",
+      "title": "Aquaman Water Theme HD Wallpaper",
       "category": "dc",
       "subcategory": null,
-      "tags": ["aquaman", "dc", "sea", "superhero"],
-      "cloudinary_id": "aquaman-sea-aesthetic-wallpaper_xicwpp",
-      "resolution": "4K",
+      "tags": [
+        "aquaman",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "aquaman-water-theme-wallpaper_fvnzgo",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "cr7-early-career",
-      "title": "CR7 Early Career 4K Wallpaper",
-      "category": "sports",
-      "subcategory": null,
-      "tags": ["cr7", "ronaldo", "early career", "football"],
-      "cloudinary_id": "cr7-early-career-wallpaper_rzz1wx",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "david-beckham-legendary-moment",
-      "title": "David Beckham Legendary Moment 4K Wallpaper",
+      "id": "david-beckham-hgwxe4",
+      "title": "David Beckham Classic Football HD Wallpaper",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "legendary", "football", "moment"],
-      "cloudinary_id": "david-beckham-legendary-moment-wallpaper_rbmdoa",
-      "resolution": "4K",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-classic-football-wallpaper_hgwxe4",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "redbull-f1-car",
-      "title": "Red Bull F1 Car 4K Wallpaper",
+      "id": "black-myth-wukong-hcrklc",
+      "title": "Black Myth: Wukong Legendary Warrior HD Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "wukong-legendary-warrior-wallpaper_hcrklc",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "loki-nmz0rc",
+      "title": "Loki Minimal Pro 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "loki",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "loki-minimal-pro-wallpaper_nmz0rc",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "obito-yvlgs4",
+      "title": "Obito Sharingan 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "obito",
+        "naruto",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "obito-sharingan-wallpaper_yvlgs4",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-yortou",
+      "title": "Japanese Landscape Calm 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-calm-art-4k-wallpaper_yortou",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "bmw-es6pca",
+      "title": "BMW E30 Blue Stripes 4K Wallpaper",
       "category": "motorsports-cars",
-      "subcategory": "motorsports-cars/f1",
-      "tags": ["red bull", "f1", "formula 1", "motorsports"],
-      "cloudinary_id": "redbull-f1-car-wallpaper_b1clp4",
-      "resolution": "4K",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "bmw-blue-stripes-e-30_es6pca",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "patrick-bateman-dark-mode",
-      "title": "Patrick Bateman Dark Mode 4K Wallpaper",
+      "id": "lionel-messi-toj9mj",
+      "title": "Lionel Messi Legend 10 Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "legend-messi-10-poster_toj9mj",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-sm6bmv",
+      "title": "Patrick Bateman American Psycho HD Wallpaper",
       "category": "movies-tv",
       "subcategory": null,
-      "tags": ["patrick bateman", "dark", "aesthetic", "movies"],
-      "cloudinary_id": "patrick-bateman-dark-mode-wallpaper_obkcuq",
-      "resolution": "4K",
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-american-psycho-wallpaper_sm6bmv",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "david-beckham-cinematic-portrait",
-      "title": "David Beckham Cinematic Portrait 4K Wallpaper",
-      "category": "sports",
-      "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "cinematic", "portrait", "legend"],
-      "cloudinary_id": "david-beckham-cinematic-portrait-wallpaper_af1q7f",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "cr7-classic-football",
-      "title": "CR7 Classic Football 4K Wallpaper",
-      "category": "sports",
-      "subcategory": null,
-      "tags": ["cr7", "ronaldo", "classic", "football"],
-      "cloudinary_id": "cr7-classic-football-wallpaper_cguf09",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "aquaman-oceanic-hero",
-      "title": "Aquaman Oceanic Hero 4K Wallpaper",
+      "id": "batman-dzspsd",
+      "title": "Batman Dark Cinematic 4K Wallpaper",
       "category": "dc",
       "subcategory": null,
-      "tags": ["aquaman", "dc", "oceanic", "hero"],
-      "cloudinary_id": "aquaman-oceanic-hero-wallpaper_diuqzz",
-      "resolution": "4K",
+      "tags": [
+        "batman",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "batman-dark-cinematic-wallpaper_dzspsd",
+      "resolution": "2K",
       "featured": false
     },
     {
-      "id": "patrick-bateman-cinematic-portrait",
-      "title": "Patrick Bateman Cinematic Portrait 4K Wallpaper",
-      "category": "movies-tv",
-      "subcategory": null,
-      "tags": ["patrick bateman", "cinematic", "portrait", "movies"],
-      "cloudinary_id": "patrick-bateman-cinematic-portrait-wallpaper_rxbpig",
-      "resolution": "4K",
-      "featured": false
-    },
-    {
-      "id": "david-beckham-classic-football",
-      "title": "David Beckham Classic Football 4K Wallpaper",
+      "id": "david-beckham-fiuypc",
+      "title": "David Beckham Legendary Moment HD Wallpaper",
       "category": "sports",
       "subcategory": "sports/soccer-legends",
-      "tags": ["beckham", "classic", "football", "legend"],
-      "cloudinary_id": "david-beckham-classic-football-wallpaper_xkjdqs",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-legendary-moment-wallpaper_fiuypc",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "black-myth-wukong-vtkyta",
+      "title": "Black Myth: Wukong Cinematic 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "black-myth-wukong-cinematic-wallpaper_vtkyta",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-ec7jgv",
+      "title": "Spider-Man Minimal Red White 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "minimal-spider-man-red-white_ec7jgv",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "obito-puljo8",
+      "title": "Obito Six Paths 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "obito",
+        "naruto",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "obito-six-paths-wallpaper_puljo8",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-h3aem2",
+      "title": "Japanese Landscape Lost Nature Warrior 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "lost-in-nature-japanese-warrior_h3aem2",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "bmw-pjp4nn",
+      "title": "BMW E30 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "bmw-e-30-4k_pjp4nn",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-bex8c1",
+      "title": "Lionel Messi Iconic Player Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-iconic-player-poster-4k-wallpaper_bex8c1",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-i1xr5w",
+      "title": "Patrick Bateman Cinematic Portrait HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-cinematic-portrait-wallpaper_i1xr5w",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "aquaman-uy1hzr",
+      "title": "Aquaman Underwater Kingdom HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "aquaman",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "aquaman-underwater-kingdom-wallpaper_uy1hzr",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-wlzrl8",
+      "title": "David Beckham Iconic Style HD Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-iconic-style-wallpaper_wlzrl8",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "black-myth-wukong-k5f5k8",
+      "title": "Black Myth: Wukong Golden Aura HD Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "wukong-golden-aura-wallpaper_k5f5k8",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "moon-knight-gga9qf",
+      "title": "Moon Knight Minimal 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "moon knight",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "moon-knight-minimal-wallpaper_gga9qf",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "obito-c4uun6",
+      "title": "Obito Spiral Mask 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "obito",
+        "naruto",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "obito-spiral-mask-wallpaper_c4uun6",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-boqwbl",
+      "title": "Japanese Landscape Minimal Aesthetic 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "minimal-japanese-aesthetic-hd-background_boqwbl",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "bmw-fsxfbf",
+      "title": "BMW S1000RR 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "bmw-s-1000-rr-4k-german_fsxfbf",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-gktwa2",
+      "title": "Lionel Messi Minimal Blue White Theme Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "minimal-blue-white-theme-messi-poster_gktwa2",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-dgostg",
+      "title": "Patrick Bateman Character Aesthetic 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-character-aesthetic-wallpaper_dgostg",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "david-beckham-c1mewu",
+      "title": "David Beckham Vintage Football HD Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "beckham",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "david-beckham-vintage-football-wallpaper_c1mewu",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "black-myth-wukong-j8saf6",
+      "title": "Black Myth: Wukong Mystic Power HD Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "wukong-mystic-power-wallpaper_j8saf6",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-uqn0wj",
+      "title": "Spider-Man Chill Night 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-chill-night-wallpaper_uqn0wj",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "obito-wecvoa",
+      "title": "Obito Masked 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "obito",
+        "naruto",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "obito-masked-wallpaper_wecvoa",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-yyqb4r",
+      "title": "Japanese Landscape Samurai Dragon Hunter Jap 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "samurai-dragon-hunter-jap-art_yyqb4r",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "bmw-qlcw7t",
+      "title": "BMW E30 Speed 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "motorsports",
+        "supercars",
+        "iphone"
+      ],
+      "cloudinary_id": "bmw-e-30-speed_qlcw7t",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-hmqde5",
+      "title": "Lionel Messi Minimal National Team Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-minimal-national-team-poster_hmqde5",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-eb4rzy",
+      "title": "Patrick Bateman Chad Style HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-chad-style-wallpaper_eb4rzy",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "black-myth-wukong-klyy7u",
+      "title": "Black Myth: Wukong Poster HD Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "wukong",
+        "black myth wukong",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "black-myth-poster-wallpaper_klyy7u",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-auoja7",
+      "title": "Spider-Man New Day 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-logo-and-spider-man-new-day-4k_auoja7",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "obito-fkrrss",
+      "title": "Obito Dark Aura 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "obito",
+        "naruto",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "obito-dark-aura-wallpaper_fkrrss",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-yg7dhx",
+      "title": "Japanese Landscape Serene Inspired 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "serene-japanese-inspired-art-wallpaper_yg7dhx",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-f1-mqw4c0",
+      "title": "Ferrari F1 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "ferrari",
+        "f1",
+        "formula 1",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "ferrari-f1-car-wallpaper_mqw4c0",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-lt9o7u",
+      "title": "Lionel Messi Master 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "master-messi-argentina-4k_lt9o7u",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-gwlblc",
+      "title": "Patrick Bateman Dark Suit HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-dark-suit-wallpaper_gwlblc",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-nne19h",
+      "title": "Spider-Man New Day HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-a-new-day-4k_nne19h",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-tu3n8s",
+      "title": "Akaza Blue Tone 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-blue-tone-wallpaper_tu3n8s",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cosmic-space-xezy2s",
+      "title": "Cosmic Space Cinematic HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "space",
+        "cosmic",
+        "ai art",
+        "iphone"
+      ],
+      "cloudinary_id": "space-astronaut-cinematic-wallpaper_xezy2s",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-f1-ny8jby",
+      "title": "Ferrari F1 HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "ferrari",
+        "f1",
+        "formula 1",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "ferrari-f1-race-car-wallpaper_ny8jby",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-cqcdg3",
+      "title": "Messi Minimal Black 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-minimal-black-4k.jpg_cqcdg3",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-rcl12e",
+      "title": "Patrick Bateman Dark Mode HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-dark-mode-wallpaper_rcl12e",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-asuktc",
+      "title": "Spider-Man Brand New Day Minimal 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-brand-new-day-minimal_asuktc",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-uu5l9g",
+      "title": "Akaza Monochrome 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-monochrome-wallpaper_uu5l9g",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-kqk71v",
+      "title": "Japanese Landscape Traditional Style 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "traditional-japanese-style-4k-background_kqk71v",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-f1-cmuatl",
+      "title": "Ferrari Formula 1 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "ferrari",
+        "f1",
+        "formula 1",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "ferrari-formula-1-car-wallpaper_cmuatl",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-swwpe5",
+      "title": "Neymar Jr Star 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-jr-star.jpg_swwpe5",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-fixcmi",
+      "title": "Patrick Bateman Luxury Aesthetic HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-luxury-aesthetic-wallpaper_fixcmi",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-gand1y",
+      "title": "Spider-Man Shadow 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-a-shadow_gand1y",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-grve7a",
+      "title": "Akaza Shadow Portrait 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-shadow-portrait-wallpaper_grve7a",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cosmic-space-d9x38n",
+      "title": "Cosmic Space Aesthetic 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "space",
+        "cosmic",
+        "ai art",
+        "iphone"
+      ],
+      "cloudinary_id": "cosmic-space-aesthetic-wallpaper_d9x38n",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "red-bull-f1-f0sebs",
+      "title": "Red Bull F1 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "red bull",
+        "f1",
+        "formula 1",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "redbull-racing-f1-car-wallpaper_f0sebs",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-lpgimt",
+      "title": "Neymar Jr Fades Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-jr-fades-of-poster_lpgimt",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-zx3bzj",
+      "title": "Patrick Bateman Iconic Scene HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-iconic-scene-wallpaper_zx3bzj",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-w8gwje",
+      "title": "Spider-Man New Day Poster 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-new-day-poster-4k_w8gwje",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-w4mria",
+      "title": "Akaza Dark Focus 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-dark-focus-wallpaper_w4mria",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-sh0gdg",
+      "title": "Japanese Landscape Traditional Aesthetic 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-traditional-aesthetic-wallpaper_sh0gdg",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "red-bull-f1-uxa5aq",
+      "title": "Red Bull F1 HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "red bull",
+        "f1",
+        "formula 1",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "redbull-f1-car-wallpaper_uxa5aq",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-xmxp3c",
+      "title": "Neymar Jr Star Boy 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-jr-star-boy_xmxp3c",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "patrick-bateman-wskike",
+      "title": "Patrick Bateman Sigma Aesthetic HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "patrick bateman",
+        "american psycho",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "patrick-bateman-sigma-aesthetic-wallpaper_wskike",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-ucj5dj",
+      "title": "Spider-Man Noir Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-noir-cinematic-wallpaper_ucj5dj",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-eowiao",
+      "title": "Akaza Clean Anime 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-clean-anime-wallpaper_eowiao",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-ksjriv",
+      "title": "Japanese Landscape Calm Landscape 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-calm-landscape-wallpaper_ksjriv",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "ferrari-f1-dpfury",
+      "title": "Ferrari F1 4K Edition Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "ferrari",
+        "f1",
+        "formula 1",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "ferrari-sf-f1-car-wallpaper_dpfury",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-difxsf",
+      "title": "Neymar Jr Star Boy Portrait 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-jr-star-boy-2.jpg_difxsf",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "tyrion-lannister-nvc3rk",
+      "title": "Tyrion Lannister Cutout HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "tyrion lannister",
+        "game of thrones",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "tyrion-lannister-cutout-wallpaper_nvc3rk",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-obnhaq",
+      "title": "Spider-Man Noir Cutout 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-noir-cutout-wallpaper_obnhaq",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-bfoonb",
+      "title": "Akaza Portrait Aesthetic 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-portrait-aesthetic-wallpaper_bfoonb",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-vgzinr",
+      "title": "Japanese Landscape Zen Garden 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-zen-garden-wallpaper_vgzinr",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "f1-acl8kl",
+      "title": "F1 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "f1-race-car-wallpaper_acl8kl",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-edp6qz",
+      "title": "Neymar Jr Star Boy Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-jr-star-boy-poster.jpg_edp6qz",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-jcmczf",
+      "title": "Spider-Man Noir Heroic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-noir-heroic-wallpaper_jcmczf",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-yjmhaz",
+      "title": "Akaza Minimal Focus 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-minimal-focus-wallpaper_yjmhaz",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-g1izqz",
+      "title": "Japanese Landscape Quiet Moonlight 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-quiet-moonlight-wallpaper_g1izqz",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-wnm3op",
+      "title": "Neymar Jr Starboy 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-starboy_wnm3op",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "thor-xdqw4e",
+      "title": "Thor Doomsday 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "the-doomsday-thor_xdqw4e",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-e6lysz",
+      "title": "Akaza Anime HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-anime-art-wallpaper_e6lysz",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-m4htay",
+      "title": "Japanese Landscape Mountain Serenity 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-mountain-serenity-wallpaper_m4htay",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-klprcu",
+      "title": "Neymar Jr Star Boy Poster HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-star-boy-poster_klprcu",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-fgfxy3",
+      "title": "Spider-Man Noir Vintage 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-noir-vintage-wallpaper_fgfxy3",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-mfw3qm",
+      "title": "Akaza Neon Aesthetic HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-neon-aesthetic-wallpaper_mfw3qm",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-ofr5de",
+      "title": "Japanese Landscape Sakura Harmony 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-sakura-harmony-wallpaper_ofr5de",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-elktsx",
+      "title": "Lionel Messi Prime Era Leo 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "prime-barca-era-leo-messi-4k-art_elktsx",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-omy3na",
+      "title": "Spider-Man Noir Shadow 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-noir-shadow-wallpaper_omy3na",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-glbprh",
+      "title": "Akaza Crimson Blue HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-crimson-blue-wallpaper_glbprh",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-dgb8fe",
+      "title": "Japanese Landscape Dreamscape HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-dreamscape-wallpaper_dgb8fe",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-mceiff",
+      "title": "Lionel Messi Work Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "art-work-messi-poster-4k_mceiff",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "thor-m4sguj",
+      "title": "Thor Doom Fight 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "thor-and--doom-fight_m4sguj",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-oxljaz",
+      "title": "Akaza Vibrant Anime HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-vibrant-anime-wallpaper_oxljaz",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-h1uczi",
+      "title": "Japanese Landscape Evening Serenity HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-evening-serenity-wallpaper_h1uczi",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-ak38oi",
+      "title": "Cristiano Ronaldo Classic Football 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cr7-classic-football-wallpaper_ak38oi",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "thor-fbfrm5",
+      "title": "Thor God Thunder Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "thor-god-of-thunder-cinematic-wallpaper_fbfrm5",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-sjvjc2",
+      "title": "Akaza Color Burst HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-color-burst-wallpaper_sjvjc2",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-jv2vlm",
+      "title": "Japanese Landscape Moonlit Scenery HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-moonlit-scenery-wallpaper_jv2vlm",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-u25c4l",
+      "title": "Cristiano Ronaldo Early Career 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cr7-early-career-wallpaper_u25c4l",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-zs44ga",
+      "title": "Spider-Man Dark City 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-dark-city-wallpaper_zs44ga",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-ffkri4",
+      "title": "Akaza Energy Aesthetic HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-energy-aesthetic-wallpaper_ffkri4",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-oyhz7d",
+      "title": "Japanese Landscape Twilight Aesthetic HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-twilight-aesthetic-wallpaper_oyhz7d",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-vhv4qa",
+      "title": "Cristiano Ronaldo Young Era 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cr7-young-era-wallpaper_vhv4qa",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-pqa6e0",
+      "title": "Spider-Man Noir Monochrome 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-noir-monochrome-wallpaper_pqa6e0",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-l6ga1c",
+      "title": "Akaza Cinematic Color HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-cinematic-color-wallpaper_l6ga1c",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-bz4tbo",
+      "title": "Japanese Landscape Nightscape HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-nightscape-wallpaper_bz4tbo",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-kwy6z4",
+      "title": "Cristiano Ronaldo Vintage Football 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cr7-vintage-football-wallpaper_kwy6z4",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "thor-w2mfox",
+      "title": "Thor Fighting Alone God Vs Doom 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "thor-fighting-alone-god-vs-doom_w2mfox",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "asta-xlgbpr",
+      "title": "Asta Devil Union 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "asta",
+        "black clover",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "asta-devil-union-wallpaper_xlgbpr",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-clxioo",
+      "title": "Japanese Landscape Cinematic Landscape HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-cinematic-landscape-wallpaper_clxioo",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-eejsgv",
+      "title": "Cristiano Ronaldo Football Journey HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-football-journey-wallpaper_eejsgv",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "venom-upp2hj",
+      "title": "Venom Dark Aesthetic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-dark-aesthetic-wallpaper_upp2hj",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "asta-gpdkdm",
+      "title": "Asta Cinematic Anime 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "asta",
+        "black clover",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "asta-cinematic-anime-wallpaper_gpdkdm",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-jra3dj",
+      "title": "Cristiano Ronaldo Iconic Look HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-iconic-look-wallpaper_jra3dj",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "venom-mxr3np",
+      "title": "Venom Dark Portrait 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-dark-portrait-wallpaper_mxr3np",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "asta-ck3xv3",
+      "title": "Asta Grimoire Power 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "asta",
+        "black clover",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "asta-grimoire-power-wallpaper_ck3xv3",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-pzfp9j",
+      "title": "Cristiano Ronaldo Legendary Moment HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-legendary-moment-wallpaper_pzfp9j",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "venom-icianr",
+      "title": "Venom Minimal Dark 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-minimal-dark-wallpaper_icianr",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "asta-bpbunz",
+      "title": "Asta Slayer 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "asta",
+        "black clover",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "asta-slayer-wallpaper_bpbunz",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-sj594h",
+      "title": "Cristiano Ronaldo Young Player Aesthetic 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cr7-young-player-aesthetic-wallpaper_sj594h",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "venom-ikeicg",
+      "title": "Venom Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-cinematic-wallpaper_ikeicg",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "asta-inig5s",
+      "title": "Asta Black Clover 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "asta",
+        "black clover",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "asta-black-clover-wallpaper_inig5s",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-moida8",
+      "title": "Cristiano Ronaldo Rising Star HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-rising-star-wallpaper_moida8",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "thor-p8sz7k",
+      "title": "Thor Pro Design 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "thor-pro-design_p8sz7k",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "asta-qpvuef",
+      "title": "Asta Anti Magic 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "asta",
+        "black clover",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "asta-anti-magic-wallpaper_qpvuef",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-aeat2k",
+      "title": "Lionel Messi Legend Cut Out 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "barca-legend-messi-cut-out-4k_aeat2k",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "venom-ppiy8s",
+      "title": "Venom Hunt Poster 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-on-hunt-poster-4k_ppiy8s",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-axrbmv",
+      "title": "Sung Jin-Woo Shadow Aura 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-shadow-aura-wallpaper_axrbmv",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-xmvout",
+      "title": "Cristiano Ronaldo Young Talent HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cr7",
+        "ronaldo",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-young-talent-wallpaper_xmvout",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "venom-es9xfa",
+      "title": "Venom Symbiote Aesthetic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-symbiote-aesthetic-wallpaper_es9xfa",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-em6815",
+      "title": "Sung Jin-Woo Monarch Rise 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-monarch-rise-wallpaper_em6815",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-yg397c",
+      "title": "Lionel Messi Champion Game Minimal 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "champion-of-the-game-messi-minimal_yg397c",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "venom-km1tlf",
+      "title": "Venom Comic Style 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-comic-style-wallpaper_km1tlf",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-dl4sil",
+      "title": "Sung Jin-Woo Solo Leveling 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-solo-leveling-wallpaper_dl4sil",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-j1a5lz",
+      "title": "Lionel Messi Champion Football Star Mobile 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "champion-football-star-mobile-wallpaper_j1a5lz",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "doctor-doom-v4bmyq",
+      "title": "Doctor Doom All Hail HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "doctor doom",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "all-hail-doom_v4bmyq",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-zgrijg",
+      "title": "Sung Jin-Woo Cinematic Anime 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-cinematic-anime-wallpaper_zgrijg",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "erling-haaland-td629i",
+      "title": "Erling Haaland Unstoppable Force Man City 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "haaland",
+        "football",
+        "soccer",
+        "man city",
+        "iphone"
+      ],
+      "cloudinary_id": "haaland-unstoppable-force-man-city-wallpaper_td629i",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "black-panther-pcfn3i",
+      "title": "Black Panther Golden Cinematic HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "black panther",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "black-panther-golden-cinematic-wallpaper_pcfn3i",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-cfwhgo",
+      "title": "Sung Jin-Woo Dark Power 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-dark-power-wallpaper_cfwhgo",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "erling-haaland-py5jhr",
+      "title": "Erling Haaland Norway Pride 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "haaland",
+        "football",
+        "soccer",
+        "man city",
+        "iphone"
+      ],
+      "cloudinary_id": "haaland-norway-pride-wallpaper_py5jhr",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "captain-america-sjz7ys",
+      "title": "Captain America Heroic Cinematic HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "captain america",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "captain-america-heroic-cinematic-wallpaper_sjz7ys",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-sffh7q",
+      "title": "Sung Jin-Woo Epic Portrait 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-epic-portrait-wallpaper_sffh7q",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "erling-haaland-t1srhd",
+      "title": "Erling Haaland Orange Dutch Team Aura 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "haaland",
+        "football",
+        "soccer",
+        "man city",
+        "iphone"
+      ],
+      "cloudinary_id": "haaland-orange-dutch-team-aura-wallpaper_t1srhd",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-cxlmqy",
+      "title": "Spider-Man Cursed With Powers 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "cursed-with-the-powers-spider-man_cxlmqy",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-itaeup",
+      "title": "Sung Jin-Woo Shadow Monarch 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-shadow-monarch-wallpaper_itaeup",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "erling-haaland-iwmq65",
+      "title": "Erling Haaland Norwegian Power 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "haaland",
+        "football",
+        "soccer",
+        "man city",
+        "iphone"
+      ],
+      "cloudinary_id": "haaland-norwegian-power-wallpaper_iwmq65",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "deadpool-kwgbpk",
+      "title": "Deadpool Red Cinematic HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "deadpool",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "deadpool-red-cinematic-wallpaper_kwgbpk",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sung-jin-woo-d3ihpz",
+      "title": "Sung Jin-Woo Awakened 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sung jinwoo",
+        "solo leveling",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "sung-jinwoo-awakened-wallpaper_d3ihpz",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "erling-haaland-vmxhiz",
+      "title": "Erling Haaland Man City Dominance 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "haaland",
+        "football",
+        "soccer",
+        "man city",
+        "iphone"
+      ],
+      "cloudinary_id": "haaland-man-city-dominance-wallpaper_vmxhiz",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "captain-america-gwwyld",
+      "title": "Captain America Returned 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "captain america",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "captain-america-returned_gwwyld",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "isagi-q0wagv",
+      "title": "Isagi Modern Cutout HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "isagi",
+        "blue lock",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "isagi-modern-cutout-wallpaper_q0wagv",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "erling-haaland-xz9bgr",
+      "title": "Erling Haaland Goal Machine Man City 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "haaland",
+        "football",
+        "soccer",
+        "man city",
+        "iphone"
+      ],
+      "cloudinary_id": "haaland-goal-machine-man-city-wallpaper_xz9bgr",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "doctor-doom-fsdacp",
+      "title": "Doctor Doom Aura 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "doctor doom",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "doomsday-aura-wallpaper_fsdacp",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "akaza-kuvpmi",
+      "title": "Akaza Graphic Style HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "akaza",
+        "demon slayer",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "akaza-graphic-style-wallpaper_kuvpmi",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-ehynls",
+      "title": "Lionel Messi Eternal Goat HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-eternal-goat-4k_ehynls",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "doctor-doom-vevds8",
+      "title": "Doctor Doom 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "doctor doom",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "doomsday-wallpapers_vevds8",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "gojo-satoru-secenl",
+      "title": "Gojo Satoru Clean Portrait HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "gojo",
+        "jujutsu kaisen",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "gojo-clean-portrait-wallpaper_secenl",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-ktniqn",
+      "title": "Lionel Messi Legacy Minimal HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-legacy-minimal-4k_ktniqn",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-iztdq5",
+      "title": "Spider-Man Colorful Poster 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-colorful-poster-wallpaper_iztdq5",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "ichigo-kxecqk",
+      "title": "Ichigo Poster Design HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "ichigo",
+        "bleach",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "ichigo-poster-design-wallpaper_kxecqk",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-igq8mo",
+      "title": "Lionel Messi Immortal Legend HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-immortal-legend-4k_igq8mo",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-rjxsvr",
+      "title": "Spider-Man City Lights 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-city-lights-wallpaper_rjxsvr",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "naruto-gs8l98",
+      "title": "Naruto Heroic Cutout HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "naruto",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "naruto-heroic-cutout-wallpaper_gs8l98",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-oq1oiu",
+      "title": "Lionel Messi Football Icon Legend HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-football-icon-legend-4k_oq1oiu",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-irj3cp",
+      "title": "Spider-Man Neon Hero 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-neon-hero-wallpaper_irj3cp",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "luffy-gx48wv",
+      "title": "Luffy Cutout Design HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "luffy",
+        "one piece",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "luffy-cutout-design-wallpaper_gx48wv",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-jxnyzl",
+      "title": "Lionel Messi Greatness Unmatched HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-greatness-unmatched-4k_jxnyzl",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-vaex1i",
+      "title": "Spider-Man Brand New Day Neon 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-brand-new-day-neon-wallpaper_vaex1i",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "goku-ab3amy",
+      "title": "Goku Bold Anime HD Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "goku-bold-anime-wallpaper_ab3amy",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-mpljms",
+      "title": "Lionel Messi World Champion HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-world-champion-4k_mpljms",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-lvckmt",
+      "title": "Spider-Man Nyc Neon Poster 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-nyc-neon-poster-wallpaper_lvckmt",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-rmbens",
+      "title": "Lionel Messi Minimal HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-argentina-minimal-4k_rmbens",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-gy4bta",
+      "title": "Spider-Man Cinematic Neon 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-cinematic-neon-wallpaper_gy4bta",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-fah8vz",
+      "title": "Lionel Messi Football Icon HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-football-icon-4k_fah8vz",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "spider-man-n6lky9",
+      "title": "Spider-Man New York Vibes 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-new-york-vibes-wallpaper_n6lky9",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "lionel-messi-jupemt",
+      "title": "Lionel Messi Sky Blue Minimal 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "messi",
+        "football",
+        "soccer",
+        "goat",
+        "iphone"
+      ],
+      "cloudinary_id": "messi-sky-blue-minimal-4k_jupemt",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-ghzlgn",
+      "title": "Spider-Man Modern Poster 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-modern-poster-wallpaper_ghzlgn",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-vbfzgp",
+      "title": "Neymar Jr Prime Barca Prime 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "prime-barca-prime-neymar_vbfzgp",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-gpmq82",
+      "title": "Spider-Man Night City Aesthetic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-night-city-aesthetic-wallpaper_gpmq82",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-igjfjh",
+      "title": "Neymar Jr Psg Super Star 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-jr-psg-super-star_igjfjh",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-po6i0g",
+      "title": "Neymar Jr Santos Fc Star Boy 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "santos-fc-neymar-star-boy_po6i0g",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-cfnz2m",
+      "title": "Neymar Jr Psg Pink Minimal 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-psg-pink-minimal_cfnz2m",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-rkal4g",
+      "title": "Neymar Jr Paris St Germain 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "paris-st-germain-neymar-jr_rkal4g",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-b9gsec",
+      "title": "Neymar Jr Number 11 Barca 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "number-11-neymar-barca_b9gsec",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-llixz2",
+      "title": "Neymar Jr Psg Star 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-psg-star-4k_llixz2",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-mkgoxn",
+      "title": "Neymar Jr Barca Legend Champion 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-barca-legend-champion_mkgoxn",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-oim3ts",
+      "title": "Neymar Jr Barca Prime Era 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-barca-prime-era_oim3ts",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-g5pbl6",
+      "title": "Neymar Jr Psg Minimal 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "psg",
+        "barca",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-psg-minimal-4k_g5pbl6",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-sgdm7g",
+      "title": "Superman Epic Poster 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-epic-poster-wallpaper_sgdm7g",
       "resolution": "4K",
       "featured": false
     },
     {
-      "id": "ferrari-f1-race-car",
-      "title": "Ferrari F1 Race Car 4K Wallpaper",
+      "id": "f1-mubk36",
+      "title": "F1 Racing Quote 4K Wallpaper",
       "category": "motorsports-cars",
       "subcategory": "motorsports-cars/f1",
-      "tags": ["ferrari", "f1", "race car", "motorsports"],
-      "cloudinary_id": "ferrari-f1-race-car-wallpaper_vphqex",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-minimal-racing-quote-pc-wallpaper_mubk36",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-pqxmil",
+      "title": "Sergio Ramos Bold Character 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-bold-character-wallpaper_pqxmil",
       "resolution": "4K",
       "featured": false
-   }
+    },
+    {
+      "id": "minecraft-ryuoig",
+      "title": "Minecraft Quiet Nature 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "minecraft",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "minecraft-quiet-nature-wallpaper_ryuoig",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "dark-warrior-art-h8k9eg",
+      "title": "Dark Warrior Sketch 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "warrior art",
+        "ai art",
+        "dark fantasy",
+        "iphone"
+      ],
+      "cloudinary_id": "warrior-darkness-sketch-wallpaper_h8k9eg",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mazda-rx-7-qxhc8g",
+      "title": "Mazda RX-7 Tuning 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mazda",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "mazda-rx7-tuning-wallpaper_qxhc8g",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "black-widow-x5aygb",
+      "title": "Black Widow Dark Heroine 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "black widow",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "black-widow-dark-heroine-wallpaper_x5aygb",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "hermione-granger-i2yaqr",
+      "title": "Hermione Granger Magical Aesthetic 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "hermione granger",
+        "harry potter",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "hermione-granger-magical-aesthetic-wallpaper_i2yaqr",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "sukuna-zegutm",
+      "title": "Sukuna Cursed Power 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sukuna",
+        "jujutsu kaisen",
+        "anime",
+        "pc"
+      ],
+      "cloudinary_id": "sukuna-cursed-power-anime-pc_zegutm",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-yqdegh",
+      "title": "Neymar Jr Golden Greatness 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-golden-greatness-wallpaper_yqdegh",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-kgkees",
+      "title": "Superman Hero Showcase 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-hero-showcase-wallpaper_kgkees",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-qaugkd",
+      "title": "F1 Racing Ambition 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-racing-ambition-pc-wallpaper_qaugkd",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-asejse",
+      "title": "Sergio Ramos Timeless Legend 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-timeless-legend-wallpaper_asejse",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "minecraft-fehzmg",
+      "title": "Minecraft Peaceful Landscape 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "minecraft",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "minecraft-peaceful-landscape-wallpaper_fehzmg",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "dark-warrior-art-jmjhtr",
+      "title": "Dark Warrior Art HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "warrior art",
+        "ai art",
+        "dark fantasy",
+        "iphone"
+      ],
+      "cloudinary_id": "warrior-silhouette-ink-wallpaper_jmjhtr",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mitsubishi-evo-u9nlks",
+      "title": "Mitsubishi Evo Racing 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mitsubishi",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "mitsubishi-evolution-racing-wallpaper_u9nlks",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "black-widow-fya6dy",
+      "title": "Black Widow Action 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "black widow",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "black-widow-premium-action-wallpaper_fya6dy",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "hermione-granger-ymlix6",
+      "title": "Hermione Granger Harry Potter 4K Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "hermione granger",
+        "harry potter",
+        "movies",
+        "iphone"
+      ],
+      "cloudinary_id": "hermione-granger-harry-potter-wallpaper_ymlix6",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "sukuna-mxkj60",
+      "title": "Sukuna Red Aura 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sukuna",
+        "jujutsu kaisen",
+        "anime",
+        "pc"
+      ],
+      "cloudinary_id": "sukuna-red-aura-anime-pc_mxkj60",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-zoxal7",
+      "title": "Neymar Jr Bold Legacy 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-bold-legacy-wallpaper_zoxal7",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-zuuiwj",
+      "title": "Superman Iconic Portrait 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-iconic-portrait-wallpaper_zuuiwj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-v4btps",
+      "title": "F1 Racing Quote HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-racing-quote-pc-wallpaper_v4btps",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-pmprye",
+      "title": "Sergio Ramos Warrior Spirit 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-warrior-spirit-wallpaper_pmprye",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "kratos-hyuvlj",
+      "title": "Kratos Norse Aura 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "kratos",
+        "god of war",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "kratos-norse-aura-wallpaper_hyuvlj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "dark-warrior-art-y8qayl",
+      "title": "Shadow Warrior Art 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "warrior art",
+        "ai art",
+        "dark fantasy",
+        "iphone"
+      ],
+      "cloudinary_id": "shadow-warrior-black-art-wallpaper_y8qayl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toyota-supra-yfedzc",
+      "title": "Toyota Supra Performance Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "toyota supra",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "toyota-performance-car-wallpaper_yfedzc",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "black-widow-olfp45",
+      "title": "Black Widow Cinematic Portrait 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "black widow",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "black-widow-cinematic-portrait-wallpaper_olfp45",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "sukuna-chpxvp",
+      "title": "Sukuna Dark Red Portrait 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sukuna",
+        "jujutsu kaisen",
+        "anime",
+        "pc"
+      ],
+      "cloudinary_id": "sukuna-dark-red-portrait-anime-pc_chpxvp",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-mnrzds",
+      "title": "Neymar Jr Modern Icon 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-modern-icon-wallpaper_mnrzds",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-ltq2zu",
+      "title": "Superman Cinematic 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-premium-cinematic-wallpaper_ltq2zu",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-tlrwd6",
+      "title": "F1 Driver Determination 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-driver-determination-pc-wallpaper_tlrwd6",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-gqjqcl",
+      "title": "Sergio Ramos Football Legacy 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-football-legacy-wallpaper_gqjqcl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "kratos-ha4a4x",
+      "title": "Kratos Clean Cutout 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "kratos",
+        "god of war",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "kratos-clean-cutout-wallpaper_ha4a4x",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "dark-warrior-art-lzkypl",
+      "title": "Ancient Warrior Shadow 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "warrior art",
+        "ai art",
+        "dark fantasy",
+        "iphone"
+      ],
+      "cloudinary_id": "ancient-warrior-shadow-wallpaper_lzkypl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "nissan-gt-r-q5khvo",
+      "title": "Nissan GT-R Performance 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "nissan gtr",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "nissan-gtr-performance-wallpaper_q5khvo",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "black-widow-rfaa9l",
+      "title": "Black Widow Red Hourglass 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "black widow",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "black-widow-red-hourglass-wallpaper_rfaa9l",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "sukuna-ruxkhb",
+      "title": "Sukuna Crimson Energy 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sukuna",
+        "jujutsu kaisen",
+        "anime",
+        "pc"
+      ],
+      "cloudinary_id": "sukuna-crimson-energy-anime-pc_ruxkhb",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-egalhh",
+      "title": "Neymar Jr Football Aura 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-football-aura-wallpaper_egalhh",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-cpkcuv",
+      "title": "Superman Cinematic Display 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-cinematic-display-wallpaper_cpkcuv",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-ajlwaq",
+      "title": "F1 Driver Focus 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-driver-focus-pc-wallpaper_ajlwaq",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-stcwih",
+      "title": "Sergio Ramos Greatness 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-greatness-wallpaper_stcwih",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "kratos-wpc9tk",
+      "title": "Kratos Godlike Presence 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "kratos",
+        "god of war",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "kratos-godlike-presence-wallpaper_wpc9tk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "dark-warrior-art-z612zp",
+      "title": "Dark Warrior Ink Art 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "warrior art",
+        "ai art",
+        "dark fantasy",
+        "iphone"
+      ],
+      "cloudinary_id": "dark-warrior-ink-sketch-wallpaper_z612zp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toyota-supra-ikd7j5",
+      "title": "Toyota Supra Performance 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "toyota supra",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "toyota-supra-performance-wallpaper_ikd7j5",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-fxp7ys",
+      "title": "Spider-Man Comic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-comic-phone-wallpaper_fxp7ys",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sukuna-jvcg4r",
+      "title": "Sukuna Royal Crimson 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "sukuna",
+        "jujutsu kaisen",
+        "anime",
+        "pc"
+      ],
+      "cloudinary_id": "sukuna-royal-crimson-anime-pc_jvcg4r",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-sjr6lc",
+      "title": "Neymar Jr Bold Player Poster 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-bold-player-poster-wallpaper_sjr6lc",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-pxtq17",
+      "title": "Superman Heroic Aura 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-heroic-aura-wallpaper_pxtq17",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-rddkn0",
+      "title": "F1 Driver Motivation 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-driver-motivation-pc-wallpaper_rddkn0",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-dwygsa",
+      "title": "Sergio Ramos Champion Mindset 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-champion-mindset-wallpaper_dwygsa",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "red-dead-redemption-2-hohqp2",
+      "title": "Red Dead Redemption 2 Western Dreamscape 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "red dead redemption",
+        "rdr2",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "rdr2-western-dreamscape-wallpaper_hohqp2",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-exqcge",
+      "title": "Japanese Landscape Tranquil Dreamscape 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-tranquil-dreamscape-wallpaper_exqcge",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "nissan-gt-r-losifo",
+      "title": "Nissan GT-R Street 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "nissan gtr",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "nissan-silvia-street-wallpaper_losifo",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-gelci6",
+      "title": "Spider-Man Comic City 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider-man-comic-city-phone-wallpaper_gelci6",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "goku-ihfhpl",
+      "title": "Goku Full Power Clean 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "goku-full-power-clean-wallpaper_ihfhpl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-ednics",
+      "title": "Neymar Jr Timeless Flair 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-timeless-flair-wallpaper_ednics",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-ouxg05",
+      "title": "Superman Power Awakened 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-power-awakened-wallpaper_ouxg05",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-xepdbl",
+      "title": "F1 Speed Quote 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-speed-quote-pc-wallpaper_xepdbl",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-cnc8sx",
+      "title": "Sergio Ramos Legendary Presence 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-legendary-presence-wallpaper_cnc8sx",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "kratos-gcgdax",
+      "title": "Kratos Rage Portrait 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "kratos",
+        "god of war",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "kratos-rage-portrait-wallpaper_gcgdax",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-gieizt",
+      "title": "Japanese Landscape Landscape 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "solitary-japanese-landscape-wallpaper_gieizt",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "lexus-lfa-ed57hl",
+      "title": "Lexus LFA HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "lexus lfa",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "lexus-lfa_ed57hl",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "thor-ykxinl",
+      "title": "Thor HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "thor_minimal_pro_wallpaper_ykxinl",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "goku-ddg6nr",
+      "title": "Goku Limitless Power 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "goku-limitless-power-wallpaper_ddg6nr",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "neymar-jr-jn5mcn",
+      "title": "Neymar Jr Signature Style 4K Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "neymar",
+        "football",
+        "soccer",
+        "iphone"
+      ],
+      "cloudinary_id": "neymar-signature-style-wallpaper_jn5mcn",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "superman-dxgwxo",
+      "title": "Superman Sky Guardian 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-sky-guardian-wallpaper_dxgwxo",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-r5fg9i",
+      "title": "F1 Racing Mindset 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "motorsports",
+        "pc"
+      ],
+      "cloudinary_id": "f1-racing-mindset-pc-wallpaper_r5fg9i",
+      "resolution": "2K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-ikicyt",
+      "title": "Sergio Ramos Football Icon 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-football-icon-wallpaper_ikicyt",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "red-dead-redemption-2-zo3bc3",
+      "title": "Red Dead Redemption 2 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "red dead redemption",
+        "rdr2",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "red-dead-redemption-2-ai-art-wallpaper_zo3bc3",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-i9urz1",
+      "title": "Japanese Landscape Mountain 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "quiet-japan-mountain-wallpaper_i9urz1",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "audi-r8-f2onjm",
+      "title": "Audi R8 HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "audi r8",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "audi-r8_f2onjm",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "hawkeye-fy6dms",
+      "title": "Hawkeye HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "hawkeye",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "Hawkeye_premium_minimal_fy6dms",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "goku-mcjdwq",
+      "title": "Goku Awakened Aura 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "anime",
+        "iphone"
+      ],
+      "cloudinary_id": "goku-awakened-aura-wallpaper_mcjdwq",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "superman-ez5ay4",
+      "title": "Superman Unbreakable Spirit 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-unbreakable-spirit-wallpaper_ez5ay4",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-fjigfp",
+      "title": "Sergio Ramos Iconic Portrait 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-iconic-portrait-wallpaper_fjigfp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "kratos-xqg0i6",
+      "title": "Kratos Legendary Warrior 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "kratos",
+        "god of war",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "kratos-legendary-warrior-wallpaper_xqg0i6",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-ndrsdf",
+      "title": "Japanese Landscape Retreat 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-moonlit-retreat-wallpaper_ndrsdf",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "corvette-z06-tj2qz9",
+      "title": "Corvette Z06 HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "corvette",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "corvette-zo6_tj2qz9",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "scarlet-witch-bwfci2",
+      "title": "Scarlet Witch HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "scarlet witch",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "scarlet_witch_red_hd_bwfci2",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "superman-hgasdg",
+      "title": "Superman Timeless Legend 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-timeless-legend-wallpaper_hgasdg",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "sergio-ramos-exshoi",
+      "title": "Sergio Ramos Commanding Aura 4K Wallpaper",
+      "category": "sports",
+      "subcategory": "sports/soccer-legends",
+      "tags": [
+        "sergio ramos",
+        "football",
+        "soccer",
+        "legend",
+        "iphone"
+      ],
+      "cloudinary_id": "sergio-ramos-commanding-aura-wallpaper_exshoi",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "kratos-e0qzoc",
+      "title": "Kratos Ashen Warrior 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "kratos",
+        "god of war",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "kratos-ashen-warrior-wallpaper_e0qzoc",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-n8jbob",
+      "title": "Japanese Landscape Serenity 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japan-wilderness-serenity-wallpaper_n8jbob",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toyota-supra-j0qsnn",
+      "title": "Toyota Supra HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "toyota supra",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "toyota-supra_j0qsnn",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "black-panther-nwpxak",
+      "title": "Black Panther HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "black panther",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "black_panthdr_premium_purple_theme_nwpxak",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "superman-x3vbh4",
+      "title": "Superman Legendary 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "superman",
+        "dc",
+        "man of steel",
+        "iphone"
+      ],
+      "cloudinary_id": "superman-legendary-4k-wallpaper_x3vbh4",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-erywqp",
+      "title": "Ezio Auditore Master Assassin 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-master-assassin-wallpaper_erywqp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-x1brdz",
+      "title": "Japanese Landscape Scenery 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-lonely-scenery-wallpaper_x1brdz",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "koenigsegg-jesko-icnuho",
+      "title": "Koenigsegg Jesko HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "koenigsegg",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "Koenigsegg-jesko_icnuho",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "thor-upctgz",
+      "title": "Thor Godlike HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "thor-premium-godlike-wallpaper_upctgz",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "joker-txtkrv",
+      "title": "Joker Clown Face HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "joker",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "joker-clown-face-wallpaper_txtkrv",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "gta-6-gcu9gp",
+      "title": "GTA 6 Sunset 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "gta 6",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "gta-6-miami-sunset-ai-wallpaper_gcu9gp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-cs1f9e",
+      "title": "Japanese Landscape Evening 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "peaceful-japan-evening-wallpaper_cs1f9e",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mclaren-765lt-z6xqez",
+      "title": "McLaren 765LT HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mclaren",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "mclaren-765-lt_z6xqez",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "doctor-strange-yaqkpz",
+      "title": "Doctor Strange Mystic HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "doctor strange",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "doctor-strange-premium-mystic-wallpaper_yaqkpz",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "joker-kqgkjv",
+      "title": "Joker Dark Clown Aesthetic HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "joker",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "joker-dark-clown-aesthetic-wallpaper_kqgkjv",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-bxl3zm",
+      "title": "Ezio Auditore Renaissance Legend 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-renaissance-legend-wallpaper_bxl3zm",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-landscape-vvxliy",
+      "title": "Japanese Landscape Landscape HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "japan",
+        "japanese aesthetic",
+        "ai art",
+        "nature",
+        "iphone"
+      ],
+      "cloudinary_id": "japanese-solitude-landscape-wallpaper_vvxliy",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "porsche-911-fih9ey",
+      "title": "Porsche 911 HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "porsche 911",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "911-porshe_fih9ey",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "hulk-eygey7",
+      "title": "Hulk HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "hulk",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "hulk_green_marvel_theme_eygey7",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "joker-fmvhl1",
+      "title": "Joker Chaotic Expression HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "joker",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "joker-chaotic-expression-wallpaper_fmvhl1",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-ymjo0n",
+      "title": "Ezio Auditore Hidden Blade 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-hidden-blade-wallpaper_ymjo0n",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "peaceful-nature-qippfk",
+      "title": "Peaceful Nature 4K Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "ai art",
+        "peaceful",
+        "iphone"
+      ],
+      "cloudinary_id": "serene-landscape-minimal-phone-wallpaper_qippfk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "nissan-gt-r-wrvszt",
+      "title": "Nissan GT-R HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "nissan gtr",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "nissan-r35-4k_wrvszt",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "captain-america-ciszvo",
+      "title": "Captain America Hero HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "captain america",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "captain-america-premium-hero-wallpaper_ciszvo",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "joker-wobklc",
+      "title": "Joker Cinematic Happiness HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "joker",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "joker-cinematic-happiness-wallpaper_wobklc",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "gta-6-uqm6tu",
+      "title": "GTA 6 Skyline 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "gta 6",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "gta-6-florida-skyline-ai-art-wallpaper_uqm6tu",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "peaceful-nature-s7ny4w",
+      "title": "Peaceful Nature HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "ai art",
+        "peaceful",
+        "iphone"
+      ],
+      "cloudinary_id": "peaceful-nature-evening-phone-wallpaper_s7ny4w",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mercedes-amg-gt-jdt1hf",
+      "title": "Mercedes-AMG GT HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mercedes amg",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "mercedes-amg-gt-black_jdt1hf",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "iron-man-e878vp",
+      "title": "Iron Man Cinematic HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "iron man",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "iron-man-premium-cinematic-wallpaper_e878vp",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "joker-sv5qzn",
+      "title": "Joker Cinematic Duality HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "joker",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "joker-cinematic-duality-wallpaper_sv5qzn",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-anajzk",
+      "title": "Ezio Auditore Assassin 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-auditore-assassin-wallpaper_anajzk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m4-kt6jpg",
+      "title": "BMW M4 HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw m4",
+        "supercars",
+        "motorsports",
+        "iphone"
+      ],
+      "cloudinary_id": "bmw-m4_kt6jpg",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "hulk-py1yhv",
+      "title": "Hulk 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "hulk",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "hulk_marvel_hd_minimal_py1yhv",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "joker-mbchj1",
+      "title": "Joker Cinematic Sadness HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "joker",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "joker-cinematic-sadness-wallpaper_mbchj1",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-i4lpbs",
+      "title": "Ezio Auditore Timeless Warrior 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-timeless-warrior-wallpaper_i4lpbs",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "deadpool-riylim",
+      "title": "Deadpool 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "deadpool",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "marvel_dead_pool_4k_riylim",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "joker-c1ez4f",
+      "title": "Joker Emotional Portrait HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "joker",
+        "dc",
+        "iphone"
+      ],
+      "cloudinary_id": "joker-emotional-portrait-wallpaper_c1ez4f",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-m95nug",
+      "title": "Ezio Auditore 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-assassins-creed-wallpaper_m95nug",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "thor-sxkoms",
+      "title": "Thor Thunder 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "thor-thunder-4k-minimal_sxkoms",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-b0fvma",
+      "title": "Ezio Auditore Iconic Portrait 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-iconic-portrait-wallpaper_b0fvma",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "iron-man-lq4dre",
+      "title": "Iron Man Marvel 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "iron man",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "iron-man-4k-marvel_lq4dre",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-zbx3fc",
+      "title": "Ezio Auditore Freedom Aura 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-freedom-aura-wallpaper_zbx3fc",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "thor-cwr411",
+      "title": "Thor 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "thor",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "premium_thor_4k_minimal_cwr411",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-tj95qn",
+      "title": "Ezio Auditore Venice Adventure 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-venice-adventure-wallpaper_tj95qn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "spider-man-yotj8a",
+      "title": "Spider-Man 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "spider_man_cinematic_yotj8a",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ezio-auditore-ty4rhw",
+      "title": "Ezio Auditore Freedom 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "ezio",
+        "assassins creed",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "ezio-freedom-wallpaper_ty4rhw",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "wolverine-eugnga",
+      "title": "Wolverine Yellow 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "wolverine",
+        "marvel",
+        "x-men",
+        "iphone"
+      ],
+      "cloudinary_id": "wolverine-hd-yellow-theme_eugnga",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "kratos-iogbvi",
+      "title": "Kratos Warrior Aura 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "kratos",
+        "god of war",
+        "gaming",
+        "iphone"
+      ],
+      "cloudinary_id": "kratos-warrior-aura-wallpaper_iogbvi",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "captain-america-mn6cu8",
+      "title": "Captain America 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "captain america",
+        "marvel",
+        "avengers",
+        "iphone"
+      ],
+      "cloudinary_id": "captain-america-minimal_mn6cu8",
+      "resolution": "4K",
+      "featured": false
+    }
   ]
 }
-    
