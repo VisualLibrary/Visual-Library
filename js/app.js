@@ -39,6 +39,7 @@ async function _load(){
     var r=await fetch('/wallpapers.json');
     if(!r.ok)throw new Error('fetch failed');
     _d=await r.json();
+    if(_d.wallpapers)_d.wallpapers=_d.wallpapers.slice().reverse();
   }catch(e){}
   var pg=document.body.getAttribute('data-page');
   _header();
