@@ -408,3 +408,49 @@ mark{background:var(--accent-dim);color:var(--accent);border-radius:3px;padding:
 ::-webkit-scrollbar-thumb{background:var(--bg-4);border-radius:999px;}
 ::-webkit-scrollbar-thumb:hover{background:var(--accent);}
 ::selection{background:var(--accent-dim);color:var(--accent);}
+.shop-nav-btn{
+  padding:7px 12px;
+  background:transparent;
+  border:none;
+  border-radius:var(--radius-sm);
+  color:var(--accent);
+  font-size:13.5px;font-weight:700;
+  transition:all var(--t);
+}
+.shop-nav-btn:hover{
+  color:var(--accent);
+  background:var(--bg-2);
+}
+
+
+
+/* ── Adsterra Ad Containers ── */
+.ad-unit{
+  text-align:center;
+  margin:0 auto;
+  width:fit-content;
+}
+.ad-unit::before{
+  content:'Sponsored';
+  display:block;
+  font-size:9px;font-weight:700;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:var(--text-3);
+  margin-bottom:6px;
+}
+.ad-strip{padding:4px 0 8px;}
+.ad-rect{padding:10px 0 14px;}
+.ad-native{padding:8px 0 12px;}
+.ad-unit:hover{border-color:var(--border-2);}
+
+.ad-strip{
+  padding:6px 0 10px;
+}
+.ad-rect{
+  padding:12px 0 16px;
+}
+.ad-native{
+  padding:10px 0 14px;
+  border-radius:var(--radius);
+}

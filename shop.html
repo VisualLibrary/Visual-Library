@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
+<title>Shop — Visual Library | Merch & Collectibles for Fans</title>
+<meta name="description" content="Handpicked figures, posters, gear and accessories for Marvel, DC, Anime, Gaming, Sports and Motorsports fans. Every pick curated by Visual Library."/>
+<link rel="canonical" href="https://visuallibrary.netlify.app/shop.html"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-85ST3PM7N6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-85ST3PM7N6');</script>
+<style>
+/* ── layout ── */
+.shop-wrap{max-width:1200px;margin:0 auto;padding:0 32px 100px;}
+@media(max-width:768px){.shop-wrap{padding:0 20px 80px;}}
+
+/* ── hero ── */
+.shop-hero{
+  padding:56px 0 40px;text-align:center;position:relative;
+}
+.shop-hero::before{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(0,198,255,0.07) 0%,transparent 70%);
+}
+.shop-hero-label{
+  display:inline-block;font-size:11px;font-weight:700;
+  letter-spacing:0.10em;color:var(--accent);
+  border:1px solid rgba(0,198,255,0.22);
+  background:var(--accent-dim);border-radius:999px;
+  padding:4px 16px;margin-bottom:18px;
+}
+.shop-hero h1{
+  font-size:clamp(24px,4vw,48px);font-weight:900;
+  letter-spacing:-0.04em;line-height:1.1;margin:0 0 12px;
+  background:linear-gradient(135deg,var(--text-1) 0%,var(--text-2) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.shop-hero p{font-size:14px;color:var(--text-2);max-width:460px;margin:0 auto 6px;line-height:1.65;}
+.shop-affiliate-note{font-size:11px;color:var(--text-3);margin-top:10px;}
+
+/* ── jump nav ── */
+.shop-nav{
+  display:flex;flex-wrap:wrap;gap:8px;
+  justify-content:center;margin:0 0 52px;
+  padding:0;list-style:none;
+}
+.shop-nav a{
+  font-size:12.5px;font-weight:600;color:var(--text-2);
+  background:var(--bg-2);border:1px solid var(--border-2);
+  border-radius:999px;padding:6px 16px;text-decoration:none;
+  transition:all var(--t);
+}
+.shop-nav a:hover{color:var(--text-1);border-color:var(--accent);background:var(--accent-dim);}
+
+/* ── section ── */
+.shop-section{margin-bottom:64px;}
+.shop-section-hd{
+  margin-bottom:20px;padding-bottom:14px;
+  border-bottom:1px solid var(--border);
+  display:flex;flex-direction:column;gap:6px;
+}
+.shop-section-hd h2{
+  font-size:18px;font-weight:800;
+  color:var(--text-1);letter-spacing:-0.02em;margin:0;
+}
+.shop-section-desc{
+  font-size:13px;color:var(--text-2);
+  line-height:1.6;max-width:600px;margin:0;
+}
+.shop-section-meta{font-size:11px;color:var(--text-3);font-weight:600;}
+
+/* ── grid ── */
+.shop-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(210px,1fr));
+  gap:16px;
+}
+@media(max-width:640px){.shop-grid{grid-template-columns:1fr 1fr;gap:12px;}}
+@media(max-width:360px){.shop-grid{grid-template-columns:1fr;}}
+
+/* ── card ── */
+.shop-card{
+  border-radius:14px;
+  padding:0;
+  display:flex;flex-direction:column;
+  transition:transform var(--t),box-shadow var(--t),border-color var(--t);
+  text-decoration:none;
+  overflow:hidden;
+  position:relative;
+  min-height:240px;
+  border:1px solid var(--border);
+  /* left accent strip via box-shadow inset */
+}
+.shop-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 24px 56px rgba(0,0,0,0.55);
+}
+
+/* left colour strip — 4px solid left border using outline trick */
+.shop-card-bar{
+  position:absolute;top:0;left:0;bottom:0;
+  width:4px;border-radius:14px 0 0 14px;
+  flex-shrink:0;
+}
+
+/* card body */
+.shop-card-body{
+  padding:20px 18px 14px 24px;
+  display:flex;flex-direction:column;
+  gap:12px;flex:1;
+}
+
+/* tag */
+.shop-tag{
+  display:inline-block;font-size:10px;font-weight:700;
+  letter-spacing:0.04em;border-radius:6px;
+  padding:3px 9px;width:fit-content;
+}
+.shop-tag.collector{background:rgba(192,132,252,0.14);color:#c084fc;border:1px solid rgba(192,132,252,0.28);}
+.shop-tag.favorite{background:var(--accent-dim);color:var(--accent);border:1px solid rgba(0,198,255,0.28);}
+.shop-tag.value{background:rgba(52,211,153,0.12);color:#34d399;border:1px solid rgba(52,211,153,0.25);}
+.shop-tag.seller{background:rgba(255,92,53,0.12);color:var(--cta);border:1px solid rgba(255,92,53,0.28);}
+
+/* name */
+.shop-card-name{
+  font-size:15px;font-weight:800;
+  color:var(--text-1);line-height:1.25;
+  margin:0;letter-spacing:-0.02em;
+}
+
+/* desc */
+.shop-card-desc{
+  font-size:12px;color:var(--text-2);
+  line-height:1.6;margin:0;flex:1;
+}
+
+/* footer */
+.shop-card-footer{
+  display:flex;align-items:center;
+  justify-content:space-between;
+  gap:8px;padding:14px 18px 14px 24px;
+  border-top:1px solid var(--border);
+  margin-top:auto;
+}
+.shop-card-price{
+  font-size:22px;font-weight:900;
+  color:var(--text-1);letter-spacing:-0.03em;
+  line-height:1;
+}
+.shop-card-btn{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:11px;font-weight:700;
+  color:#000;background:var(--accent);
+  border-radius:8px;padding:8px 13px;
+  text-decoration:none;white-space:nowrap;
+  transition:background var(--t),transform var(--t);flex-shrink:0;
+}
+.shop-card-btn:hover{background:#22D4FF;transform:scale(1.04);}
+.shop-card-btn svg{width:10px;height:10px;flex-shrink:0;}
+
+/* ── section colour system ── */
+/* Marvel & DC — red */
+.sec-marvel .shop-card{background:linear-gradient(135deg,#1a1018 0%,var(--bg-2) 60%);}
+.sec-marvel .shop-card:hover{border-color:rgba(226,54,54,0.40);box-shadow:0 24px 56px rgba(226,54,54,0.12);}
+.bar-marvel{background:linear-gradient(180deg,#e23636,#ff6b6b);}
+
+/* Anime — purple */
+.sec-anime .shop-card{background:linear-gradient(135deg,#130f1e 0%,var(--bg-2) 60%);}
+.sec-anime .shop-card:hover{border-color:rgba(124,58,237,0.40);box-shadow:0 24px 56px rgba(124,58,237,0.12);}
+.bar-anime{background:linear-gradient(180deg,#7c3aed,#a78bfa);}
+
+/* Sports — green */
+.sec-sports .shop-card{background:linear-gradient(135deg,#0d1a10 0%,var(--bg-2) 60%);}
+.sec-sports .shop-card:hover{border-color:rgba(22,163,74,0.40);box-shadow:0 24px 56px rgba(22,163,74,0.12);}
+.bar-sports{background:linear-gradient(180deg,#16a34a,#4ade80);}
+
+/* Gaming — Hot Pink  */
+.bar-gaming{background:linear-gradient(180deg,#e91e8c,#ff6eb4);}
+.sec-gaming .shop-card{background:linear-gradient(135deg,#1a0812 0%,var(--bg-2) 60%);}
+.sec-gaming .shop-card:hover{border-color:rgba(233,30,140,0.40);box-shadow:0 24px 56px rgba(233,30,140,0.12);}
+
+/* Motorsports — orange */
+.sec-motors .shop-card{background:linear-gradient(135deg,#1a1008 0%,var(--bg-2) 60%);}
+.sec-motors .shop-card:hover{border-color:rgba(249,115,22,0.40);box-shadow:0 24px 56px rgba(249,115,22,0.12);}
+.bar-motors{background:linear-gradient(180deg,#dc2626,#f97316);}
+
+/* Movies — gold */
+.sec-movies .shop-card{background:linear-gradient(135deg,#1a1500 0%,var(--bg-2) 60%);}
+.sec-movies .shop-card:hover{border-color:rgba(217,119,6,0.40);box-shadow:0 24px 56px rgba(217,119,6,0.12);}
+.bar-movies{background:linear-gradient(180deg,#d97706,#fbbf24);}
+
+/* Setup — */
+.bar-general{background:linear-gradient(180deg,#ffffff,#94a3b8);}
+.sec-general .shop-card{background:linear-gradient(135deg,#141418 0%,var(--bg-2) 60%);}
+.sec-general .shop-card:hover{border-color:rgba(255,255,255,0.25);box-shadow:0 24px 56px rgba(255,255,255,0.08);}
+/* notice */
+.shop-notice{
+  text-align:center;font-size:11.5px;color:var(--text-3);
+  border-top:1px solid var(--border);
+  padding-top:28px;margin-top:8px;line-height:1.75;
+}
+</style>
+</head>
+<body data-page="shop">
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="/" aria-label="Visual Library Home">
+      <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
+      <span>Visual Library</span>
+    </a>
+    <div class="header-search-wrap">
+      <form class="vl-search" role="search" autocomplete="off">
+        <div class="search-box">
+          <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+          <input name="q" placeholder="Search wallpapers, categories..." type="text" aria-label="Search wallpapers"/>
+          <button class="search-submit" type="button" aria-label="Submit search">Search</button>
+        </div>
+        <div class="search-dropdown" role="listbox" aria-label="Search suggestions"></div>
+      </form>
+    </div>
+    <nav class="header-nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/shop.html" class="shop-nav-btn">Shop</a>
+      <a class="pin-btn" href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer" aria-label="Visual Library on Pinterest">
+        <svg style="width:13px;height:13px;fill:currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.06-.94-.11-2.38.02-3.4.12-.93.8-5.9.8-5.9s-.2-.4-.2-1c0-.94.55-1.64 1.23-1.64.58 0 .86.43.86.96 0 .58-.37 1.46-.56 2.27-.16.68.34 1.23 1.01 1.23 1.21 0 2.14-1.28 2.14-3.12 0-1.63-1.17-2.77-2.84-2.77-1.94 0-3.08 1.45-3.08 2.95 0 .58.22 1.21.5 1.55a.2.2 0 0 1 .05.19c-.05.22-.17.68-.2.78-.03.13-.1.16-.24.1-.9-.42-1.46-1.73-1.46-2.79 0-2.27 1.65-4.36 4.76-4.36 2.5 0 4.44 1.78 4.44 4.16 0 2.48-1.57 4.48-3.74 4.48-.73 0-1.42-.38-1.65-.83l-.45 1.72c-.16.63-.6 1.42-.9 1.9A12 12 0 1 0 12 0z"/></svg>
+        Pinterest
+      </a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+      <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+    </button>
+  </div>
+  <div class="mobile-search-bar" aria-hidden="true">
+    <form class="vl-search" role="search" autocomplete="off">
+      <div class="search-box">
+        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+        <input name="q" placeholder="Search wallpapers..." type="text" aria-label="Search wallpapers"/>
+        <button class="search-submit" type="button">Go</button>
+      </div>
+      <div class="search-dropdown" role="listbox"></div>
+    </form>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <a href="/">Home</a>
+    <a href="/shop.html" class="shop-nav-btn">Shop</a>
+    <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">Pinterest</a>
+  </nav>
+</header>
+
+<main>
+<div class="shop-wrap">
+
+  <div class="shop-hero">
+    <div class="shop-hero-label">Handpicked for fans</div>
+    <h1>Merch that matches<br/>your wallpaper</h1>
+    <p>Figures, posters, gear and accessories across every category — curated picks at every price point.</p>
+    <p class="shop-affiliate-note">As an Amazon Associate we earn from qualifying purchases.</p>
+  </div>
+
+  <ul class="shop-nav" aria-label="Jump to section">
+    <li><a href="#marvel-dc">Marvel &amp; DC</a></li>
+    <li><a href="#anime">Anime</a></li>
+    <li><a href="#sports">Sports</a></li>
+    <li><a href="#gaming">Gaming</a></li>
+    <li><a href="#motorsports">Motorsports</a></li>
+    <li><a href="#movies-tv">Movies &amp; TV</a></li>
+    <li><a href="#general">Setup</a></li>
+  </ul>
+
+  <!-- MARVEL & DC -->
+  <section class="shop-section sec-marvel" id="marvel-dc">
+    <div class="shop-section-hd">
+      <h2>Marvel &amp; DC</h2>
+      <p class="shop-section-desc">Action figures, phone cases and wall art for fans of the Marvel and DC universes — from affordable fan picks to serious collector statues.</p>
+      <span class="shop-section-meta">6 picks</span>
+    </div>
+    <div class="shop-grid">
+
+      <a class="shop-card" href="https://www.amazon.com/Belkin-Marvel-Spider-Man-iPhone-MagSafe/dp/B0GYVLTL58?linkCode=ll2&tag=visual_library00-20&linkId=977f53c06d62d5d113afd4fb8ddfb8ba&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-marvel"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Spider-Man MagSafe Case</p>
+          <p class="shop-card-desc">Official Disney-licensed, Qi2 wireless charging, 6.5ft drop protection.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$45</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/McFarlane-Toys-14866-Grande-Prairie/dp/B0G36FDG15?linkCode=ll2&tag=visual_library00-20&linkId=36aa41a23186cab785c8f97cf71dcaf5&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-marvel"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Doctor Strange Figure</p>
+          <p class="shop-card-desc">Marvel Rivals-inspired, 8.2" tall with art card and base. 100+ sold monthly.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$30</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/McFarlane-Toys-14879-Toys-Medicine/dp/B0G36D4W89?linkCode=ll2&tag=visual_library00-20&linkId=dbe1e32fe62b89d48e942d3bffcbdf40&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-marvel"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag collector">Collector's Pick</span>
+          <p class="shop-card-name">Black Panther 1/6 Figure</p>
+          <p class="shop-card-desc">10.6" scale, King in Black edition with comic and collector art card.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$50</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Panther-Print-Canvas-Poster-Inches/dp/B00L6F6AKM?linkCode=ll2&tag=visual_library00-20&linkId=cdca5e08e38f1cb23981a093447b2bfc&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-marvel"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Iron Man Canvas Print</p>
+          <p class="shop-card-desc">30x20" framed canvas, archival inks. Ready to hang.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$50</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/McFarlane-Toys-Justice-League-Superman/dp/B08T245ZJT?linkCode=ll2&tag=visual_library00-20&linkId=fd04268ea47f968d41dfb13f64bdee28&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-marvel"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Superman Black Suit — 7"</p>
+          <p class="shop-card-desc">Justice League movie-accurate, 22 articulation points, flight stand.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$54</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/McFarlane-Toys-Direct-Black-Statue/dp/B0B5YLLN9W?linkCode=ll2&tag=visual_library00-20&linkId=f9db12570f37cbab2195b62bee84f01c&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-marvel"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag collector">Collector's Pick</span>
+          <p class="shop-card-name">Black Adam Resin Statue</p>
+          <p class="shop-card-desc">Cold cast resin, 12" tall, magnet base. Premium display piece.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$106</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ANIME -->
+  <section class="shop-section sec-anime" id="anime">
+    <div class="shop-section-hd">
+      <h2>Anime</h2>
+      <p class="shop-section-desc">Official figures, wall art and accessories from Jujutsu Kaisen, Demon Slayer, Naruto, Attack on Titan and more.</p>
+      <span class="shop-section-meta">5 picks</span>
+    </div>
+    <div class="shop-grid">
+
+      <a class="shop-card" href="https://www.amazon.com/SEGA-Jujutsu-Kaisen-FIGURIZM%CE%B1-Fushiguro/dp/B0CWDM5YPW?linkCode=ll2&tag=visual_library00-20&linkId=d1412d031b3058f0c7670cc2b0a5cea1&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-anime"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Megumi Fushiguro Figure</p>
+          <p class="shop-card-desc">Official SEGA Jujutsu Kaisen collectible. 100+ sold monthly.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$55</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Destructive-Compass-Needle-Slayer-Figure/dp/B0C37L7TVX?linkCode=ll2&tag=visual_library00-20&linkId=e4f09714e40bd0e2c91950e4b956746f&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-anime"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag collector">Collector's Pick</span>
+          <p class="shop-card-name">Akaza 1/8 Scale Figure</p>
+          <p class="shop-card-desc">Aniplex official Demon Slayer. Dynamic "Destructive Death" pose.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$146</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Trends-International-Naruto-Shippuden-Unframed/dp/B07WMTPQ9R?linkCode=ll2&tag=visual_library00-20&linkId=645c60e5646a98392bb9f3e650ed91c3&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-anime"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag seller">Top Seller</span>
+          <p class="shop-card-name">Naruto Wall Poster — 22x34"</p>
+          <p class="shop-card-desc">Official licensed print. 2,282 reviews, FSC-certified gloss paper.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$10</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Killua-Anime-Glass-iPhone-Aesthetic/dp/B0GV3TBR4P?linkCode=ll2&tag=visual_library00-20&linkId=c1a0b50ff5a12bdd865200c2ba23dc3c&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-anime"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Hunter x Hunter iPhone Case</p>
+          <p class="shop-card-desc">Gon and Killua art, 9H tempered glass back, shockproof TPU.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$14</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/RARELEMON-Attack-Regiment-Tapestry-Hanging/dp/B0GBG9Z6SL?linkCode=ll2&tag=visual_library00-20&linkId=81a6f3a588ece88ef0140bfa2947cddd&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-anime"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Attack on Titan Tapestry</p>
+          <p class="shop-card-desc">Scout Regiment, 30x50" cotton with grommets. Easy wall hang.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$20</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SPORTS -->
+  <section class="shop-section sec-sports" id="sports">
+    <div class="shop-section-hd">
+      <h2>Sports</h2>
+      <p class="shop-section-desc">Football gear, jerseys and poster sets for fans of Messi, Ronaldo, Neymar and the greatest players in the game.</p>
+      <span class="shop-section-meta">3 picks</span>
+    </div>
+    <div class="shop-grid">
+
+      <a class="shop-card" href="https://www.amazon.com/adidas-Tango-Glider-White-Black/dp/B01CL055B0?linkCode=ll2&tag=visual_library00-20&linkId=df71250dbd58b255776d8afd778a3768&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-sports"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag seller">Top Seller</span>
+          <p class="shop-card-name">Adidas Street Soccer Ball</p>
+          <p class="shop-card-desc">Size 5, butyl bladder. 5,881 reviews — the trusted choice.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$25</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Ronaldo-Sleeve-Soccer-Version-Regular/dp/B0DTB5PXG8?linkCode=ll2&tag=visual_library00-20&linkId=180e981ca49771ab01fd797c0fe91a05&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-sports"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Ronaldo Man United Jersey</p>
+          <p class="shop-card-desc">Long sleeve #7, black/red 07/08 colourway. Multiple sizes.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$49</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/BigWig-Prints-Soccer-Poster-Unframed/dp/B0CPT7HL3M?linkCode=ll2&tag=visual_library00-20&linkId=ae6848980c660d511d043283e78f2a1b&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-sports"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag seller">Top Seller</span>
+          <p class="shop-card-name">Soccer Legends — 9 Poster Set</p>
+          <p class="shop-card-desc">Messi, Ronaldo, Neymar, Haaland. 8x10" each, Amazon's Choice.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$17</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- GAMING -->
+  <section class="shop-section sec-gaming" id="gaming">
+    <div class="shop-section-hd">
+      <h2>Gaming</h2>
+      <p class="shop-section-desc">Figures, controller skins and accessories for fans of God of War, Black Myth, Dragon Ball and Call of Duty.</p>
+      <span class="shop-section-meta">4 picks</span>
+    </div>
+    <div class="shop-grid">
+
+      <a class="shop-card" href="https://www.amazon.com/CHALAIR-Journey-Collectibles-Perfect-Enthusiasts/dp/B0DFPMNC69?linkCode=ll2&tag=visual_library00-20&linkId=90cd7a586e8aa68602db47263e092a88&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-gaming"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Black Myth Wukong Figure</p>
+          <p class="shop-card-desc">7.7" Monkey King with staff. Clean desk display for Wukong fans.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$19</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/NECA-God-War-Action-Figure/dp/B078WXQS85?linkCode=ll2&tag=visual_library00-20&linkId=c18686b69b8960c74c1f189d36f9da33&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-gaming"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag collector">Collector's Pick</span>
+          <p class="shop-card-name">Kratos NECA Figure — 7"</p>
+          <p class="shop-card-desc">Official God of War, includes Axe, dagger and shield. 989 reviews.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$100</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Skinit-Decal-Gaming-Compatible-Controller/dp/B01CRO2IRY?linkCode=ll2&tag=visual_library00-20&linkId=c8f52b4443d044a9f6f553463477fd38&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-gaming"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Dragon Ball Z PS4 Skin</p>
+          <p class="shop-card-desc">Official DBZ vinyl wrap, 3M adhesive, scratch-resistant finish.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$16</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Controllers-Controller-compatible-Playstation-Customized-5/dp/B09KVLJPCP?linkCode=ll2&tag=visual_library00-20&linkId=b61ba55f9700607e41f2c9552c8735ea&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-gaming"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag collector">Collector's Pick</span>
+          <p class="shop-card-name">Spider-Man Custom PS5 Controller</p>
+          <p class="shop-card-desc">Hydro-dip printed in USA. Full adaptive triggers and haptics.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$135</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- MOTORSPORTS -->
+  <section class="shop-section sec-motors" id="motorsports">
+    <div class="shop-section-hd">
+      <h2>Motorsports &amp; Cars</h2>
+      <p class="shop-section-desc">Diecast models, night lights and gear for F1 fans and supercar enthusiasts.</p>
+      <span class="shop-section-meta">3 picks</span>
+    </div>
+    <div class="shop-grid">
+
+      <a class="shop-card" href="https://www.amazon.com/Bburago-Ferrari-LaFerrari-Diecast-Vehicle/dp/B00SH4J1OC?linkCode=ll2&tag=visual_library00-20&linkId=9c642efc54d66890f084e1a389b01041&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-motors"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag seller">Top Seller</span>
+          <p class="shop-card-name">Ferrari LaFerrari 1/24 Diecast</p>
+          <p class="shop-card-desc">Bburago die-cast metal, opening engine compartment. 1,280 reviews.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$26</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Illusion-Flashing-Dimmable-Decoration-Christmas/dp/B0FP261Y7D?linkCode=ll2&tag=visual_library00-20&linkId=971537f79c1fb6140b01feb369a2f359&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-motors"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">F1 Car 3D Night Light</p>
+          <p class="shop-card-desc">16 RGB colours, remote, 4 modes. Laser-engraved acrylic.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$16</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/NCXFTP-Enthusiast-Collection-Accessories-Collectors/dp/B0GQ3VQL1P?linkCode=ll2&tag=visual_library00-20&linkId=4af373b93b43dfa2deedd04f97cd060e&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-motors"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">F1 Keychain Set — 3 Pieces</p>
+          <p class="shop-card-desc">Metal alloy F1 replica plus 2 tyre keychains. Desk or daily carry.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$7</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- MOVIES & TV -->
+  <section class="shop-section sec-movies" id="movies-tv">
+    <div class="shop-section-hd">
+      <h2>Movies &amp; TV</h2>
+      <p class="shop-section-desc">Wall decor, figures and collectibles for fans of Breaking Bad, Game of Thrones, Transformers and more.</p>
+      <span class="shop-section-meta">4 picks</span>
+    </div>
+    <div class="shop-grid">
+
+      <a class="shop-card" href="https://www.amazon.com/lmprintNook-Breaking-Heisenberg-Ligthts-Dimmable/dp/B0DY72ML3Z?linkCode=ll2&tag=visual_library00-20&linkId=fa8f218bd7e79dc02f83b52cf363a48e&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-movies"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Breaking Bad Neon Sign</p>
+          <p class="shop-card-desc">LED neon flex, dimmable, USB-powered, 11" wide wall piece.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$40</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/alikiki-Medieval-Thrones-Dragon-Coffee/dp/B0C9GWRKGM?linkCode=ll2&tag=visual_library00-20&linkId=8465c0734f0585c0f3307735dc9abfc6&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-movies"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Game of Thrones Dragon Mug</p>
+          <p class="shop-card-desc">21oz stainless steel tankard, dragon handle. GOT-inspired.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$25</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/McFarlane-Toys-Thrones-Action-Multicolor/dp/B07HSG5DDD?linkCode=ll2&tag=visual_library00-20&linkId=1f507bfcc299ef1205c8f9854838cef4&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-movies"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag favorite">Fan Favorite</span>
+          <p class="shop-card-name">Jon Snow McFarlane Figure</p>
+          <p class="shop-card-desc">Digital scan-accurate, Season 7, 12+ articulation points. 741 reviews.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$43</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Transformers-Autobots-Classic-Distressed-T-Shirt/dp/B0BZZPHCQQ?linkCode=ll2&tag=visual_library00-20&linkId=519ac520eab5f3a911c152788178b1c2&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-movies"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Transformers Autobots Tee</p>
+          <p class="shop-card-desc">Distressed logo, 100% cotton, all colours and sizes. 200+ sold monthly.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$18</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SETUP -->
+  <section class="shop-section sec-general" id="general">
+    <div class="shop-section-hd">
+      <h2>Setup &amp; General</h2>
+      <p class="shop-section-desc">Phone cases, poster frames and LED lights to complete any wallpaper setup — picks that work for every aesthetic.</p>
+      <span class="shop-section-meta">4 picks</span>
+    </div>
+    <div class="shop-grid">
+
+      <a class="shop-card" href="https://www.amazon.com/Luner-Compatible-Magsafe-Elegant-Romance/dp/B0FK4TNG82?linkCode=ll2&tag=visual_library00-20&linkId=7cb3d927244072b459e0920ff1a8ecd1&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-general"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Black Lace MagSafe Case</p>
+          <p class="shop-card-desc">Dark floral print, MagSafe compatible. Perfect for dark aesthetic wallpapers.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$14</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/AICase-Compatible-iPhone-Pro-Max/dp/B0FHK4FFCR?linkCode=ll2&tag=visual_library00-20&linkId=4d3a3d5b334bcb96c627f994c1c5ab2b&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-general"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag value">Best Value</span>
+          <p class="shop-card-name">Neon Pink iPhone Case</p>
+          <p class="shop-card-desc">Jelly aura design, protective clear finish. Great for colourful wallpapers.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$14</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/upsimples-24x36-Poster-Slide-Assembly/dp/B0C695VG79?linkCode=ll2&tag=visual_library00-20&linkId=22772a66a9a42106fbf5c87bcfbe955d&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-general"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag seller">Top Seller</span>
+          <p class="shop-card-name">Poster Frames 24x36 — 3 Pack</p>
+          <p class="shop-card-desc">No.1 best seller in frames. Slide-in assembly, 4K+ bought monthly.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$50</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+      <a class="shop-card" href="https://www.amazon.com/Changing-Control-Lighting-Flexible-Decoration/dp/B09V366BDY?linkCode=ll2&tag=visual_library00-20&linkId=ecb7f316affdf2dbf13b33a272f23688&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer sponsored">
+        <div class="shop-card-bar bar-general"></div>
+        <div class="shop-card-body">
+          <span class="shop-tag seller">Top Seller</span>
+          <p class="shop-card-name">RGB LED Strip — 100ft</p>
+          <p class="shop-card-desc">App and remote, music sync, 16M colours. 41,014 reviews.</p>
+        </div>
+        <div class="shop-card-footer">
+          <span class="shop-card-price">$14</span>
+          <span class="shop-card-btn">Amazon <svg fill="none" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <p class="shop-notice">Visual Library is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. Prices shown are approximate and may vary. All purchases are made directly through Amazon.</p>
+
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <span>© Visual Library 2026. All rights reserved.</span>
+      <span>All wallpapers belong to their respective owners.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
