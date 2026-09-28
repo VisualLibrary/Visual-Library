@@ -302,14 +302,13 @@ function _home(){
   }
 
   /* In-grid ad: slot 4496886386, in-feed layout, every 12 cards */
-  var _homeAdOpts={slot:'4496886386',layoutKey:'-6s+ea+2i-1i-4k',every:24};
-  _grid('wp-grid',_filtered(),_homeAdOpts,false);
+  _grid('wp-grid',_filtered(),null,false);
 
   var lm=document.getElementById('loadMoreBtn');
   if(lm){
     lm.addEventListener('click',function(){
       _s.visible+=PG;
-      _grid('wp-grid',_filtered(),_homeAdOpts,true);/* append only */
+      _grid('wp-grid',_filtered(),null,true);/* append only */
     });
   }
 }
@@ -406,14 +405,13 @@ function _category(){
   _s.visible=PG;
 
   /* In-grid ad: slot 5821576347, in-feed layout, every 12 cards */
-  var _catAdOpts={slot:'5821576347',layoutKey:'-fb+5t+4v-dd+6v',every:24};
-  _grid('wp-grid',list,_catAdOpts,false);
+  _grid('wp-grid',list,null,false);
 
   var lm=document.getElementById('loadMoreBtn');
   if(lm){
     lm.addEventListener('click',function(){
       _s.visible+=PG;
-      _grid('wp-grid',list,_catAdOpts,true);/* append only */
+      _grid('wp-grid',list,null,true);/* append only */
     });
   }
 

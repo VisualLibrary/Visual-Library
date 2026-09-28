@@ -9208,36 +9208,35 @@
       "resolution": "4K",
       "featured": false
     },
-  
-  {
-    "id": "black-panther-jklwvq",
-    "title": "Black Panther Face Pattern 4K Wallpaper",
-    "category": "marvel",
-    "subcategory": null,
-    "tags": [
-      "black panther",
-      "marvel",
-      "iphone"
-    ],
-    "cloudinary_id": "black-panther-face-pattern-hd-wallpaper_jklwvq",
-    "resolution": "4K",
-    "featured": false
-  },
-  {
-    "id": "venom-qqd0tm",
-    "title": "Venom Shadow Aesthetic 4K Wallpaper",
-    "category": "marvel",
-    "subcategory": null,
-    "tags": [
-      "venom",
-      "marvel",
-      "symbiote",
-      "iphone"
-    ],
-    "cloudinary_id": "venom-shadow-aesthetic-hd-wallpaper_qqd0tm",
-    "resolution": "4K",
-    "featured": false
-  },
+    {
+      "id": "black-panther-jklwvq",
+      "title": "Black Panther Face Pattern 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "black panther",
+        "marvel",
+        "iphone"
+      ],
+      "cloudinary_id": "black-panther-face-pattern-hd-wallpaper_jklwvq",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "venom-qqd0tm",
+      "title": "Venom Shadow Aesthetic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "venom",
+        "marvel",
+        "symbiote",
+        "iphone"
+      ],
+      "cloudinary_id": "venom-shadow-aesthetic-hd-wallpaper_qqd0tm",
+      "resolution": "4K",
+      "featured": false
+    },
     {
       "id": "moon-knight-ij0cap",
       "title": "Moon Knight Action 4K Wallpaper",
@@ -9552,6 +9551,2510 @@
         "iphone"
       ],
       "cloudinary_id": "spider-man-noir-old-style-aesthetic-wallpaper_xaqjhq",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "batman-dark-knight-aesthetic-bike-speed-wallpaper",
+      "title": "Batman Dark Knight Aesthetic Bike Speed Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "dark knight",
+        "batcycle",
+        "gotham",
+        "4k"
+      ],
+      "cloudinary_id": "batman-dark-knight-aesthetic-bike-speed-wallpaper_xs627g",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "amazing-spider-man-nyc-cinematic-4k-wallpaper_7",
+      "title": "Amazing Spider-Man Swinging Over New York City 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "new york",
+        "cinematic",
+        "4k"
+      ],
+      "cloudinary_id": "amazing-spider-man-nyc-cinematic-4k-wallpaper_7_de96aa",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "batman-gotham-shadow-premium-wallpaper",
+      "title": "Batman Gotham Shadow Premium Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "gotham",
+        "shadow",
+        "premium",
+        "4k"
+      ],
+      "cloudinary_id": "batman-gotham-shadow-premium-wallpaper_vyno7s",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "amazing-spider-man-nyc-cinematic-4k-wallpaper_1",
+      "title": "Amazing Spider-Man NYC Skyline Cinematic 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "new york",
+        "cinematic",
+        "4k"
+      ],
+      "cloudinary_id": "amazing-spider-man-nyc-cinematic-4k-wallpaper_1_o4rh9l",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "batman-dark-cinematic-4k-wallpaper",
+      "title": "Batman Dark Cinematic 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "dark",
+        "cinematic",
+        "4k"
+      ],
+      "cloudinary_id": "batman-dark-cinematic-4k-wallpaper_jz1aju",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "amazing-spider-man-nyc-cinematic-4k-wallpaper_2",
+      "title": "Amazing Spider-Man Rooftop NYC Action 4K Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "spider-man",
+        "marvel",
+        "new york",
+        "cinematic",
+        "4k"
+      ],
+      "cloudinary_id": "amazing-spider-man-nyc-cinematic-4k-wallpaper_2_uqhfpj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "batman-shadow-noir-4k-wallpaper",
+      "title": "Batman Shadow Noir 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "shadow",
+        "noir",
+        "4k"
+      ],
+      "cloudinary_id": "batman-shadow-noir-4k-wallpaper_csyp3e",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "vision-marvel-minimal-hd-wallpaper_8",
+      "title": "Vision Marvel Synthezoid Glowing Minimal HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "vision",
+        "marvel",
+        "wandavision",
+        "minimal",
+        "hd"
+      ],
+      "cloudinary_id": "vision-marvel-minimal-hd-wallpaper_8_ren2ga",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "batman-midnight-vengeance-4k-wallpaper",
+      "title": "Batman Midnight Vengeance 4K Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "midnight",
+        "vengeance",
+        "4k"
+      ],
+      "cloudinary_id": "batman-midnight-vengeance-4k-wallpaper_brqval",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "vision-marvel-minimal-hd-wallpaper_6",
+      "title": "Vision Marvel Golden Age Minimal HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "vision",
+        "marvel",
+        "wandavision",
+        "minimal",
+        "hd"
+      ],
+      "cloudinary_id": "vision-marvel-minimal-hd-wallpaper_6_ntzcog",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "batman-gotham-night-cinematic-wallpaper",
+      "title": "Batman Gotham Night Cinematic Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "gotham",
+        "night",
+        "cinematic",
+        "4k"
+      ],
+      "cloudinary_id": "batman-gotham-night-cinematic-wallpaper_ufvgp0",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "vision-marvel-minimal-hd-wallpaper_1",
+      "title": "Vision Marvel Classic Portrait Minimal HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "vision",
+        "marvel",
+        "wandavision",
+        "minimal",
+        "hd"
+      ],
+      "cloudinary_id": "vision-marvel-minimal-hd-wallpaper_1_gwqrvl",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "batman-dark-knight-aesthetic-wallpaper",
+      "title": "Batman Dark Knight Aesthetic Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "dark knight",
+        "aesthetic",
+        "4k"
+      ],
+      "cloudinary_id": "batman-dark-knight-aesthetic-wallpaper_kcee4m",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "vision-marvel-minimal-hd-wallpaper_9",
+      "title": "Vision WandaVision Minimal Aesthetic HD Wallpaper",
+      "category": "marvel",
+      "subcategory": null,
+      "tags": [
+        "vision",
+        "marvel",
+        "wandavision",
+        "minimal",
+        "hd"
+      ],
+      "cloudinary_id": "vision-marvel-minimal-hd-wallpaper_9_swyfsc",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "batman-animated-lonely-night-gotham-wallpaper_7",
+      "title": "Batman Animated Series Gotham Stormy Night HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "batman animated",
+        "gotham",
+        "night",
+        "aesthetic"
+      ],
+      "cloudinary_id": "batman-animated-lonely-night-gotham-wallpaper_7_otlwfl",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lewis-hamilton-f1-inspirstion-quotes-poster_4",
+      "title": "Lewis Hamilton F1 Champion Mindset Quotes Poster Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "lewis hamilton",
+        "f1",
+        "formula 1",
+        "mercedes",
+        "quotes",
+        "poster"
+      ],
+      "cloudinary_id": "lewis-hamilton-f1-inspirstion-quotes-poster_4_ozofov",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "batman-animated-lonely-night-gotham-wallpaper_6",
+      "title": "Batman Animated Series Lonely Rooftop Gotham HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "batman animated",
+        "gotham",
+        "night",
+        "aesthetic"
+      ],
+      "cloudinary_id": "batman-animated-lonely-night-gotham-wallpaper_6_mkdhhk",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lewis-hamilton-f1-inspirstion-quotes-poster_3",
+      "title": "Lewis Hamilton Mercedes Racing Inspiration Poster Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "lewis hamilton",
+        "f1",
+        "formula 1",
+        "mercedes",
+        "quotes",
+        "poster"
+      ],
+      "cloudinary_id": "lewis-hamilton-f1-inspirstion-quotes-poster_3_p13gfn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "batman-animated-lonely-night-gotham-wallpaper_4",
+      "title": "Batman Animated Series Dark Gotham Skyline HD Wallpaper",
+      "category": "dc",
+      "subcategory": null,
+      "tags": [
+        "batman",
+        "dc",
+        "batman animated",
+        "gotham",
+        "night",
+        "aesthetic"
+      ],
+      "cloudinary_id": "batman-animated-lonely-night-gotham-wallpaper_4_yt0ga5",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lewis-hamilton-f1-inspirstion-quotes-poster_2",
+      "title": "Lewis Hamilton Formula 1 Motivational Quotes Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "lewis hamilton",
+        "f1",
+        "formula 1",
+        "mercedes",
+        "quotes",
+        "poster"
+      ],
+      "cloudinary_id": "lewis-hamilton-f1-inspirstion-quotes-poster_2_yw89mc",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "gojo-satoru-maximum-energy-4k-wallpaper_9",
+      "title": "Gojo Satoru Infinity Domain Expansion 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "gojo satoru",
+        "jujutsu kaisen",
+        "anime",
+        "blue",
+        "energy",
+        "4k"
+      ],
+      "cloudinary_id": "gojo-satoru-maximum-energy-4k-wallpaper_9_pzuolg",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "lewis-hamilton-f1-inspirstion-quotes-poster_1",
+      "title": "Lewis Hamilton Greatest F1 Driver Quotes Poster Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "lewis hamilton",
+        "f1",
+        "formula 1",
+        "mercedes",
+        "quotes",
+        "poster"
+      ],
+      "cloudinary_id": "lewis-hamilton-f1-inspirstion-quotes-poster_1_xdaqp0",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "gojo-satoru-maximum-energy-4k-wallpaper_6",
+      "title": "Gojo Satoru Blue Energy Surge Jujutsu Kaisen 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "gojo satoru",
+        "jujutsu kaisen",
+        "anime",
+        "blue",
+        "energy",
+        "4k"
+      ],
+      "cloudinary_id": "gojo-satoru-maximum-energy-4k-wallpaper_6_jsuzdk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "charles-leclerc-ferrari-driver-ai-wallpaper",
+      "title": "Charles Leclerc Ferrari Driver AI Art Portrait Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "charles leclerc",
+        "ferrari",
+        "f1",
+        "formula 1",
+        "ai art",
+        "racing"
+      ],
+      "cloudinary_id": "charles-leclerc-ferrari-driver-ai-wallpaper_jqy7iu",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "gojo-satoru-maximum-energy-4k-wallpaper_5",
+      "title": "Gojo Satoru Blindfold Aesthetic Jujutsu Kaisen 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "gojo satoru",
+        "jujutsu kaisen",
+        "anime",
+        "blue",
+        "energy",
+        "4k"
+      ],
+      "cloudinary_id": "gojo-satoru-maximum-energy-4k-wallpaper_5_yd8rxr",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "charles-leclerc-ferrari-racing-poster-ai-wallpaper",
+      "title": "Charles Leclerc Ferrari Racing Cinematic Poster AI Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "charles leclerc",
+        "ferrari",
+        "f1",
+        "formula 1",
+        "ai art",
+        "racing"
+      ],
+      "cloudinary_id": "charles-leclerc-ferrari-racing-poster-ai-wallpaper_ulohhv",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "gojo-satoru-maximum-energy-4k-wallpaper_2",
+      "title": "Gojo Satoru Maximum Cursed Energy White Flash 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "gojo satoru",
+        "jujutsu kaisen",
+        "anime",
+        "blue",
+        "energy",
+        "4k"
+      ],
+      "cloudinary_id": "gojo-satoru-maximum-energy-4k-wallpaper_2_um4rbj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "charles-leclerc-ferrari-racing-ai-wallpaper",
+      "title": "Charles Leclerc Ferrari Speed AI Art Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "charles leclerc",
+        "ferrari",
+        "f1",
+        "formula 1",
+        "ai art",
+        "racing"
+      ],
+      "cloudinary_id": "charles-leclerc-ferrari-racing-ai-wallpaper_g9hf65",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "goku-super-power-hd-wallpaper_7",
+      "title": "Goku Ultra Instinct Silver Aura Dragon Ball 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "super saiyan",
+        "anime",
+        "power",
+        "4k"
+      ],
+      "cloudinary_id": "goku-super-power-hd-wallpaper_7_xo2sgo",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "max-verstappen-speed-thrill-cinematic-wallpaper_6",
+      "title": "Max Verstappen Red Bull Victory Lap Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "max verstappen",
+        "f1",
+        "red bull",
+        "formula 1",
+        "cinematic",
+        "speed"
+      ],
+      "cloudinary_id": "max-verstappen-speed-thrill-cinematic-wallpaper_6_rl6qkk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "goku-super-power-hd-wallpaper_5",
+      "title": "Goku Super Saiyan Blue Power Charge 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "super saiyan",
+        "anime",
+        "power",
+        "4k"
+      ],
+      "cloudinary_id": "goku-super-power-hd-wallpaper_5_xbf8x3",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "max-verstappen-speed-thrill-cinematic-wallpaper_5",
+      "title": "Max Verstappen Speed Thrill Cockpit View Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "max verstappen",
+        "f1",
+        "red bull",
+        "formula 1",
+        "cinematic",
+        "speed"
+      ],
+      "cloudinary_id": "max-verstappen-speed-thrill-cinematic-wallpaper_5_kggeyr",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "goku-super-power-hd-wallpaper_4",
+      "title": "Goku Super Saiyan God Red Aura 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "super saiyan",
+        "anime",
+        "power",
+        "4k"
+      ],
+      "cloudinary_id": "goku-super-power-hd-wallpaper_4_wjlcsp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "max-verstappen-speed-thrill-cinematic-wallpaper_4",
+      "title": "Max Verstappen F1 Night Race Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "max verstappen",
+        "f1",
+        "red bull",
+        "formula 1",
+        "cinematic",
+        "speed"
+      ],
+      "cloudinary_id": "max-verstappen-speed-thrill-cinematic-wallpaper_4_v3wv16",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "goku-super-power-hd-wallpaper_3",
+      "title": "Goku Super Saiyan Lightning Storm Dragon Ball 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "super saiyan",
+        "anime",
+        "power",
+        "4k"
+      ],
+      "cloudinary_id": "goku-super-power-hd-wallpaper_3_gpuuqu",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "max-verstappen-speed-thrill-cinematic-wallpaper_3",
+      "title": "Max Verstappen Helmet Close Up Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "max verstappen",
+        "f1",
+        "red bull",
+        "formula 1",
+        "cinematic",
+        "speed"
+      ],
+      "cloudinary_id": "max-verstappen-speed-thrill-cinematic-wallpaper_3_mr5zjf",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "goku-super-power-hd-wallpaper_1",
+      "title": "Goku Kamehameha Energy Blast Dragon Ball 4K Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "goku",
+        "dragon ball",
+        "super saiyan",
+        "anime",
+        "power",
+        "4k"
+      ],
+      "cloudinary_id": "goku-super-power-hd-wallpaper_1_yqmbm4",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "max-verstappen-speed-thrill-cinematic-wallpaper_2",
+      "title": "Max Verstappen Red Bull Aggressive Start Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "max verstappen",
+        "f1",
+        "red bull",
+        "formula 1",
+        "cinematic",
+        "speed"
+      ],
+      "cloudinary_id": "max-verstappen-speed-thrill-cinematic-wallpaper_2_qk8mld",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_6",
+      "title": "Aang Avatar Air Temple Peaceful Minimal Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "avatar",
+        "aang",
+        "the last airbender",
+        "minimal",
+        "anime",
+        "relaxed"
+      ],
+      "cloudinary_id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_6_avskgt",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "max-verstappen-speed-thrill-cinematic-wallpaper_1",
+      "title": "Max Verstappen World Champion Cinematic F1 Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "max verstappen",
+        "f1",
+        "red bull",
+        "formula 1",
+        "cinematic",
+        "speed"
+      ],
+      "cloudinary_id": "max-verstappen-speed-thrill-cinematic-wallpaper_1_isvjgn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_5",
+      "title": "Aang Avatar Flying Bison Appa Minimal Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "avatar",
+        "aang",
+        "the last airbender",
+        "minimal",
+        "anime",
+        "relaxed"
+      ],
+      "cloudinary_id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_5_ongsil",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "f1-racing-quotes-4k-wallpaper_6",
+      "title": "F1 Racing Never Give Up Motivational Quotes 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "racing",
+        "quotes",
+        "motivational",
+        "4k"
+      ],
+      "cloudinary_id": "f1-racing-quotes-4k-wallpaper_6_xuaz50",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_4",
+      "title": "Aang Avatar Airbending Meditation Minimal Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "avatar",
+        "aang",
+        "the last airbender",
+        "minimal",
+        "anime",
+        "relaxed"
+      ],
+      "cloudinary_id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_4_ecmdwr",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "f1-racing-quotes-4k-wallpaper_5",
+      "title": "Formula 1 Speed and Glory Quotes 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "racing",
+        "quotes",
+        "motivational",
+        "4k"
+      ],
+      "cloudinary_id": "f1-racing-quotes-4k-wallpaper_5_zkgipi",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_3",
+      "title": "Avatar Last Airbender Aang Sunset Minimal Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "avatar",
+        "aang",
+        "the last airbender",
+        "minimal",
+        "anime",
+        "relaxed"
+      ],
+      "cloudinary_id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_3_by7ghj",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "f1-racing-quotes-4k-wallpaper_4",
+      "title": "F1 Champions Mindset Racing Quotes 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "racing",
+        "quotes",
+        "motivational",
+        "4k"
+      ],
+      "cloudinary_id": "f1-racing-quotes-4k-wallpaper_4_rtjrru",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_2",
+      "title": "Avatar Aang Arrow Chill Minimal Relaxed Wallpaper",
+      "category": "anime",
+      "subcategory": null,
+      "tags": [
+        "avatar",
+        "aang",
+        "the last airbender",
+        "minimal",
+        "anime",
+        "relaxed"
+      ],
+      "cloudinary_id": "avatar-air-binder-animated-minimal-relaxed-hd-wallpaper_2_amf5kk",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "f1-racing-quotes-4k-wallpaper_3",
+      "title": "Formula 1 On the Limit Driver Quotes 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "racing",
+        "quotes",
+        "motivational",
+        "4k"
+      ],
+      "cloudinary_id": "f1-racing-quotes-4k-wallpaper_3_baidew",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "interstellar-movie-pc-hd-wallpaper",
+      "title": "Interstellar Movie Cinematic PC Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "interstellar",
+        "movie",
+        "christopher nolan",
+        "space",
+        "cinematic",
+        "pc"
+      ],
+      "cloudinary_id": "interstellar-movie-pc-hd-wallpaper_w7mn0z",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "f1-racing-quotes-4k-wallpaper_2",
+      "title": "F1 Racing Passion and Sacrifice Quotes 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "racing",
+        "quotes",
+        "motivational",
+        "4k"
+      ],
+      "cloudinary_id": "f1-racing-quotes-4k-wallpaper_2_ilf1oj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "lightning-mcqueen-cinematic-race-wallpaper",
+      "title": "Lightning McQueen Cinematic Race Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "lightning mcqueen",
+        "cars",
+        "pixar",
+        "race",
+        "cinematic",
+        "4k"
+      ],
+      "cloudinary_id": "lightning-mcqueen-cinematic-race-wallpaper_fo488s",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "f1-racing-quotes-4k-wallpaper_1",
+      "title": "Formula 1 Born to Race Inspirational Quotes 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/f1",
+      "tags": [
+        "f1",
+        "formula 1",
+        "racing",
+        "quotes",
+        "motivational",
+        "4k"
+      ],
+      "cloudinary_id": "f1-racing-quotes-4k-wallpaper_1_qcho8s",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "lightning-mcqueen-speed-racing-wallpaper",
+      "title": "Lightning McQueen Speed Racing Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "lightning mcqueen",
+        "cars",
+        "pixar",
+        "speed",
+        "race",
+        "4k"
+      ],
+      "cloudinary_id": "lightning-mcqueen-speed-racing-wallpaper_kaampk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m5-hd-premium-wallpapers_3",
+      "title": "BMW M5 Dark Aggressive Premium HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "bmw m5",
+        "supercar",
+        "premium",
+        "hd",
+        "performance"
+      ],
+      "cloudinary_id": "bmw-m5-hd-premium-wallpapers_3_iedmk3",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "lightning-mcqueen-race-day-cinematic-wallpaper",
+      "title": "Lightning McQueen Race Day Cinematic Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "lightning mcqueen",
+        "cars",
+        "pixar",
+        "race day",
+        "cinematic",
+        "4k"
+      ],
+      "cloudinary_id": "lightning-mcqueen-race-day-cinematic-wallpaper_lv5p9s",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m5-hd-premium-wallpapers_2",
+      "title": "BMW M5 Side Profile Sleek Premium HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "bmw m5",
+        "supercar",
+        "premium",
+        "hd",
+        "performance"
+      ],
+      "cloudinary_id": "bmw-m5-hd-premium-wallpapers_2_e2wvnv",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_9",
+      "title": "Toothless Night Fury Moonlight Minimal Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_9_kuznvy",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "black-beauty-bmw-m3-clean-calm-flowers_1",
+      "title": "Black BMW M3 Clean Aesthetic White Flowers Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "bmw m3",
+        "supercar",
+        "flowers",
+        "aesthetic",
+        "clean"
+      ],
+      "cloudinary_id": "black-beauty-bmw-m3-clean-calm-flowers_1_xhzynp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_8",
+      "title": "Toothless Dragon Glowing Eyes Minimal Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_8_fgjmt3",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "black-beauty-bmw-m3-clean-calm-flowers_3",
+      "title": "Black BMW M3 Elegant Calm Nature Flowers Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "bmw m3",
+        "supercar",
+        "flowers",
+        "aesthetic",
+        "clean"
+      ],
+      "cloudinary_id": "black-beauty-bmw-m3-clean-calm-flowers_3_kfcre2",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_7",
+      "title": "Toothless HTTYD Flying Free Minimal Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_7_r8iqmo",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m4-ai-evo-wallpaper-pc",
+      "title": "BMW M4 AI Evo PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "bmw m4",
+        "supercar",
+        "ai art",
+        "evo",
+        "pc"
+      ],
+      "cloudinary_id": "bmw-m4-ai-evo-wallpaper-pc_tkksip",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_6",
+      "title": "Toothless Dragon Playful Smile Minimal Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_6_arpt1i",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m4-competition-nature-cinematic-pc-wallpaper_2",
+      "title": "BMW M4 Competition Forest Road Cinematic PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "bmw m4",
+        "competition",
+        "nature",
+        "cinematic",
+        "pc"
+      ],
+      "cloudinary_id": "bmw-m4-competition-nature-cinematic-pc-wallpaper_2_o5m8kh",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_5",
+      "title": "Toothless How to Train Your Dragon Silhouette Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_5_gn9g4v",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m4-competition-nature-cinematic-pc-wallpaper_1",
+      "title": "BMW M4 Competition Green Nature Cinematic PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "bmw m4",
+        "competition",
+        "nature",
+        "cinematic",
+        "pc"
+      ],
+      "cloudinary_id": "bmw-m4-competition-nature-cinematic-pc-wallpaper_1_aipfmr",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_4",
+      "title": "Toothless Dragon Black Minimal Clean Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_4_cupopb",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-desert-beast-cinematic-wallpaper_5",
+      "title": "BMW Desert Beast Golden Dunes Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "supercar",
+        "desert",
+        "cinematic",
+        "beast",
+        "4k"
+      ],
+      "cloudinary_id": "bmw-desert-beast-cinematic-wallpaper_5_xy2shg",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_3",
+      "title": "Toothless HTTYD Peaceful Night Minimal Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_3_rq3sbn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-desert-beast-cinematic-wallpaper_4",
+      "title": "BMW Desert Beast Dust Storm Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "supercar",
+        "desert",
+        "cinematic",
+        "beast",
+        "4k"
+      ],
+      "cloudinary_id": "bmw-desert-beast-cinematic-wallpaper_4_sahqyc",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_2",
+      "title": "Toothless Dragon Starry Sky Minimal Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_2_locg6x",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-desert-beast-cinematic-wallpaper_3",
+      "title": "BMW Desert Beast Sunset Power Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "supercar",
+        "desert",
+        "cinematic",
+        "beast",
+        "4k"
+      ],
+      "cloudinary_id": "bmw-desert-beast-cinematic-wallpaper_3_o1hynz",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "toothless-dragon-minimal-art-movie-wallpaper_1",
+      "title": "Toothless Night Fury Dark Minimal Movie Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "toothless",
+        "how to train your dragon",
+        "httyd",
+        "dragon",
+        "minimal",
+        "movie"
+      ],
+      "cloudinary_id": "toothless-dragon-minimal-art-movie-wallpaper_1_b3tnqf",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-desert-beast-cinematic-wallpaper_2",
+      "title": "BMW Desert Beast Night Drive Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "supercar",
+        "desert",
+        "cinematic",
+        "beast",
+        "4k"
+      ],
+      "cloudinary_id": "bmw-desert-beast-cinematic-wallpaper_2_zkyhq4",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_10",
+      "title": "Godzilla City Destroyer Apocalyptic AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_10_cerxhl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-desert-beast-cinematic-wallpaper_1",
+      "title": "BMW Desert Beast Wide Shot Cinematic Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "bmw",
+        "supercar",
+        "desert",
+        "cinematic",
+        "beast",
+        "4k"
+      ],
+      "cloudinary_id": "bmw-desert-beast-cinematic-wallpaper_1_d1dvon",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_9",
+      "title": "Godzilla Rising from Ocean Apocalyptic AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_9_sagrih",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "porsche-911-clean-luxury-pc-wallpaper",
+      "title": "Porsche 911 Clean Luxury PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "porsche",
+        "porsche 911",
+        "supercar",
+        "luxury",
+        "clean",
+        "pc"
+      ],
+      "cloudinary_id": "porsche-911-clean-luxury-pc-wallpaper_fhulmh",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_8",
+      "title": "Godzilla Nuclear Breath Cinematic AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_8_f2sckp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "porsche-911-premium-pc-wallpaper",
+      "title": "Porsche 911 Premium PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "porsche",
+        "porsche 911",
+        "supercar",
+        "premium",
+        "pc",
+        "4k"
+      ],
+      "cloudinary_id": "porsche-911-premium-pc-wallpaper_tz4eui",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_7",
+      "title": "Godzilla Roar Skyline Destruction AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_7_zwpof1",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "porshe-911-gt3-evo-wallpaper-pc",
+      "title": "Porsche 911 GT3 Evo PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "porsche",
+        "porsche 911",
+        "gt3",
+        "evo",
+        "supercar",
+        "pc"
+      ],
+      "cloudinary_id": "porshe-911-gt3-evo-wallpaper-pc_yeivsl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_6",
+      "title": "Godzilla Night Attack Glowing AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_6_gvkjlc",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mercedes-amg-gt3-pc-wallpaper",
+      "title": "Mercedes AMG GT3 PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mercedes",
+        "amg",
+        "gt3",
+        "supercar",
+        "pc",
+        "racing"
+      ],
+      "cloudinary_id": "mercedes-amg-gt3-pc-wallpaper_g5mkbp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_5",
+      "title": "Godzilla Stormy Skies Apocalyptic AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_5_y83pk1",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mercedes-amg-gt-63-roses-nature-pc-wallpaper_1",
+      "title": "Mercedes AMG GT 63 Roses Nature Luxury PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mercedes",
+        "amg",
+        "gt63",
+        "roses",
+        "nature",
+        "pc"
+      ],
+      "cloudinary_id": "mercedes-amg-gt-63-roses-nature-pc-wallpaper_1_ywd1af",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_4",
+      "title": "Godzilla Towering Over City AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_4_psbmyu",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mercedes-g-wagon-action-hd-wallpaper_2",
+      "title": "Mercedes G-Wagon Off-Road Action Power HD Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mercedes",
+        "g wagon",
+        "g class",
+        "suv",
+        "action",
+        "hd"
+      ],
+      "cloudinary_id": "mercedes-g-wagon-action-hd-wallpaper_2_iwdduw",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_3",
+      "title": "Godzilla Fiery Chaos Apocalyptic AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_3_cnprt3",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "audi-r8-ai-cutut-wallpaper-pc",
+      "title": "Audi R8 AI Cutout PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "audi",
+        "audi r8",
+        "supercar",
+        "ai art",
+        "cutout",
+        "pc"
+      ],
+      "cloudinary_id": "audi-r8-ai-cutut-wallpaper-pc_czfui2",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_2",
+      "title": "Godzilla Dark Rain Cinematic AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_2_d1jqpl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "mustang-gt3-evo-pc-wallpaper",
+      "title": "Mustang GT3 Evo PC Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "mustang",
+        "ford",
+        "gt3",
+        "evo",
+        "supercar",
+        "pc"
+      ],
+      "cloudinary_id": "mustang-gt3-evo-pc-wallpaper_b4usj8",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "godzilla-apocalyptic-ai-art-wallpaper_1",
+      "title": "Godzilla King of Monsters Apocalyptic AI Art Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "godzilla",
+        "monster",
+        "apocalyptic",
+        "ai art",
+        "movie",
+        "cinematic"
+      ],
+      "cloudinary_id": "godzilla-apocalyptic-ai-art-wallpaper_1_wolv6a",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ford-mustang-1973-premium-4k-wallpaper",
+      "title": "Ford Mustang 1973 Premium 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "ford mustang",
+        "mustang 1973",
+        "muscle car",
+        "classic",
+        "4k",
+        "supercar"
+      ],
+      "cloudinary_id": "ford-mustang-1973-premium-4k-wallpaper_ibycgn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "dark-main-poster-wallpaper",
+      "title": "Dark Netflix Show Main Poster Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "dark",
+        "netflix",
+        "dark show",
+        "german series",
+        "thriller",
+        "poster"
+      ],
+      "cloudinary_id": "dark-main-poster-wallpaper_p8bado",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ford-mustang-1969-premium-4k-wallpaper",
+      "title": "Ford Mustang 1969 Premium 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "ford mustang",
+        "mustang 1969",
+        "muscle car",
+        "classic",
+        "4k",
+        "supercar"
+      ],
+      "cloudinary_id": "ford-mustang-1969-premium-4k-wallpaper_jkzme4",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "dark-german-show-cave-main-character-wallpaper-pc",
+      "title": "Dark Netflix Show Cave Scene PC Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "dark",
+        "netflix",
+        "dark show",
+        "jonas",
+        "cave",
+        "pc",
+        "cinematic"
+      ],
+      "cloudinary_id": "dark-german-show-cave-main-character-wallpaper-pc_r3vay2",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ford-mustang-1968-gt-premium-4k-wallpaper",
+      "title": "Ford Mustang 1968 GT Premium 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "ford mustang",
+        "mustang 1968",
+        "muscle car",
+        "classic",
+        "4k",
+        "supercar"
+      ],
+      "cloudinary_id": "ford-mustang-1968-gt-premium-4k-wallpaper_gmuqnj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "dark-atmosphere-forest-girl-pc-wallpaper",
+      "title": "Dark Netflix Show Atmospheric Forest Scene PC Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "dark",
+        "netflix",
+        "dark show",
+        "forest",
+        "atmospheric",
+        "pc"
+      ],
+      "cloudinary_id": "dark-atmosphere-forest-girl-pc-wallpaper_uahi5w",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ford-mustang-1968-premium-4k-wallpaper",
+      "title": "Ford Mustang 1968 Premium 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "ford mustang",
+        "mustang 1968",
+        "muscle car",
+        "classic",
+        "4k",
+        "supercar"
+      ],
+      "cloudinary_id": "ford-mustang-1968-premium-4k-wallpaper_ni1um8",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "show-dark-main-character-and-girl-pc",
+      "title": "Dark Netflix Show Jonas and Martha PC Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "dark",
+        "netflix",
+        "jonas",
+        "martha",
+        "dark show",
+        "pc"
+      ],
+      "cloudinary_id": "show-dark-main-character-and-girl-pc_ssffcd",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ford-mustang-1965-gt350-premium-4k-wallpaper",
+      "title": "Ford Mustang 1965 GT350 Premium 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "ford mustang",
+        "mustang 1965",
+        "muscle car",
+        "classic",
+        "4k",
+        "supercar"
+      ],
+      "cloudinary_id": "ford-mustang-1965-gt350-premium-4k-wallpaper_vp0oj3",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "dark-cinematic-setting-pc-wallpaper",
+      "title": "Dark Netflix Show Cinematic Setting PC Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "dark",
+        "netflix",
+        "dark show",
+        "cinematic",
+        "setting",
+        "pc"
+      ],
+      "cloudinary_id": "dark-cinematic-setting-pc-wallpaper_iyum6s",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ford-mustang-1965-premium-4k-wallpaper",
+      "title": "Ford Mustang 1965 Premium 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "ford mustang",
+        "mustang 1965",
+        "muscle car",
+        "classic",
+        "4k",
+        "supercar"
+      ],
+      "cloudinary_id": "ford-mustang-1965-premium-4k-wallpaper_bcl0xj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "pikachu-pokemon-chill-minimal-wallpaper_9",
+      "title": "Pikachu Chill Sunset Minimal Pokemon Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "pikachu",
+        "pokemon",
+        "minimal",
+        "chill",
+        "anime",
+        "cute"
+      ],
+      "cloudinary_id": "pikachu-pokemon-chill-minimal-wallpaper_9_jz2r1t",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "dodge-challenger-pink-forest-4k-wallpaper_3",
+      "title": "Dodge Challenger Pink Forest Moody 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "dodge",
+        "dodge challenger",
+        "muscle car",
+        "pink",
+        "forest",
+        "4k"
+      ],
+      "cloudinary_id": "dodge-challenger-pink-forest-4k-wallpaper_3_n63jpl",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "pikachu-pokemon-chill-minimal-wallpaper_7",
+      "title": "Pikachu Rainy Day Cozy Minimal Pokemon Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "pikachu",
+        "pokemon",
+        "minimal",
+        "chill",
+        "anime",
+        "cute"
+      ],
+      "cloudinary_id": "pikachu-pokemon-chill-minimal-wallpaper_7_l9domy",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "dodge-challenger-pink-forest-4k-wallpaper_2",
+      "title": "Dodge Challenger Pink Forest Cinematic 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "dodge",
+        "dodge challenger",
+        "muscle car",
+        "pink",
+        "forest",
+        "4k"
+      ],
+      "cloudinary_id": "dodge-challenger-pink-forest-4k-wallpaper_2_ehz9vp",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "pikachu-pokemon-chill-minimal-wallpaper_2",
+      "title": "Pikachu Sleeping Peaceful Minimal Pokemon Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "pikachu",
+        "pokemon",
+        "minimal",
+        "chill",
+        "anime",
+        "cute"
+      ],
+      "cloudinary_id": "pikachu-pokemon-chill-minimal-wallpaper_2_fp1adg",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "dodge-challenger-pink-forest-4k-wallpaper_1",
+      "title": "Dodge Challenger Classic Pink Forest Muscle Car 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": "motorsports-cars/supercars",
+      "tags": [
+        "dodge",
+        "dodge challenger",
+        "muscle car",
+        "pink",
+        "forest",
+        "4k"
+      ],
+      "cloudinary_id": "dodge-challenger-pink-forest-4k-wallpaper_1_zpmb1j",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "pikachu-pokemon-chill-minimal-wallpaper_1",
+      "title": "Pikachu Forest Minimal Aesthetic Pokemon Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "pikachu",
+        "pokemon",
+        "minimal",
+        "chill",
+        "anime",
+        "cute"
+      ],
+      "cloudinary_id": "pikachu-pokemon-chill-minimal-wallpaper_1_mt6n8p",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "yamaha-sportbike-hero-4k-wallpaper",
+      "title": "Yamaha Sportbike Hero 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": null,
+      "tags": [
+        "yamaha",
+        "sportbike",
+        "motorcycle",
+        "hero",
+        "4k",
+        "racing"
+      ],
+      "cloudinary_id": "yamaha-sportbike-hero-4k-wallpaper_vknsvi",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "ben-ten-flame-hero-minimal-hd-wallpaper_2",
+      "title": "Ben 10 Omnitrix Flame Hero Minimal HD Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "ben 10",
+        "ben ten",
+        "cartoon",
+        "hero",
+        "flame",
+        "minimal"
+      ],
+      "cloudinary_id": "ben-ten-flame-hero-minimal-hd-wallpaper_2_elz33e",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "ktm-duke-performance-4k-wallpaper",
+      "title": "KTM Duke Performance 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": null,
+      "tags": [
+        "ktm",
+        "duke",
+        "motorcycle",
+        "performance",
+        "4k",
+        "racing"
+      ],
+      "cloudinary_id": "ktm-duke-performance-4k-wallpaper_ky8vog",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "doraemon-nobita-minimal-aesthetic-wallpaper_10",
+      "title": "Doraemon and Nobita Rooftop Stargazing Minimal Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "doraemon",
+        "nobita",
+        "anime",
+        "minimal",
+        "aesthetic",
+        "cute"
+      ],
+      "cloudinary_id": "doraemon-nobita-minimal-aesthetic-wallpaper_10_jwktb4",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "bajaj-pulsar-sport-4k-wallpaper",
+      "title": "Bajaj Pulsar Sport 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": null,
+      "tags": [
+        "bajaj",
+        "pulsar",
+        "motorcycle",
+        "sport",
+        "4k"
+      ],
+      "cloudinary_id": "bajaj-pulsar-sport-4k-wallpaper_pnejh9",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "doraemon-nobita-minimal-aesthetic-wallpaper_9",
+      "title": "Doraemon Gadget Magic Minimal Aesthetic Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "doraemon",
+        "nobita",
+        "anime",
+        "minimal",
+        "aesthetic",
+        "cute"
+      ],
+      "cloudinary_id": "doraemon-nobita-minimal-aesthetic-wallpaper_9_sf1lqw",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "honda-cb750-hornet-hero-4k-wallpaper",
+      "title": "Honda CB750 Hornet Hero 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": null,
+      "tags": [
+        "honda",
+        "cb750",
+        "hornet",
+        "motorcycle",
+        "4k",
+        "hero"
+      ],
+      "cloudinary_id": "honda-cb750-hornet-hero-4k-wallpaper_popasn",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "doraemon-nobita-minimal-aesthetic-wallpaper_6",
+      "title": "Doraemon and Nobita Rainy Day Minimal Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "doraemon",
+        "nobita",
+        "anime",
+        "minimal",
+        "aesthetic",
+        "cute"
+      ],
+      "cloudinary_id": "doraemon-nobita-minimal-aesthetic-wallpaper_6_ywcsc7",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "tvs-apache-racing-4k-wallpaper",
+      "title": "TVS Apache Racing 4K Wallpaper",
+      "category": "motorsports-cars",
+      "subcategory": null,
+      "tags": [
+        "tvs",
+        "apache",
+        "motorcycle",
+        "racing",
+        "4k"
+      ],
+      "cloudinary_id": "tvs-apache-racing-4k-wallpaper_nyvwhx",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "doraemon-nobita-minimal-aesthetic-wallpaper_2",
+      "title": "Doraemon and Nobita Childhood Nostalgia Minimal Wallpaper",
+      "category": "movies-tv",
+      "subcategory": null,
+      "tags": [
+        "doraemon",
+        "nobita",
+        "anime",
+        "minimal",
+        "aesthetic",
+        "cute"
+      ],
+      "cloudinary_id": "doraemon-nobita-minimal-aesthetic-wallpaper_2_qwmy5h",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "silence-in-nature-peaceful-enviroment_7",
+      "title": "Silence in Nature Misty Forest Peaceful AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peaceful",
+        "ai art",
+        "minimal",
+        "calm",
+        "landscape"
+      ],
+      "cloudinary_id": "silence-in-nature-peaceful-enviroment_7_t7qqwx",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_6",
+      "title": "Young Cristiano Ronaldo Manchester United Red Devils Celebration Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cristiano ronaldo",
+        "cr7",
+        "manchester united",
+        "red devil",
+        "football",
+        "soccer"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_6_ym1fun",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "silence-in-nature-peaceful-enviroment_6",
+      "title": "Silence in Nature Lakeside Calm AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peaceful",
+        "ai art",
+        "minimal",
+        "calm",
+        "landscape"
+      ],
+      "cloudinary_id": "silence-in-nature-peaceful-enviroment_6_uypwre",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_5",
+      "title": "Young CR7 Manchester United Iconic Goal Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cristiano ronaldo",
+        "cr7",
+        "manchester united",
+        "red devil",
+        "football",
+        "soccer"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_5_nu1idd",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "silence-in-nature-peaceful-enviroment_5",
+      "title": "Silence in Nature Golden Hour Meadow AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peaceful",
+        "ai art",
+        "minimal",
+        "calm",
+        "landscape"
+      ],
+      "cloudinary_id": "silence-in-nature-peaceful-enviroment_5_jplnjb",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_4",
+      "title": "Cristiano Ronaldo Manchester United Red Kit Portrait Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cristiano ronaldo",
+        "cr7",
+        "manchester united",
+        "red devil",
+        "football",
+        "soccer"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_4_ad3kzy",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "silence-in-nature-peaceful-enviroment_4",
+      "title": "Silence in Nature Foggy Mountains AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peaceful",
+        "ai art",
+        "minimal",
+        "calm",
+        "landscape"
+      ],
+      "cloudinary_id": "silence-in-nature-peaceful-enviroment_4_x1ajnf",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_3",
+      "title": "Young Ronaldo Manchester United Dribbling Skill Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cristiano ronaldo",
+        "cr7",
+        "manchester united",
+        "red devil",
+        "football",
+        "soccer"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_3_awk2df",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "silence-in-nature-peaceful-enviroment_3",
+      "title": "Silence in Nature Rainy Forest Path AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peaceful",
+        "ai art",
+        "minimal",
+        "calm",
+        "landscape"
+      ],
+      "cloudinary_id": "silence-in-nature-peaceful-enviroment_3_hpxfcx",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_2",
+      "title": "Cristiano Ronaldo Man United Winning Moment HD Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cristiano ronaldo",
+        "cr7",
+        "manchester united",
+        "red devil",
+        "football",
+        "soccer"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_2_tyukci",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "silence-in-nature-peaceful-enviroment_2",
+      "title": "Silence in Nature Cherry Blossom Calm AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peaceful",
+        "ai art",
+        "minimal",
+        "calm",
+        "landscape"
+      ],
+      "cloudinary_id": "silence-in-nature-peaceful-enviroment_2_yyup7l",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_1",
+      "title": "Young CR7 Manchester United Red Devil Legend Wallpaper",
+      "category": "sports",
+      "subcategory": null,
+      "tags": [
+        "cristiano ronaldo",
+        "cr7",
+        "manchester united",
+        "red devil",
+        "football",
+        "soccer"
+      ],
+      "cloudinary_id": "cristiano-ronaldo-young-manchester-united-red-devil-wallpaper_1_v2ir4o",
+      "resolution": "HD",
+      "featured": false
+    },
+    {
+      "id": "silence-in-nature-peaceful-enviroment_1",
+      "title": "Silence in Nature Peaceful Green Valley AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peaceful",
+        "ai art",
+        "minimal",
+        "calm",
+        "landscape"
+      ],
+      "cloudinary_id": "silence-in-nature-peaceful-enviroment_1_m1osyb",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "need-for-speed-most-wanted-bmw-cinematic-wallpaper_4",
+      "title": "Need for Speed Most Wanted BMW Police Chase Cinematic Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "need for speed",
+        "nfs most wanted",
+        "bmw",
+        "gaming",
+        "cinematic",
+        "racing game"
+      ],
+      "cloudinary_id": "need-for-speed-most-wanted-bmw-cinematic-wallpaper_4_mznx4o",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-samurai-calm-peace-nature-wallpapers_5",
+      "title": "Japanese Samurai Cherry Blossom Duel Minimal AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "samurai",
+        "japanese",
+        "nature",
+        "calm",
+        "ai art",
+        "minimal"
+      ],
+      "cloudinary_id": "japanese-samurai-calm-peace-nature-wallpapers_5_gj9q8b",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "need-for-speed-most-wanted-bmw-cinematic-wallpaper_2",
+      "title": "Need for Speed Most Wanted BMW Night Run Cinematic Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "need for speed",
+        "nfs most wanted",
+        "bmw",
+        "gaming",
+        "cinematic",
+        "racing game"
+      ],
+      "cloudinary_id": "need-for-speed-most-wanted-bmw-cinematic-wallpaper_2_kr6tqj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-samurai-calm-peace-nature-wallpapers_4",
+      "title": "Japanese Samurai Foggy Mountain Path AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "samurai",
+        "japanese",
+        "nature",
+        "calm",
+        "ai art",
+        "minimal"
+      ],
+      "cloudinary_id": "japanese-samurai-calm-peace-nature-wallpapers_4_dod6cj",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "need-for-speed-most-wanted-bmw-cinematic-wallpaper_1",
+      "title": "Need for Speed Most Wanted BMW M3 GTR Cinematic Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "need for speed",
+        "nfs most wanted",
+        "bmw",
+        "gaming",
+        "cinematic",
+        "racing game"
+      ],
+      "cloudinary_id": "need-for-speed-most-wanted-bmw-cinematic-wallpaper_1_wrp2ml",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-samurai-calm-peace-nature-wallpapers_3",
+      "title": "Japanese Samurai Koi Pond Serene AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "samurai",
+        "japanese",
+        "nature",
+        "calm",
+        "ai art",
+        "minimal"
+      ],
+      "cloudinary_id": "japanese-samurai-calm-peace-nature-wallpapers_3_j0jnpq",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m4-minecraft-blocky-pc-4k-wallpaper_3",
+      "title": "BMW M4 Minecraft Blocky World PC 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "bmw",
+        "minecraft",
+        "gaming",
+        "blocky",
+        "pc",
+        "4k"
+      ],
+      "cloudinary_id": "bmw-m4-minecraft-blocky-pc-4k-wallpaper_3_imsdrt",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-samurai-calm-peace-nature-wallpapers_2",
+      "title": "Japanese Samurai Autumn Forest Peace AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "samurai",
+        "japanese",
+        "nature",
+        "calm",
+        "ai art",
+        "minimal"
+      ],
+      "cloudinary_id": "japanese-samurai-calm-peace-nature-wallpapers_2_wp7eep",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "bmw-m4-minecraft-blocky-pc-4k-wallpaper_1",
+      "title": "BMW M4 Minecraft Pixel Art Gaming PC 4K Wallpaper",
+      "category": "gaming",
+      "subcategory": null,
+      "tags": [
+        "bmw",
+        "minecraft",
+        "gaming",
+        "blocky",
+        "pc",
+        "4k"
+      ],
+      "cloudinary_id": "bmw-m4-minecraft-blocky-pc-4k-wallpaper_1_dfqkwh",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "japanese-samurai-calm-peace-nature-wallpapers_1",
+      "title": "Japanese Samurai Moonlit Shrine Calm AI Art Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "samurai",
+        "japanese",
+        "nature",
+        "calm",
+        "ai art",
+        "minimal"
+      ],
+      "cloudinary_id": "japanese-samurai-calm-peace-nature-wallpapers_1_df8uwf",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "quiet-wilderness-aesthetic-mobile-wallpaper_3",
+      "title": "Quiet Wilderness Misty Pine Forest Aesthetic Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "wilderness",
+        "nature",
+        "aesthetic",
+        "ai art",
+        "mobile",
+        "calm"
+      ],
+      "cloudinary_id": "quiet-wilderness-aesthetic-mobile-wallpaper_3_vtsvi4",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "quiet-wilderness-aesthetic-mobile-wallpaper_2",
+      "title": "Quiet Wilderness Lone Tree Minimal Aesthetic Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "wilderness",
+        "nature",
+        "aesthetic",
+        "ai art",
+        "mobile",
+        "calm"
+      ],
+      "cloudinary_id": "quiet-wilderness-aesthetic-mobile-wallpaper_2_ein4dx",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "escape-from-reality-peace-pc-wallpaper",
+      "title": "Escape From Reality Peaceful PC Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "nature",
+        "peace",
+        "escape",
+        "ai art",
+        "minimal",
+        "pc"
+      ],
+      "cloudinary_id": "escape-from-reality-peace-pc-wallpaper_ur3obk",
+      "resolution": "4K",
+      "featured": false
+    },
+    {
+      "id": "lonely-warrior-peaceful-broken-aesthetic-hd-wallpaper_1",
+      "title": "Lonely Warrior Broken Peaceful Aesthetic HD Wallpaper",
+      "category": "ai-art",
+      "subcategory": null,
+      "tags": [
+        "warrior",
+        "aesthetic",
+        "broken",
+        "peaceful",
+        "ai art",
+        "minimal"
+      ],
+      "cloudinary_id": "lonely-warrior-peaceful-broken-aesthetic-hd-wallpaper_1_w0n5op",
       "resolution": "4K",
       "featured": false
     }
