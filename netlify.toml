@@ -1,38 +1,92 @@
+# ── Visual Library — netlify.toml ──────────────────────────────────────────
+# ONE FILE controls all headers, redirects, caching, security.
+
+# ── Redirects ───────────────────────────────────────────────────────────────
+[[redirects]]
+  from = "/admin"
+  to   = "/admin.html"
+  status = 200
+  force  = false
+
 [[redirects]]
   from = "/404"
-  to = "/404.html"
+  to   = "/404.html"
   status = 404
 
 [[redirects]]
   from = "/*"
-  to = "/404.html"
+  to   = "/404.html"
   status = 404
-  force = false
+  force  = false
 
+# ── Global security headers (every page) ───────────────────────────────────
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    # Force HTTPS for 1 year — this gives you the green lock
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
+    # Clickjacking protection
+    X-Frame-Options = "DENY"
+
+    # Prevent MIME sniffing
+    X-Content-Type-Options = "nosniff"
+
+    # Referrer — send origin only on cross-site
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Disable browser features not needed
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), bluetooth=()"
+
+    # XSS protection legacy browsers
+    X-XSS-Protection = "1; mode=block"
+
+    # Content Security Policy — allows only what your site actually uses
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://adservice.google.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://res.cloudinary.com https://www.google-analytics.com https://www.googletagmanager.com https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://googleads.g.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://pagead2.googlesyndication.com; frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+
+# ── CSS — cache 1 year (immutable) ─────────────────────────────────────────
 [[headers]]
   for = "/css/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# ── JS — cache 1 year (immutable) ──────────────────────────────────────────
 [[headers]]
   for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# ── wallpapers.json — short cache so new wallpapers appear fast ─────────────
 [[headers]]
   for = "/wallpapers.json"
   [headers.values]
-    Cache-Control = "public, max-age=60"
+    Cache-Control = "public, max-age=60, stale-while-revalidate=300"
 
+# ── SVG assets — cache 1 year ───────────────────────────────────────────────
 [[headers]]
   for = "*.svg"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Images ──────────────────────────────────────────────────────────────────
+[[headers]]
+  for = "*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Admin — never cache, never index ────────────────────────────────────────
+[[headers]]
+  for = "/admin.html"
+  [headers.values]
+    Cache-Control = "no-store, no-cache, must-revalidate"
+    X-Robots-Tag  = "noindex, nofollow"

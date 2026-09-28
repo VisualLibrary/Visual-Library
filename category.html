@@ -1,102 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
-<title>Category — Visual Library</title>
-<meta name="description" content="Browse wallpapers by category at Visual Library."/>
-<link rel="canonical" href="https://visuallibrary.netlify.app/category.html"/>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="/css/style.css"/>
-<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-85ST3PM7N6"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-85ST3PM7N6');</script>
+  <meta charset="UTF-8"/>
+  <meta name="google-adsense-account" content="ca-pub-4473438283681618"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
+  <title>Category — Visual Library</title>
+  <meta name="description" content="Browse free HD and 4K wallpapers by category at Visual Library."/>
+  <meta name="robots" content="index,follow"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Visual Library"/>
+  <!-- canonical set dynamically by app.js -->
+  <link rel="canonical" href="https://visuallibrary.netlify.app/category.html"/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-85ST3PM7N6"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-85ST3PM7N6',{anonymize_ip:true});</script>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4473438283681618" crossorigin="anonymous"></script>
 </head>
 <body data-page="category">
 
-<header class="site-header">
-  <div class="header-inner">
-    <a class="logo" href="/" aria-label="Visual Library Home">
-      <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
-      <span>Visual Library</span>
-    </a>
-    <div class="header-search-wrap">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="/" aria-label="Visual Library Home">
+        <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
+        <span>Visual Library</span>
+      </a>
+      <div class="header-search-wrap">
+        <form class="vl-search" role="search" autocomplete="off">
+          <div class="search-box">
+            <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+            <input name="q" placeholder="Search wallpapers..." type="text" aria-label="Search wallpapers"/>
+            <button class="search-submit" type="button">Search</button>
+          </div>
+          <div class="search-dropdown" role="listbox"></div>
+        </form>
+      </div>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/shop.html" class="shop-nav-btn">Shop</a>
+        <a class="pin-btn" href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">
+          <svg style="width:13px;height:13px;fill:currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.06-.94-.11-2.38.02-3.4.12-.93.8-5.9.8-5.9s-.2-.4-.2-1c0-.94.55-1.64 1.23-1.64.58 0 .86.43.86.96 0 .58-.37 1.46-.56 2.27-.16.68.34 1.23 1.01 1.23 1.21 0 2.14-1.28 2.14-3.12 0-1.63-1.17-2.77-2.84-2.77-1.94 0-3.08 1.45-3.08 2.95 0 .58.22 1.21.5 1.55a.2.2 0 0 1 .05.19c-.05.22-.17.68-.2.78-.03.13-.1.16-.24.1-.9-.42-1.46-1.73-1.46-2.79 0-2.27 1.65-4.36 4.76-4.36 2.5 0 4.44 1.78 4.44 4.16 0 2.48-1.57 4.48-3.74 4.48-.73 0-1.42-.38-1.65-.83l-.45 1.72c-.16.63-.6 1.42-.9 1.9A12 12 0 1 0 12 0z"/></svg>
+          Pinterest
+        </a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+      </button>
+    </div>
+    <div class="mobile-search-bar" aria-hidden="true">
       <form class="vl-search" role="search" autocomplete="off">
         <div class="search-box">
           <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-          <input name="q" placeholder="Search wallpapers..." type="text" aria-label="Search wallpapers"/>
-          <button class="search-submit" type="button">Search</button>
+          <input name="q" placeholder="Search..." type="text" aria-label="Search wallpapers"/>
+          <button class="search-submit" type="button">Go</button>
         </div>
         <div class="search-dropdown" role="listbox"></div>
       </form>
     </div>
-    <nav class="header-nav" aria-label="Main navigation">
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
       <a href="/">Home</a>
       <a href="/shop.html" class="shop-nav-btn">Shop</a>
-      <a class="pin-btn" href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">
-        <svg style="width:13px;height:13px;fill:currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.06-.94-.11-2.38.02-3.4.12-.93.8-5.9.8-5.9s-.2-.4-.2-1c0-.94.55-1.64 1.23-1.64.58 0 .86.43.86.96 0 .58-.37 1.46-.56 2.27-.16.68.34 1.23 1.01 1.23 1.21 0 2.14-1.28 2.14-3.12 0-1.63-1.17-2.77-2.84-2.77-1.94 0-3.08 1.45-3.08 2.95 0 .58.22 1.21.5 1.55a.2.2 0 0 1 .05.19c-.05.22-.17.68-.2.78-.03.13-.1.16-.24.1-.9-.42-1.46-1.73-1.46-2.79 0-2.27 1.65-4.36 4.76-4.36 2.5 0 4.44 1.78 4.44 4.16 0 2.48-1.57 4.48-3.74 4.48-.73 0-1.42-.38-1.65-.83l-.45 1.72c-.16.63-.6 1.42-.9 1.9A12 12 0 1 0 12 0z"/></svg>
-        Pinterest
-      </a>
+      <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">Pinterest</a>
     </nav>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
-      <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
-    </button>
-  </div>
-  <div class="mobile-search-bar" aria-hidden="true">
-    <form class="vl-search" role="search" autocomplete="off">
-      <div class="search-box">
-        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-        <input name="q" placeholder="Search..." type="text" aria-label="Search wallpapers"/>
-        <button class="search-submit" type="button">Go</button>
+  </header>
+
+  <main>
+    <section class="cat-hero">
+      <div class="container">
+        <a class="back-link" href="/" aria-label="Back to all wallpapers">
+          <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M5 12l7-7M5 12l7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+          All Categories
+        </a>
+        <h1 id="catTitle" style="margin-top:16px">Category</h1>
+        <p id="catDesc"></p>
+        <!-- subcategory chips removed — they caused 404s; main categories only -->
       </div>
-      <div class="search-dropdown" role="listbox"></div>
-    </form>
-  </div>
-  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
-    <a href="/">Home</a>
-    <a href="/shop.html" class="shop-nav-btn">Shop</a>
-    <a href="https://www.pinterest.com/the_visuallibrary/" target="_blank" rel="noopener noreferrer">Pinterest</a>
-  </nav>
-</header>
+    </section>
 
-<main>
-  <section class="cat-hero">
-    <div class="container">
-      <a class="back-link" href="/" aria-label="Back to all wallpapers">
-        <svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M5 12l7-7M5 12l7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-        All Categories
-      </a>
-      <h1 id="catTitle" style="margin-top:16px">Category</h1>
-      <p id="catDesc"></p>
-      <div class="sub-cats" id="subCats" aria-label="Subcategories"></div>
+    <!-- Ad: Category Top -->
+    <div class="ad-unit ad-strip" aria-label="Advertisement">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-4473438283681618"
+           data-ad-slot="3183804713"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
     </div>
-  </section>
 
-  <div class="ad-unit ad-native">
-    <script async="async" data-cfasync="false" src="https://pl31078383.profitableratecpmnetwork.com/a49305ac8ae48b31ec9d598bc4de3e07/invoke.js"></script>
-    <div id="container-a49305ac8ae48b31ec9d598bc4de3e07"></div>
-  </div>
+    <section class="wp-section" aria-label="Wallpapers in category">
+      <div class="container">
+        <!-- Grid renders here; JS injects an in-grid ad card every 12 wallpapers -->
+        <div class="wp-grid" id="wp-grid" role="list"></div>
+        <div class="load-more-wrap">
+          <button class="btn btn-outline" id="loadMoreBtn" style="display:none">Load More</button>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <section class="wp-section" aria-label="Wallpapers in category">
+  <footer class="site-footer">
     <div class="container">
-      <div class="wp-grid" id="wp-grid" role="list"></div>
-      <div class="load-more-wrap">
-        <button class="btn btn-outline" id="loadMoreBtn" style="display:none">Load More</button>
+      <div class="footer-bottom">
+        <span>© Visual Library 2026. All rights reserved.</span>
+        <span>All wallpapers belong to their respective owners.</span>
       </div>
     </div>
-  </section>
-</main>
+  </footer>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-bottom">
-      <span>© Visual Library 2026. All rights reserved.</span>
-      <span>All wallpapers belong to their respective owners.</span>
-    </div>
-  </div>
-</footer>
-
-<script src="/js/app.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>

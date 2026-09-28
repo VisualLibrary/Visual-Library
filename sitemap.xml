@@ -41,6 +41,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://visuallibrary.netlify.app/category.html?id=gaming</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://visuallibrary.netlify.app/privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>

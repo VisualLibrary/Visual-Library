@@ -424,33 +424,59 @@ mark{background:var(--accent-dim);color:var(--accent);border-radius:3px;padding:
 
 
 
-/* ── Adsterra Ad Containers ── */
+/* ── Google AdSense Ad Containers ─────────────────────────────────────── */
 .ad-unit{
+  position:relative;
   text-align:center;
   margin:0 auto;
-  width:fit-content;
+  width:100%;
+  max-width:var(--maxw);
+  padding-left:32px;padding-right:32px;
+  /* No ::before label — no "Advertisement" text ever */
 }
-.ad-unit::before{
-  content:'Sponsored';
-  display:block;
-  font-size:9px;font-weight:700;
-  letter-spacing:0.12em;
-  text-transform:uppercase;
-  color:var(--text-3);
-  margin-bottom:6px;
-}
-.ad-strip{padding:4px 0 8px;}
-.ad-rect{padding:10px 0 14px;}
-.ad-native{padding:8px 0 12px;}
-.ad-unit:hover{border-color:var(--border-2);}
+@media(max-width:768px){.ad-unit{padding-left:20px;padding-right:20px;}}
+@media(max-width:480px){.ad-unit{padding-left:16px;padding-right:16px;}}
 
+/* Strip ad — thin, no big empty space */
 .ad-strip{
-  padding:6px 0 10px;
+  padding:6px 0 6px;
+  background:var(--bg-2);
+  min-height:0;
+  overflow:hidden;
 }
+.ad-strip .adsbygoogle{
+  min-height:50px;
+  max-height:100px;
+}
+
+/* Rectangle ad — below grid */
 .ad-rect{
-  padding:12px 0 16px;
+  padding:16px 0 12px;
+  margin-top:4px;
 }
-.ad-native{
-  padding:10px 0 14px;
+
+/* Wallpaper page side ad */
+.ad-wallpaper-side{
+  padding:8px 0;
+  margin:8px 0;
+}
+
+/* ── In-grid ad card — matches wallpaper card dimensions ─────────────── */
+/* No text label, no "AD" badge — blends naturally into the grid */
+.ad-ingrid-card{
   border-radius:var(--radius);
+  overflow:hidden;
+  background:var(--bg-2);
+  border:1px solid var(--border);
+  aspect-ratio:2/3;
+  display:flex;
+  align-items:stretch;
+  justify-content:stretch;
+  min-height:260px;
+}
+.ad-ingrid-card ins.adsbygoogle{
+  width:100% !important;
+  height:100% !important;
+  display:flex !important;
+  flex:1;
 }

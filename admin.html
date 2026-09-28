@@ -1,46 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"/>
-<title>Dashboard — Visual Library</title>
-<meta name="robots" content="noindex,nofollow"/>
-<meta name="referrer" content="no-referrer"/>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="/css/style.css"/>
-<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-85ST3PM7N6"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-85ST3PM7N6');</script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+  <meta name="robots" content="noindex,nofollow,noarchive"/>
+  <meta name="referrer" content="no-referrer"/>
+  <title>Dashboard — Visual Library</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <style>
+    /* ── Admin-only styles ─────────────────────────────────────────────── */
+    .admin-wrap{max-width:960px;margin:0 auto;padding:40px 24px 80px;}
+    .admin-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px;flex-wrap:wrap;gap:12px;}
+    .admin-header h1{font-size:26px;font-weight:900;letter-spacing:-0.03em;display:flex;align-items:center;gap:10px;}
+    .admin-header h1 span{font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-dim);padding:3px 10px;border-radius:999px;letter-spacing:0;}
+    .admin-badge{font-size:11px;color:var(--text-3);background:var(--bg-2);border:1px solid var(--border);padding:4px 12px;border-radius:999px;}
+
+    /* Lock screen */
+    .admin-lock-wrap{min-height:70vh;display:flex;align-items:center;justify-content:center;}
+    .admin-lock{width:100%;max-width:380px;text-align:center;padding:40px 32px;background:var(--bg-2);border:1px solid var(--border-2);border-radius:20px;box-shadow:0 24px 64px rgba(0,0,0,0.5);}
+    .lock-icon{font-size:36px;margin-bottom:14px;}
+    .admin-lock h2{font-size:22px;font-weight:900;margin-bottom:6px;letter-spacing:-0.02em;}
+    .admin-lock p{color:var(--text-2);font-size:13px;margin-bottom:24px;line-height:1.6;}
+    .admin-lock input{
+      width:100%;padding:13px 16px;
+      background:var(--bg-3);border:1px solid var(--border-2);
+      border-radius:12px;color:var(--text-1);font-size:15px;
+      margin-bottom:10px;text-align:center;letter-spacing:0.18em;
+      font-family:'Sora',sans-serif;transition:border-color var(--t);outline:none;
+    }
+    .admin-lock input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-dim);}
+    .admin-error{
+      font-size:12.5px;color:#FF5C35;background:rgba(255,92,53,0.10);
+      border:1px solid rgba(255,92,53,0.22);border-radius:8px;
+      padding:8px 14px;margin-bottom:10px;display:none;
+    }
+    .admin-lock .btn{width:100%;justify-content:center;padding:13px;font-size:14px;border-radius:12px;margin-top:4px;}
+    .lock-hint{font-size:11px;color:var(--text-3);margin-top:14px;line-height:1.5;}
+
+    /* Stats row */
+    .stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:28px;}
+    .stat-card{background:var(--bg-2);border:1px solid var(--border);border-radius:16px;padding:20px 18px;transition:border-color var(--t),transform var(--t);}
+    .stat-card:hover{border-color:var(--accent);transform:translateY(-2px);}
+    .stat-card .num{font-size:36px;font-weight:900;letter-spacing:-0.04em;color:var(--accent);line-height:1;margin-bottom:4px;}
+    .stat-card .num.orange{color:var(--cta);}
+    .stat-card .num.green{color:#2ECC71;}
+    .stat-card .num.small{font-size:15px;line-height:1.5;}
+    .stat-card .label{font-size:11px;color:var(--text-2);text-transform:uppercase;letter-spacing:0.08em;font-weight:700;}
+
+    /* Section titles */
+    .dash-section{margin-top:36px;}
+    .dash-section-hd{font-size:14px;font-weight:800;text-transform:uppercase;letter-spacing:0.07em;color:var(--text-3);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+
+    /* Two-column layout for charts */
+    .dash-cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start;}
+    @media(max-width:640px){.dash-cols{grid-template-columns:1fr;}}
+
+    .dash-card{background:var(--bg-2);border:1px solid var(--border);border-radius:16px;padding:20px;}
+
+    /* Category bar rows */
+    .cat-stats{display:flex;flex-direction:column;gap:8px;}
+    .cat-stat-row{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--bg-3);border-radius:10px;}
+    .cat-stat-row .cat-name{font-weight:600;font-size:13px;min-width:110px;}
+    .cat-bar-wrap{flex:1;height:4px;background:var(--bg-4);border-radius:999px;overflow:hidden;}
+    .cat-bar{height:100%;background:linear-gradient(90deg,var(--accent),#0088FF);border-radius:999px;transition:width 0.6s cubic-bezier(0.4,0,0.2,1);}
+    .cat-count{font-size:12px;color:var(--accent);font-weight:700;background:var(--accent-dim);padding:2px 9px;border-radius:999px;min-width:36px;text-align:center;}
+
+    /* Donut chart */
+    .donut-wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
+    .donut-legend{display:flex;flex-direction:column;gap:7px;flex:1;min-width:120px;}
+    .donut-leg-item{display:flex;align-items:center;gap:7px;font-size:12px;}
+    .donut-leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+    .donut-leg-name{flex:1;color:var(--text-2);}
+    .donut-leg-pct{color:var(--text-1);font-weight:700;}
+
+    /* GA info card */
+    .ga-card{background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:16px 18px;display:flex;align-items:center;gap:14px;}
+    .ga-icon{font-size:28px;flex-shrink:0;}
+    .ga-info{flex:1;}
+    .ga-info strong{font-size:13.5px;font-weight:700;display:block;margin-bottom:3px;}
+    .ga-info span{font-size:12px;color:var(--text-2);}
+    .ga-btn{font-size:12px;font-weight:700;color:var(--accent);background:var(--accent-dim);border:1px solid rgba(0,198,255,0.18);padding:6px 14px;border-radius:999px;white-space:nowrap;cursor:pointer;transition:all var(--t);text-decoration:none;}
+    .ga-btn:hover{background:var(--accent);color:#000;}
+
+    /* Reference docs */
+    .ref-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;}
+    .ref-card{background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:16px;}
+    .ref-card h4{font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text-1);}
+    .ref-card code{display:block;background:var(--bg-4);padding:2px 8px;border-radius:5px;font-size:12px;color:var(--accent);margin-bottom:5px;font-family:'Courier New',monospace;}
+    .ref-card p{font-size:12px;color:var(--text-2);line-height:1.6;}
+
+    /* How-to steps */
+    .how-steps{display:flex;flex-direction:column;gap:12px;}
+    .how-step{display:flex;gap:14px;align-items:flex-start;background:var(--bg-3);border-radius:12px;padding:14px;}
+    .step-num{width:26px;height:26px;border-radius:50%;background:var(--accent);color:#000;font-size:12px;font-weight:900;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+    .how-step h4{font-size:13.5px;font-weight:700;margin-bottom:4px;}
+    .how-step p{font-size:12.5px;color:var(--text-2);line-height:1.65;}
+    .how-step pre{background:var(--bg-4);border:1px solid var(--border);border-radius:8px;padding:12px;font-size:11.5px;overflow-x:auto;color:var(--text-1);line-height:1.8;margin-top:8px;}
+
+    /* Logout btn */
+    .logout-btn{font-size:12px;color:var(--text-3);border:1px solid var(--border);padding:6px 14px;border-radius:999px;cursor:pointer;transition:all var(--t);background:transparent;}
+    .logout-btn:hover{color:#FF5C35;border-color:#FF5C35;background:rgba(255,92,53,0.08);}
+  </style>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-85ST3PM7N6"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-85ST3PM7N6',{anonymize_ip:true});</script>
 </head>
 <body data-page="admin">
 
-<header class="site-header">
-  <div class="header-inner">
-    <a class="logo" href="/" aria-label="Visual Library Home">
-      <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
-      <span>Visual Library</span>
-    </a>
-    <nav class="header-nav" aria-label="Main navigation">
-      <a href="/">← Back to Site</a>
-    </nav>
-  </div>
-</header>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="/" aria-label="Visual Library Home">
+        <img src="/logo-header.svg" width="32" height="32" alt="VL"/>
+        <span>Visual Library</span>
+      </a>
+      <nav class="header-nav" aria-label="Admin navigation">
+        <a href="/">← Back to Site</a>
+      </nav>
+    </div>
+  </header>
 
-<main>
-  <section class="admin-page">
-    <div class="container">
-      <h1>Dashboard</h1>
-
-      <div id="adminLock" class="admin-lock">
-        <h2> Restricted</h2>
-        <p>Enter your password to access the dashboard.</p>
-        <input id="adminPass" type="password" placeholder="••••••••" autocomplete="current-password" aria-label="Admin password"/>
-        <button class="btn btn-accent" id="adminSubmit" style="width:100%;justify-content:center" aria-label="Unlock dashboard">Unlock</button>
+  <main>
+    <!-- ── Lock screen ───────────────────────────────────────────── -->
+    <div id="adminLock" class="admin-lock-wrap">
+      <div class="admin-lock">
+        <div class="lock-icon">🔐</div>
+        <h2>Admin Access</h2>
+        <p>This area is restricted. Enter the admin password to continue.</p>
+        <div id="adminError" class="admin-error"></div>
+        <input id="adminPass" type="password" placeholder="••••••••" autocomplete="off" aria-label="Admin password" spellcheck="false"/>
+        <button class="btn btn-accent" id="adminSubmit" aria-label="Unlock dashboard">Unlock Dashboard</button>
+        <p class="lock-hint">5 wrong attempts triggers a 60-second lockout.</p>
       </div>
+    </div>
 
-      <div id="adminDash" style="display:none">
-        <div class="stats-grid">
+    <!-- ── Dashboard ─────────────────────────────────────────────── -->
+    <div id="adminDash" style="display:none">
+      <div class="admin-wrap">
+
+        <div class="admin-header">
+          <h1>Dashboard <span>Visual Library</span></h1>
+          <div style="display:flex;gap:8px;align-items:center">
+            <span class="admin-badge" id="adminTimestamp"></span>
+            <button class="logout-btn" id="adminLogout">Log out</button>
+          </div>
+        </div>
+
+        <!-- ── Stat cards ─────────────────────────────────────── -->
+        <div class="stats-row">
           <div class="stat-card">
             <div class="num" id="statWallpapers">—</div>
             <div class="label">Total Wallpapers</div>
@@ -49,27 +159,67 @@
             <div class="num" id="statCategories">—</div>
             <div class="label">Categories</div>
           </div>
-          <div class="stat-card" style="border-color:rgba(255,92,53,0.25)">
-            <div class="num" style="color:var(--cta);font-size:16px;line-height:1.5" id="statLast">—</div>
-            <div class="label">Last Added</div>
+          <div class="stat-card">
+            <div class="num green" id="statNewest">—</div>
+            <div class="label">Newest Added</div>
+          </div>
+          <div class="stat-card">
+            <div class="num orange small" id="statLast">—</div>
+            <div class="label">Last Entry Title</div>
           </div>
         </div>
 
-        <div class="section-hd" style="margin-top:32px">
-          <h2>Wallpapers per Category</h2>
+        <!-- ── Analytics link ─────────────────────────────────── -->
+        <div class="dash-section">
+          <div class="dash-section-hd">Live Traffic — Google Analytics</div>
+          <div class="ga-card">
+            <div class="ga-icon">📊</div>
+            <div class="ga-info">
+              <strong>Real-time &amp; historical traffic data</strong>
+              <span>View sessions, page views, top pages, countries &amp; more in GA4 (Property: G-85ST3PM7N6)</span>
+            </div>
+            <a class="ga-btn" href="https://analytics.google.com" target="_blank" rel="noopener noreferrer">Open GA4 →</a>
+          </div>
         </div>
-        <div class="cat-stats" id="adminCatList"></div>
 
-        <div class="section-hd" style="margin-top:40px">
-          <h2>How to Add a Wallpaper</h2>
+        <!-- ── Charts ─────────────────────────────────────────── -->
+        <div class="dash-section">
+          <div class="dash-section-hd">Wallpaper Distribution</div>
+          <div class="dash-cols">
+            <div class="dash-card">
+              <div style="font-size:13px;font-weight:700;margin-bottom:14px;color:var(--text-2)">By Category — Count</div>
+              <div class="cat-stats" id="adminCatList"></div>
+            </div>
+            <div class="dash-card">
+              <div style="font-size:13px;font-weight:700;margin-bottom:14px;color:var(--text-2)">By Category — Share</div>
+              <div id="adminCatChart"></div>
+            </div>
+          </div>
         </div>
-        <div class="static-content" style="max-width:100%">
-          <h2>Step 1 — Upload to Cloudinary</h2>
-          <p>Open Cloudinary → Media Library → go to the correct category folder → upload the wallpaper image. After uploading, click the image and copy its <strong>Public ID</strong> (shown in the asset details panel).</p>
 
-          <h2>Step 2 — Edit wallpapers.json on GitHub</h2>
-          <p>Go to your GitHub repo → click <strong>wallpapers.json</strong> → click the pencil icon to edit in browser. Add a new entry inside the <code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">wallpapers</code> array. Copy the format below exactly:</p>
-          <pre style="background:var(--bg-3);border:1px solid var(--border);border-radius:10px;padding:18px;font-size:13px;overflow-x:auto;color:var(--text-1);line-height:1.8">{
+        <!-- ── Category reference ─────────────────────────────── -->
+        <div class="dash-section">
+          <div class="dash-section-hd">Category &amp; ID Reference</div>
+          <div class="ref-grid" id="adminCatRef"></div>
+        </div>
+
+        <!-- ── How to add wallpaper ───────────────────────────── -->
+        <div class="dash-section">
+          <div class="dash-section-hd">How to Add a Wallpaper</div>
+          <div class="how-steps">
+            <div class="how-step">
+              <div class="step-num">1</div>
+              <div>
+                <h4>Upload to Cloudinary</h4>
+                <p>Open Cloudinary → Media Library → correct category folder → upload image. Copy the <strong>Public ID</strong> from asset details panel.</p>
+              </div>
+            </div>
+            <div class="how-step">
+              <div class="step-num">2</div>
+              <div>
+                <h4>Edit wallpapers.json on GitHub</h4>
+                <p>Go to your repo → click <strong>wallpapers.json</strong> → pencil icon to edit. Add a new entry inside the <code style="background:var(--bg-4);padding:1px 6px;border-radius:4px;font-size:12px">wallpapers</code> array:</p>
+                <pre>{
   "id": "unique-slug-here",
   "title": "Wallpaper Title Here",
   "category": "marvel",
@@ -79,34 +229,42 @@
   "resolution": "4K",
   "featured": false
 }</pre>
-          <p>Make sure to add a comma after the previous entry's closing <code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">}</code> before adding your new one.</p>
-
-          <h2>Step 3 — Save &amp; Deploy</h2>
-          <p>Scroll down on GitHub → click <strong>Commit changes</strong> → <strong>Commit directly to main</strong> → click <strong>Commit changes</strong>. Netlify detects the change and redeploys automatically within 30 seconds.</p>
-
-          <h2>Category IDs Reference</h2>
-          <ul>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">marvel</code> — Marvel</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">dc</code> — DC</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">anime</code> — Anime</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">ai-art</code> — AI Art</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">movies-tv</code> — Movies &amp; TV Shows</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">motorsports-cars</code> — Motorsports &amp; Cars</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">sports</code> — Sports</li>
-          </ul>
-
-          <h2>Subcategory IDs Reference</h2>
-          <ul>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">motorsports-cars/f1</code> — Formula 1</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">motorsports-cars/supercars</code> — Supercars</li>
-            <li><code style="background:var(--bg-3);padding:2px 7px;border-radius:4px;font-size:13px">sports/soccer-legends</code> — Soccer Legends Era</li>
-          </ul>
+              </div>
+            </div>
+            <div class="how-step">
+              <div class="step-num">3</div>
+              <div>
+                <h4>Commit &amp; Deploy</h4>
+                <p>Scroll down → <strong>Commit changes</strong> → Commit directly to main → Netlify redeploys in ~30 seconds. Remember: batch changes into max 5–8 deploys/month to stay within credits.</p>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
-  </section>
-</main>
+  </main>
 
-<script src="/js/app.js"></script>
+  <script src="/js/app.js"></script>
+  <script>
+    /* Logout button */
+    document.addEventListener('DOMContentLoaded',function(){
+      var lb=document.getElementById('adminLogout');
+      if(lb){
+        lb.addEventListener('click',function(){
+          sessionStorage.clear();
+          window.location.reload();
+        });
+      }
+      /* Timestamp */
+      var ts=document.getElementById('adminTimestamp');
+      if(ts)ts.textContent=new Date().toLocaleString('en-US',{month:'short',day:'numeric',year:'numeric',hour:'2-digit',minute:'2-digit'});
+      /* Build category reference cards after data loads (slight delay) */
+      setTimeout(function(){
+        var ref=document.getElementById('adminCatRef');
+        if(!ref||!window._vlCats)return;
+      },600);
+    });
+  </script>
 </body>
 </html>
